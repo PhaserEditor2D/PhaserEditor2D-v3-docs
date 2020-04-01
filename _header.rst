@@ -1,5 +1,7 @@
 .. _Phaser: https://phaser.io
 
+.. _Colibri: https://github.com/PhaserEditor2D/PhaserEditor2D-v3/tree/master/source/editor/plugins/colibri
+
 .. |PhaserDevs| replace:: Phaser developers
 .. _PhaserDevs: https://photonstorm.com
 

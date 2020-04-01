@@ -129,11 +129,22 @@ Since |PhaserEditor|_ is a web application, it is very easy to create color them
 Extensible
 ~~~~~~~~~~
 
+The IDE is built on top of Colibri_ (*hummingbird* in English), a small framework we did especially for |PhaserEditor|_. This framework is inspired by the Eclipse Rich Client Platform and allows to build desktop like applications (based on editors, views, commands, a remote storage, etc...) using modules and an extension mechanism, that is used to create new editors, commands, menus, color themes, game objects, etc...
+
+We should write a Plugin Development Guide to target these concepts.
 
 Lightweight and cross-platform
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+As we mentioned in the `Available for multiple platforms`_ section, the IDE runs in the main Operating Systems: Windows, macOS and Linux.
 
+The biggest part, the client application, should run in any modern browser (tested on Google Chrome, Firefox and Opera), and is served by a small (~9MB) native program, that is available for the mentioned platforms. The whole thing, client plus server, zip-compressed, is ~12MB of size.
+
+The server just runs fast and has a pretty small memory footprint (~15MB).
+
+The client application is accelerated by the browser and all the I/O operations are asynchronous. It feels lightweight in terms of operability, but it may push the browser to consume an extra 150MB/300MB of memory.
+
+In the desktop it loads pretty fast. In a network, the fetching of all the resources may delay in dependence of your network speed, but are cached for the next run.
 
 Collaboration
 -------------
