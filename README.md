@@ -17,8 +17,10 @@ To build the documentation:
 To run the documentation server and incremental builder:
 
 ```
-../autobuild.sh
+./autobuild.sh
 ```
+
+The docs website is generated in the folder `_build/html/`.
 
 ## License
 
