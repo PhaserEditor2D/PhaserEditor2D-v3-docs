@@ -11,3 +11,6 @@ Workbench
 
 Project templates
 -----------------
+
+Color themes
+------------

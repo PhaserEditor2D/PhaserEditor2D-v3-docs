@@ -105,10 +105,26 @@ You can edit the code of your game and get nice features like auto-completion ac
 Project templates
 ~~~~~~~~~~~~~~~~~
 
-Multiple themes
-~~~~~~~~~~~~~~~
+Phaser_ is a framework and it does not require a particular layout for your projects. A Phaser_ game is just a web application, and there are lot of options to organize and build your game files.
 
+|PhaserEditor|_ does not require any especial project layout neither, however, it provides a couple of project templates that help you to do an initial setup of your game. For example, it adds configuration files ready to be used by |vscode|_ and other files commonly used by the IDE, like an |AssetPackFile|_ or a first |SceneEditor|_ file.
 
+Also, you can create projects based on demos, and learn Phaser_ and |PhaserEditor|_.
+
+`Learn more about project templates <workbench.html#project-templates>`_
+
+.. image:: images/project-templates-03312020.jpg
+  :alt: Project templates.
+
+Color themes
+~~~~~~~~~~~~
+
+Since |PhaserEditor|_ is a web application, it is very easy to create color themes via CSS. The IDE includes a couple of themes and you can implement your own.
+
+`Learn more about color themes <workbench.html#color-themes>`_
+
+.. image:: images/color-themes-03312020.jpg
+  :alt: Color themes
 
 Extensible
 ~~~~~~~~~~
