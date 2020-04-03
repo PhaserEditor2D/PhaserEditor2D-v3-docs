@@ -10,6 +10,7 @@ Last update: |date|
    :caption: Contents:
 
    intro
+   first-steps
    workbench
    asset-pack-editor
    scene-editor
