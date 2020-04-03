@@ -148,3 +148,32 @@ In the desktop it loads pretty fast. In a network, the fetching of all the resou
 
 Collaboration
 -------------
+
+Your collaboration is welcome! You can collaborate by reporting issues, providing ideas, sending code modifications, writing tutorials. In anyway you think it could improve the product or helping the adoption of it.
+
+The main place for collaboration is the |PhaserEditor|_ repository in GitHub:
+
+`github.com/PhaserEditor2D/PhaserEditor2D-v3/ <github.com/PhaserEditor2D/PhaserEditor2D-v3/>`_
+
+In addition, you can contact us in our social channels:
+
+`Twitter @PhaserEditor2D <https://twitter.com/PhaserEditor2D>`_
+
+`Facebook @PhaserEditor2D <https://facebook.com/PhaserEditor2D>`_
+
+`Discord @PhaserEditor2D <https://discord.gg/4DdpMMD>`_
+
+`YouTube <https://www.youtube.com/c/PhaserEditor2D>`_
+
+Or just write an email to ``developer@phasereditor2d.com``.
+
+
+
+Licensing and pricing
+---------------------
+
+|PhaserEditor|_ is a commercial product. You can use it by free under certain limitations, especially, regarding the number of resources you can use in your game. To use the IDE in its full potential, you should purchase a license key and unlock the IDE.
+
+However, a huge part of it is open source (MIT license) and you can modify it or use it in your own project.
+
+`Learn more about licensing and pricing <pricing.html>`_

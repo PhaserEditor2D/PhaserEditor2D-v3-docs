@@ -14,3 +14,4 @@ Last update: |date|
    asset-pack-editor
    scene-editor
    code-editor
+   pricing
