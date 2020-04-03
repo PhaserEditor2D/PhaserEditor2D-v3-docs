@@ -51,6 +51,10 @@ The new project is created and shown in the workbench:
 .. image:: images/first-steps-new-project-2-04032020.jpg
   :alt: Workbench shows the new project
 
+To run your project, click in the **Play** button at the beginning of the toolbar:
+
+.. image:: images/first-steps-new-play-project-04032020.jpg
+  :alt: Play the project.
 
 Unlock the IDE
 --------------
@@ -69,3 +73,26 @@ To unlock the IDE:
 
 
 `Learn more about licenses and pricing <pricing.html>`_
+
+Learn Phaser with Phaser Editor 2D
+----------------------------------
+
+|PhaserEditor|_ helps you to make a couple of tasks that could be very tedious to do yourself, manually. However, it requires you to known Phaser_ and JavaScript programming.
+
+Some users ask us if it is better to learn Phaser_ first, and then go with the IDE, or if the IDE helps them to learn Phaser_.
+
+In the previous version of the IDE, we included a lot of tools to learn Phaser_, but in this version, we are providing only the tools for create the games (soon, we should deliver a brand new product dedicated only to learn Phaser_).
+
+However, we think the current IDE is a good resource to start learning Phaser_:
+
+* It creates the projects for you and you can start writing Phaser_ code quickly.
+
+* The projects are fully compatible with external tools, like |vscode|_.
+
+* Because it helps you on making the scenes, you can create your first level very quickly and get motivated.
+
+* The scenes are compiled to a clean and readable Phaser_ code, so you can learn from it too.
+
+* Practically all the tools in the IDE are based on the Phaser_ standards, "everything" you learn about the IDE may help you to understand Phaser_.
+
+`Learn about Phaser <phaser.io/learn>`_

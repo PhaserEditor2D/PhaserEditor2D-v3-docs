@@ -6,8 +6,7 @@ Phaser Editor v2 Documentation
 Last update: |date|
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 2   
 
    intro
    first-steps
@@ -15,4 +14,5 @@ Last update: |date|
    asset-pack-editor
    scene-editor
    code-editor
+   misc
    pricing
