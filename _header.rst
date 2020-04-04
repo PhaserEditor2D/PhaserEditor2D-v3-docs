@@ -44,10 +44,10 @@
 .. _MonacoEditor: https://microsoft.github.io/monaco-editor/
 
 .. |SceneEditor| replace:: Scene Editor
-.. _SceneEditor: scene-editor.html
+.. _SceneEditor: ../scene-editor/index.html
 
 .. |AssetPackEditor| replace:: Asset Pack Editor
-.. _AssetPackEditor: asset-pack-editor.html
+.. _AssetPackEditor: ../asset-pack-editor/index.html
 
 .. |AssetPackFile| replace:: Asset Pack file
 .. _AssetPackFile: https://photonstorm.github.io/phaser3-docs/Phaser.Types.Loader.FileTypes.html#Phaser.Loader.LoaderPlugin.html#pack__anchor

@@ -16,13 +16,13 @@ Last update: |date|
 
 .. toctree::
    :numbered:
-   :maxdepth: 1   
+   :maxdepth: 1
 
    intro/index
    first-steps/index
    workbench/index
-   asset-pack-editor
-   scene-editor
-   code-editor
-   misc
-   pricing
+   asset-pack-editor/index
+   scene-editor/index
+   code-editor/index
+   misc/index
+   pricing/index
