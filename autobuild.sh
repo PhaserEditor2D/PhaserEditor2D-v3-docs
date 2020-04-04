@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sphinx-autobuild -b html . _build/html/
+sphinx-autobuild -a -b html . _build/html/
 

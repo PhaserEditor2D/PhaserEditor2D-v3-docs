@@ -18,7 +18,7 @@ Last update: |date|
    :numbered:
    :maxdepth: 1   
 
-   intro
+   intro/index
    first-steps
    workbench/index
    asset-pack-editor
