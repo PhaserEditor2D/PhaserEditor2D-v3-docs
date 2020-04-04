@@ -2,12 +2,6 @@
    
 .. highlight:: javascript
 
-.. sectnum::
-   :depth: 3
-   :start: 2
-   :prefix: 3.
-
-
 Editors
 -------
 

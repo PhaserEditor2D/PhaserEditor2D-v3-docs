@@ -15,6 +15,7 @@ Table of Contents
 Last update: |date|
 
 .. toctree::
+   :numbered:
    :maxdepth: 1   
 
    intro

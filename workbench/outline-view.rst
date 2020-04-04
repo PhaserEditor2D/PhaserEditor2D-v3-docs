@@ -2,13 +2,6 @@
    
 .. highlight:: javascript
 
-.. sectnum::
-   :depth: 3
-   :start: 4
-   :prefix: 3.
-
-
-
 Outline view
 ------------
 

@@ -2,10 +2,6 @@
    
 .. highlight:: bash
 
-.. sectnum::
-   :depth: 3
-   :start: 2
-
 First steps
 ===========
 

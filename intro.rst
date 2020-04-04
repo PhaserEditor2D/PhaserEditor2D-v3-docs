@@ -2,10 +2,6 @@
    
 .. highlight:: javascript
 
-.. sectnum::
-   :depth: 3
-   :start: 1
-   
 Introduction
 ============
 

@@ -2,11 +2,6 @@
    
 .. highlight:: javascript
 
-.. sectnum::
-   :depth: 3
-   :start: 1
-   :prefix: 3.
-
 Views
 -----
 
