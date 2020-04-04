@@ -19,7 +19,7 @@ Last update: |date|
    :maxdepth: 1   
 
    intro/index
-   first-steps
+   first-steps/index
    workbench/index
    asset-pack-editor
    scene-editor
