@@ -1,9 +1,5 @@
 .. include:: _header.rst
    
-.. sectnum::
-   :depth: 3
-   :start: 7
-
 .. highlight:: bash
 
 

@@ -1,9 +1,5 @@
 .. include:: _header.rst
 
-.. sectnum::
- :depth: 3
- :start: 4
-
 .. highlight:: javascript
 
 Asset Pack Editor
@@ -84,7 +80,7 @@ These are common operations you can perform:
 
 * Zoom in/out the images, by rolling the mouse wheel while pressing one of the keys ``Ctrl``, ``Alt`` or ``Shift``.
 
-The `Outline view`_ provides an hierarchical presentation of the editor content.
+The |OutlineView|_ provides an hierarchical presentation of the editor content.
 
 .. image:: images/asset-pack-editor/asset-pack-editor-layout.png
   :alt: Asset Pack Editor layout.
@@ -139,7 +135,7 @@ Importing files from the Blocks view
 
 The `Blocks view <workbench.html#blocks-view>`_ is a general-purpose view that connects with the active editor and provides the "blocks" needed to build the objects of the editor.
 
-In the case of the **Asset Pack Editor**, the `Blocks view`_ shows the files that are candidates to be imported. A file is a candidate to be imported if:
+In the case of the **Asset Pack Editor**, the |BlocksView|_ shows the files that are candidates to be imported. A file is a candidate to be imported if:
 
 * The file belongs to the folder, or sub-folder, of the Asset Pack file of the editor.
 
@@ -157,7 +153,7 @@ In the case of the **Asset Pack Editor**, the `Blocks view`_ shows the files tha
 
 The workflow is the following:
 
-#. Select the files to be imported in the `Blocks view`_.
+#. Select the files to be imported in the |BlocksView|_.
 
 #. Select one of the options listed in the `Properties view`_ to import the files.
 

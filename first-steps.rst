@@ -1,10 +1,10 @@
 .. include:: _header.rst
    
+.. highlight:: bash
+
 .. sectnum::
    :depth: 3
    :start: 2
-
-.. highlight:: bash
 
 First steps
 ===========

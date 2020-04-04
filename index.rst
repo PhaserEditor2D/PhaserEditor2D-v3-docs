@@ -1,3 +1,12 @@
+.. include:: _header.rst
+   
+.. sectnum::
+   :depth: 3
+   :start: 1
+
+.. highlight:: javascript
+
+
 Table of Contents
 =================
 
@@ -10,7 +19,7 @@ Last update: |date|
 
    intro
    first-steps
-   workbench
+   workbench/index
    asset-pack-editor
    scene-editor
    code-editor

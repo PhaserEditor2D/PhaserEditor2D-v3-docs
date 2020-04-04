@@ -1,11 +1,11 @@
 .. include:: _header.rst
    
+.. highlight:: javascript
+
 .. sectnum::
    :depth: 3
    :start: 1
-
-.. highlight:: javascript
-
+   
 Introduction
 ============
 
