@@ -56,6 +56,24 @@ To run your project, click in the **Play** button at the beginning of the toolba
 .. image:: images/first-steps-new-play-project-04032020.jpg
   :alt: Play the project.
 
+Add an image to the scene
+-------------------------
+
+Let's add an image to the ``Level.scene`` file created by the **Basic JavaScript** project template.
+
+1. To upload an image to the project. Rich-click on the ``assets`` folder and press the **Upload Files** option of the context menu.
+
+  .. image:: images/first-steps-upload-file-1-04042020.jpg
+  :alt: Upload image.
+
+2. It opens the **Upload Files** dialog. Click on the **Browse** button and select the image file in your computer.
+
+  .. image:: images/first-steps-upload-file-2-04042020.jpg
+  :alt: Upload image.
+
+3. Press the **Upload** button. The image is uploaded to the ``assets`` folder and shown in the **Files** view.
+
+
 Unlock the IDE
 --------------
 

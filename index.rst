@@ -1,12 +1,12 @@
-Phaser Editor v2 Documentation
-================================
+Table of Contents
+=================
 
 .. |date| date::
 
 Last update: |date|
 
 .. toctree::
-   :maxdepth: 2   
+   :maxdepth: 1   
 
    intro
    first-steps
