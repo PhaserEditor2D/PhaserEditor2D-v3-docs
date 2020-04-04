@@ -17,6 +17,15 @@
 .. |EclipseIDE| replace:: Eclipse IDE
 .. _EclipseIDE: https://eclipse.org
 
+.. |FilesView| replace:: Files view
+.. _FilesView: workbench.html#files-view
+
+.. |InspectorView| replace:: Inspector view
+.. _InspectorView: workbench.html#inspector-view
+
+.. |BlocksView| replace:: Blocks view
+.. _BlocksView: workbench.html#blocks-view
+
 .. |-| replace:: →
 
 .. |ExternalEditor| replace:: external code editor

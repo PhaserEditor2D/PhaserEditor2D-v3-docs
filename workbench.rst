@@ -45,8 +45,25 @@ An important characteristic of the editors is the "dirty" state. When the user c
 Editor title menu.
 
 
+Files view
+~~~~~~~~~~
 
+The files...
 
+Outline view
+~~~~~~~~~~~~
+
+The editor hierarchy...
+
+Blocks view
+~~~~~~~~~~~
+
+The blocks of the editor...
+
+Inspector view
+~~~~~~~~~~~~~~
+
+The properties of selection...
 
 Main toolbar
 ~~~~~~~~~~~~
