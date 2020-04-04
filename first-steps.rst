@@ -38,6 +38,10 @@ In macOS and Linux, open the terminal and run:
 
 The server should start and open the default browser in the address: ``http://127.0.0.1:1959/editor``.
 
+The projects will be stored in your home folder, in the ``PhaserEditor2D_Projects`` folder.
+
+`Learn the other command line options <misc.html#server-options>`_
+
 Create your first project
 -------------------------
 
@@ -92,7 +96,18 @@ Let's add an image to the ``Level.scene`` file created by the **Basic JavaScript
   .. image:: images/first-steps-add-image-2-04042020.jpg
     :alt: Add image.
 
-6. Drag the image from the |BlocksView|_ and drop it in the middle of the scene. TODO...
+6. Drag the image from the |BlocksView|_ and drop it in the middle of the scene. Press the ``End`` key to move the image to the bottom of the scene. Or right click in the image and select the **Depth** |-| **Move Objects To Bottom** option.
+
+  Save the editor and play the project (``F12``).
+
+  .. image:: images/first-steps-add-image-3-04042020.jpg
+    :alt: Add image.
+
+.. note::
+
+  There are a couple of initial steps you have to follow to add an image to the scene. 1) Upload. 2) Add the image to the |AssetPackFile|. 3) Drag the image from the |BlocksView|_ and drop it into the scene.
+  
+  This workflow may be simplified in the future, but for us it is important to make that process transparent, with no custom API or file formats, and make it full compatible with any other third-party tool you can use.
 
 Unlock the IDE
 --------------
