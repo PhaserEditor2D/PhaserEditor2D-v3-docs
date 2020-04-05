@@ -7,13 +7,13 @@ Workbench
 =========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    views
    editors
    files-view
-   outline-view
    inspector-view
+   outline-view   
    blocks-view
    main-toolbar
    main-menu
