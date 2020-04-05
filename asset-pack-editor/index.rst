@@ -4,3 +4,7 @@
 
 Asset Pack Editor
 =================
+
+.. toctree::
+
+    import-from-files-view

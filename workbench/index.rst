@@ -17,7 +17,9 @@ Workbench
    blocks-view
    main-toolbar
    main-menu
+   new-file-dialog
    project-templates
+   upload-dialog
    color-themes
    commands-palette
 
