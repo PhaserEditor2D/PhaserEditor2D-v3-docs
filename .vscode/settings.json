@@ -1,0 +1,6 @@
+{
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "browser-preview.startUrl": "http://127.0.0.1:8000/",
+    "browser-preview.format": "png"
+}
