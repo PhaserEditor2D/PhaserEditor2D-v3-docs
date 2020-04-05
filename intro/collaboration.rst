@@ -6,11 +6,11 @@
 Collaboration
 -------------
 
-Your collaboration is welcome! You can collaborate by reporting issues, providing ideas, sending code modifications, writing tutorials. In anyway you think it could improve the product or helping the adoption of it.
+Your collaboration is welcome!
 
-The main place for collaboration is the |PhaserEditor|_ repository in GitHub:
+You can help us by reporting issues, providing ideas, sending code modifications, writing tutorials. In anyway you think it could improve the product or making easier the adoption of it.
 
-`github.com/PhaserEditor2D/PhaserEditor2D-v3/ <github.com/PhaserEditor2D/PhaserEditor2D-v3/>`_
+The main place for collaboration is the `Phaser Editor 2D repository in GitHub <https://github.com/PhaserEditor2D/PhaserEditor2D-v3/>`_.
 
 In addition, you can contact us in our social channels:
 
@@ -20,6 +20,6 @@ In addition, you can contact us in our social channels:
 
 `Discord @PhaserEditor2D <https://discord.gg/4DdpMMD>`_
 
-`YouTube <https://www.youtube.com/c/PhaserEditor2D>`_
+`YouTube Phaser Editor 2D channel <https://www.youtube.com/c/PhaserEditor2D>`_
 
-Or just write an email to ``developer@phasereditor2d.com``.
+Or just write an email to ``developers@phasereditor2d.com``.

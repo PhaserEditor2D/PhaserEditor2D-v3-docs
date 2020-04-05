@@ -15,7 +15,7 @@ The |AssetPackEditor|_ allows to import the asset files into an |AssetPackFile|_
 
 Often, Phaser_ game developers have to write by hand the code to load the asset files. With the |AssetPackEditor|_ this process is fully visual and assisted.
 
-`Learn more about the Asset Pack Editor <asset-pack-editor.html>`_
+`Learn more about the Asset Pack Editor <../asset-pack-editor/index.html>`_
 
 .. image:: ../ images/asset-pack-editor-03312020.jpg
   :alt: Asset Pack Editor.
@@ -29,7 +29,7 @@ The images can be taken from different sources like single images, sprite-sheets
 
 The |SceneEditor|_ uses a custom format, but the editor files are compiled into perfect readable Phaser_ code, compatible with any Phaser_ game and using only Phaser_ built-in API.
 
-`Learn more about the Scene Editor <scene-editor.html>`_
+`Learn more about the Scene Editor <../scene-editor/index.html>`_
 
 .. image:: ../ images/scene-editor-03312020.jpg
   :alt: Scene Editor.
@@ -45,7 +45,7 @@ However, many users may want to try the editor just as it is and quickly create 
 
 You can edit the code of your game and get nice features like auto-completion across multiple files, outline of the code, documentation of the language elements, and others.
 
-`Learn more about the Code Editor <code-editor.html>`_
+`Learn more about the Code Editor <../code-editor/index.html>`_
 
 .. image:: ../ images/code-editor-03312020.jpg
   :alt: JavaScript Editor.
@@ -59,7 +59,7 @@ Phaser_ is a framework and it does not require a particular layout for your proj
 
 Also, you can create projects based on demos, and learn Phaser_ and |PhaserEditor|_.
 
-`Learn more about project templates <workbench.html#project-templates>`_
+`Learn more about project templates <../workbench/project-templates.html>`_
 
 .. image:: ../ images/project-templates-03312020.jpg
   :alt: Project templates.
@@ -69,7 +69,7 @@ Color themes
 
 Since |PhaserEditor|_ is a web application, it is very easy to create color themes via CSS. The IDE includes a couple of themes and you can implement your own.
 
-`Learn more about color themes <workbench.html#color-themes>`_
+`Learn more about color themes <../workbench/color-themes.html>`_
 
 .. image:: ../ images/color-themes-03312020.jpg
   :alt: Color themes

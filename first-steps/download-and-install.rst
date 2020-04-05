@@ -32,4 +32,4 @@ The server should start and open the default browser in the address: ``http://12
 
 The projects will be stored in your home folder, in the ``PhaserEditor2D_Projects`` folder.
 
-`Learn the other command line options <misc.html#server-options>`_
+`Learn the other command line options <../misc/server-options.html>`_

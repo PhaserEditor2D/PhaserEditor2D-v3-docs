@@ -14,7 +14,7 @@ The back-ends are closed (no source available to the public) and are commercial.
 
 The front-end is the same for all back-ends. It is the most important and bigger part of the IDE. It is open source, has a MIT license and we welcome any collaboration on it. It is hosted on GitHub and is the main place to request features or report bugs.
 
-`Phaser Editor 2D v3 project on GitHub <github.com/PhaserEditor2D/PhaserEditor2D-v3/>`_
+`Phaser Editor 2D v3 project on GitHub <https://github.com/PhaserEditor2D/PhaserEditor2D-v3/>`_
 
 
 Desktop and private networks back-end

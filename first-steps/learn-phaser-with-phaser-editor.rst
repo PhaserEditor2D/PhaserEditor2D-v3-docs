@@ -21,4 +21,4 @@ However, we think the current IDE is a good resource to start learning Phaser_:
 
 * Practically all the tools in the IDE are based on the Phaser_ standards, "everything" you learn about the IDE may help you to understand Phaser_.
 
-`Learn about Phaser <phaser.io/learn>`_
+`Learn about Phaser <https://phaser.io/learn>`_
