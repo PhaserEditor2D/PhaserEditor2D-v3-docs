@@ -3,7 +3,7 @@
 Create your first project
 -------------------------
 
-The first time you open the IDE in the browser it shows the `New Project Dialog <../workbench/project-templates.html>`_. This dialog displays the project templates available in the server. Select one of the templates, write the name of the project and press the **Create Project** button:
+The first time you open the IDE in the browser it shows the `New Project Dialog <../workbench/projects.html#project-templates>`_. This dialog displays the project templates available in the server. Select one of the templates, write the name of the project and press the **Create Project** button:
 
 .. image:: ../images/first-steps-new-project-1-04032020.jpg
   :alt: New project dialog

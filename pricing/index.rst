@@ -1,4 +1,4 @@
-.. include:: _header.rst
+.. include:: ../_header.rst
    
 .. highlight:: javascript
 

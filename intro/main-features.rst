@@ -39,7 +39,7 @@ Code Editor
 
 An advanced coding tool is out of the scope of this version of the IDE. There are free and commercial third-party coding editors that works pretty well, with especial mention of |vscode|_.
 
-|PhaserEditor|_ can be integrated very well with |vscode|_. The `project templates`_ include the |vscode|_ the configuration and type files required to get a project ready for |vscode|_.
+|PhaserEditor|_ can be integrated very well with |vscode|_. The `project templates  <../workbench/projects.html#project-templates>`_ include the |vscode|_ the configuration and type files required to get a project ready for |vscode|_.
 
 However, many users may want to try the editor just as it is and quickly create prototypes of games. For those users, we included in the IDE a basic code tooling for JavaScript, TypeScript, HTML, CSS and JSON files. Thees tools are based on the |MonacoEditor|_, the one that is used by |vscode|_.
 
@@ -59,7 +59,7 @@ Phaser_ is a framework and it does not require a particular layout for your proj
 
 Also, you can create projects based on demos, and learn Phaser_ and |PhaserEditor|_.
 
-`Learn more about project templates <../workbench/project-templates.html>`_
+`Learn more about project templates <../workbench/projects.html#project-templates>`_
 
 .. image:: ../ images/project-templates-03312020.jpg
   :alt: Project templates.
@@ -84,7 +84,7 @@ We should write a Plugin Development Guide to target these concepts.
 Lightweight and cross-platform
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As we mentioned in the `Available for multiple platforms`_ section, the IDE runs in the main Operating Systems: Windows, macOS and Linux.
+As we mentioned in the `Available for multiple platforms <multi-platform.html>`_ section, the IDE runs in the main Operating Systems: Windows, macOS and Linux.
 
 The biggest part, the client application, should run in any modern browser (tested on Google Chrome, Firefox and Opera), and is served by a small (~9MB) native program, that is available for the mentioned platforms. The whole thing, client plus server, zip-compressed, is ~12MB of size.
 

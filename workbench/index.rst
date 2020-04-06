@@ -17,9 +17,9 @@ Workbench
    blocks-view
    main-toolbar
    main-menu
-   playing-project
+   playing-project      
+   projects
    new-file-dialog
-   project-templates
    upload-dialog
    color-themes
    commands-palette
