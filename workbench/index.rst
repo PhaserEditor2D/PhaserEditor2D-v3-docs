@@ -17,6 +17,7 @@ Workbench
    blocks-view
    main-toolbar
    main-menu
+   playing-project
    new-file-dialog
    project-templates
    upload-dialog
