@@ -14,12 +14,11 @@ To run it in your desktop or private server, you have to download the binaries f
 
 You don't need to install the IDE, just un-compress the downloaded file and run the server:
 
-In Windows,open the command prompt and run:
+In Windows, open the command prompt and run:
 
 .. code::
 
  > PhaserEditor2D.exe -desktop
-
 
 In macOS and Linux, open the terminal and run:
 
