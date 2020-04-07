@@ -2,7 +2,7 @@
    
 .. highlight:: javascript
 
-Commands palette
-----------------
+Command palette
+---------------
 
 TODO

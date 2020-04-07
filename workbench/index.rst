@@ -22,7 +22,7 @@ Workbench
    new-file-dialog
    upload-dialog
    color-themes
-   commands-palette
+   command-palette
 
 
 The workbench is the sum of all the parts of the IDE: the editors, views, dialogs, menus, commands, themes, extensions, storage. Is the basement for the tools included in the IDE.

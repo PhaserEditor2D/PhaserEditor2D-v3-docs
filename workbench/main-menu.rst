@@ -11,4 +11,14 @@ The |MainMenu|_ lists common general commands. You can open it by pressing in th
 
 * **Open Project**: launches the `Open Project dialog <projects.html#open-project-dialog>`_.
 
-* **Reload Project**: 
+* **Reload Project**: `reloads the project files <projects.html#reload-project>`_.
+
+* **Select Color Theme**: opens the `Color Themes dialog <color-themes.html>`_.
+
+* **Compile Scenes**: compiles all the |SceneEditor|_ files of the project.
+
+* **Command Palette**: opens the `Command Palette <command-palette.html>`_
+
+* **Help**: opens this documentation in the browser.
+
+* **About**: opens the About dialog.
