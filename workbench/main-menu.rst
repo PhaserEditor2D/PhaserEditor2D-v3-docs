@@ -9,7 +9,7 @@ The |MainMenu|_ lists common general commands. You can open it by pressing in th
 .. image:: ../images/workbench-main-menu-04062020.png
  :alt: Main menu.
 
-* **Open Project**: launches the `Open Project dialog <projects.html#open-project-dialog>`_.
+* **Open Project**: launches the `Open Project dialog <projects.html#projects-dialog>`_.
 
 * **Reload Project**: `reloads the project files <projects.html#reload-project>`_.
 

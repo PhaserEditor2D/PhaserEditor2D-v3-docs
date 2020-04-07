@@ -4,9 +4,6 @@
    :depth: 3
    :start: 1
 
-.. highlight:: javascript
-
-
 Table of Contents
 =================
 
