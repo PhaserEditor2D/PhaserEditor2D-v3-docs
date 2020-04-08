@@ -9,7 +9,7 @@ These are the steps:
 1. Press the **Add File** button in the |MainToolbar|_ (or the **Add File** option in the context menu or the ``A`` key). 
 2. It opens a dialog with all the file types, select the type of file you want to add.
 
- .. image:: ../images/asset-pack-editor-add-file-1-04072020.png
+ .. image:: ../images/asset-pack-editor-add-file-1-04072020.webp
    :alt: Select the file type.
 
 3. When you select a file type, it opens a dialog with a list of candidate files to be added. The candidate files are selected following these rules:
@@ -23,11 +23,11 @@ These are the steps:
  However, you always have the option of select any file by pressing the **Show All Files** button of the dialog.
 
 
- .. image:: ../images/asset-pack-editor-add-file-2-04072020.png
+ .. image:: ../images/asset-pack-editor-add-file-2-04072020.webp
    :alt: Select the files to be added.
 
 4. Change the properties of the file configurations in the |InspectorView|_.
 
 
- .. image:: ../images/asset-pack-editor-edit-file-inspector-view-2-04072020.png
+ .. image:: ../images/asset-pack-editor-edit-file-inspector-view-2-04072020.webp
    :alt: Edit properties of a file configuration.

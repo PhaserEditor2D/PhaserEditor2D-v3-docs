@@ -24,14 +24,16 @@ When you open the IDE in an empty workspace, it first shows the `New Project dia
 
 This dialog displays the project templates available in your installation. You must select a template, write a new name for the project, and create the project.
 
-.. image:: ../images/workbench-new-project-04072020.png
+.. image:: ../images/workbench-new-project-04072020.webp
  :alt: New project dialog.
 
 You can open this dialog at any time:
 
 1. Open the `New File dialog <new-file-dialog.html>`_ (press the keys ``Ctrl+Alt+N`` or click the **New File** button in the |MainToolbar|_).
+
 2. Select **Project**.
- .. image:: ../images/workbench-new-file-select-project-04072020.png
+
+ .. image:: ../images/workbench-new-file-select-project-04072020.webp
   :alt: Open New Project dialog from the New File dialog.
 
 Projects dialog
@@ -44,7 +46,7 @@ When you open the IDE, if the workspace is not empty, it shows the `Projects dia
 
 The dialog displays all the projects in the workspace, you can select one and open it.
 
-.. image:: ../images/workbench-open-project-04072020.png
+.. image:: ../images/workbench-open-project-04072020.webp
  :alt: Open project dialog.
 
 Note the dialog also shows a **New Project** button, it opens the `New Project dialog`_.
@@ -91,7 +93,7 @@ The ``templates/providers`` folder contains the project templates grouped by its
 
 Important: in the project template folder you should create a ``template.json`` file. This file contains information on the template. For now, this information only includes the files should be open when the project is created. For example, let's say your template has a ``Level.scene`` file that you want to open each time you create a project. You can create a ``template.json`` file like this:
 
-.. highlihgt:: json
+.. highlight:: json
 
 .. code::
 
@@ -100,6 +102,7 @@ Important: in the project template folder you should create a ``template.json`` 
       "scenes/Level.scene"
     ]
   }
+
 
 Reload project
 --------------

@@ -47,7 +47,7 @@ You can load an |AssetPackFile|_ using the ``pack(...)`` method of the loader:
 
 The |AssetPackEditor| allows to edit an |AssetPackFile|_, making it very easy to load the assets in your game. Instead of spending a precious amount of time writing the file configurations, with the |AssetPackEditor|_ you can import the files with a visual tool and smart operations.
 
-.. image:: ../images/asset-pack-editor-overview-04072020.png
+.. image:: ../images/asset-pack-editor-overview-04072020.webp
   :alt: Asset Pack Editor.
 
 The |AssetPackFile|_ is relevant in the IDE for two main reasons:
@@ -89,7 +89,7 @@ Outline view
 
 The general purpose `Outline view <workbench.html#outline-view>`_ connects with the active **Asset Pack Editor** and shows all the file configurations grouped by its type. In case of complex files, like atlas or sprite-sheet files, it shows the frames too.
 
-.. image:: images/asset-pack-editor/asset-pack-editor-outline-view.png
+.. image:: images/asset-pack-editor/asset-pack-editor-outline-view.webp
   :alt: Outline view.
 
 
@@ -102,7 +102,7 @@ In addition to property editors, in some cases, the `Properties view`_ shows a p
 
 This preview section is shown when you select a file key in other parts of the IDE, like the `Assets view`_, the |AnimationsEditor|_ and the `Project view <workbench.html#project-view>`_.
 
-.. image:: images/asset-pack-editor/asset-pack-editor-animation-preview.png
+.. image:: images/asset-pack-editor/asset-pack-editor-animation-preview.webp
   :alt: Animation preview.
 
 Common operations
@@ -120,5 +120,5 @@ This in-memory state is computed by project builders that run each time a file i
 
 You can see the in-memory **Asset Pack** files state in the `Assets view <workbench.html#assets-view>`_.
 
-.. image:: images/workbench/assets-view.png
+.. image:: images/workbench/assets-view.webp
   :alt: The Assets view.

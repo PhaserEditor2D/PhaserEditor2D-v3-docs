@@ -17,7 +17,7 @@ Often, Phaser_ game developers have to write by hand the code to load the asset 
 
 `Learn more about the Asset Pack Editor <../asset-pack-editor/index.html>`_
 
-.. image:: ../ images/asset-pack-editor-overview-04072020.png
+.. image:: ../ images/asset-pack-editor-overview-04072020.webp
   :alt: Asset Pack Editor.
 
 Scene Editor

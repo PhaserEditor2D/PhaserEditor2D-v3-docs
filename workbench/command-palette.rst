@@ -11,7 +11,7 @@ Not all commands are shown, those that do not apply to the **current context** (
 
 In the dialog, you can select a command and execute it by pressing the **Execute** button.
 
-.. image:: ../images/workbench-command-palette-04072020.png
+.. image:: ../images/workbench-command-palette-04072020.webp
  :alt: Command palette dialog.
 
 Commands are contributed to the workbench, by plugins.
