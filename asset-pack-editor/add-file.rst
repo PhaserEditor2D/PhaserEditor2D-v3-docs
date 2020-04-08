@@ -6,58 +6,17 @@ Add file configurations
 .. toctree::
 
     add-file-with-add-button
-    import-from-files-view
+    import-from-blocks-view
+    import-from-files-view    
 
-You can add new file configurations in two ways:
+You can add new file configurations in different ways:
 
-* By pressing the **Add File Key** in the main toolbar.
+* Using the `Add File <add-file-with-add-button.html>`_ command.
 
-* By importing files from the Blocks view.
+* Importing the files `from the Blocks view <import-from-blocks-view.html>`_.
 
-Importing files from the Blocks view
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* Importing the files `from the Files view <import-from-files-view.html>`_.
 
-The `Blocks view <workbench.html#blocks-view>`_ is a general-purpose view that connects with the active editor and provides the "blocks" needed to build the objects of the editor.
-
-In the case of the **Asset Pack Editor**, the `Blocks view`_ shows the files that are candidates to be imported. A file is a candidate to be imported if:
-
-* The file belongs to the folder, or sub-folder, of the Asset Pack file of the editor.
-
-* The file is not present in any other pack file of the project.
-
-* If the file has a content type or file name extension that we know is never loaded in games: 
-
- * TypeScript files (``.ts``).
-
- * |TexturePackerEditor|_ files (``.atlas``).
-
- * |SceneEditor|_ files (``.scene``).
-
- * Other **Asset Pack** files.
-
-The workflow is the following:
-
-#. Select the files to be imported in the `Blocks view`_.
-
-#. Select one of the options listed in the `Properties view`_ to import the files.
-
- .. image:: images/asset-pack-editor/asset-pack-editor-import-files-from-blocks-view.png
-   :alt: Import files from Blocks view.
-
-#. Edit the new file configurations in the `Properties view`_.
-
-This is a shorter workflow, you select the files you want to import and the editor guesses automatically what type of configuration needs to be created.
-
-This process to guess the type of files provides three groups of options:
-
-#. Guess the type of the file from its content type. It is the case of atlas files, animations files, bitmap files, tilemap files, image and audio files, JavaScript files associated with scenes, audio-sprites files.
-
-#. Guess the type of the file just by its extension. For example, ``.json`` and ``.xml``.
-
-#. The last option is not associated with any file type, it opens a dialog with all the file types and you should select the type you consider is the indicated from the selected files.
-
-.. image:: images/asset-pack-editor/asset-pack-editor-import-files-from-blocks-view-options.png
-  :alt: The different options to import the files.
 
 Importing JavaScript files
 --------------------------
