@@ -41,5 +41,5 @@ So the same Phaser_ framework can be used as a JavaScript packing/loading tool, 
 
 By the way, when you add a JavaScript file to an **Asset Pack** file, and that script is associated with a |SceneEditor|_ file (``.scene``), then the **Asset Pack Editor** shows a screenshot of the scene, as file icon, for easy identification.
 
-.. image:: images/asset-pack-editor/asset-pack-editor-scene-scripts.webp
+.. image:: ../images/asset-pack-editor-scene-scripts.webp
   :alt: Scene JavaScript files are displayed with a scene screenshot.
