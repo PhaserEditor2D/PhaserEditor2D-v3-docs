@@ -111,7 +111,6 @@ Common operations
 All operations like add, delete, modify the file configurations can be undone and redone. To delete file keys you can press the ``Delete`` key or use the context menu.
 
 
-
 Asset Pack state of the project
 -------------------------------
 

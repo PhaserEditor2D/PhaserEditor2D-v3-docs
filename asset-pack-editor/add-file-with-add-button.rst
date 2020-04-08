@@ -1,37 +1,33 @@
 .. include:: ../_header.rst
 
 
-Add files with the Add File Key button
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Add files with the Add File command
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 These are the steps:
 
-#. Press the **Add File Key** button of the toolbar.
- 
- .. image:: images/asset-pack-editor/asset-pack-editor-add-new-file-button.png
-   :alt: Add New File Key button.
+1. Press the **Add File** button in the |MainToolbar|_ (or the **Add File** option in the context menu or the ``A`` key). 
+2. It opens a dialog with all the file types, select the type of file you want to add.
 
-#. It opens a dialog with all the file types, select the type of file you want to add.
-
- .. image:: images/asset-pack-editor/asset-pack-editor-select-file-type-dialog.png
+ .. image:: ../images/asset-pack-editor-add-file-1-04072020.png
    :alt: Select the file type.
 
-#. When you select a file type, it opens a dialog with a list of files selected following rules. Select the files you want to import.
+3. When you select a file type, it opens a dialog with a list of candidate files to be added. The candidate files are selected following these rules:
 
- * The files belong to the folder, or sub-folder, of the Pack File. It is not a restriction of the Pack Files, but we use it to simplify the process of import the files. 
+ * The files belong to the folder, or sub-folder, of the editor input file. It is not a restriction of the |AssetPackFile|_, but we use it to simplify the process of importing the files.
 
- * The content type or extension of the files are compatible with the type selected. For example, if you select to add an Image, then only image files are shown.
+ * The content type or extension of the file names are compatible with the type selected. For example, if you select to add an Image, then only image files are shown.
 
- * Files that are not used by any pack file in the project are highlighted (in bold).
+ * The files are not included in any other |AssetPackFile|_ in the project.
 
-
- .. image:: images/asset-pack-editor/asset-pack-editor-select-files-to-import-dialog.png
-   :alt: Files dialog.
-
-#. Change the properties of the file configurations in the `Properties view <workbench.html#properties-view>`_.
+ However, you always have the option of select any file by pressing the **Show All Files** button of the dialog.
 
 
- .. image:: images/asset-pack-editor/asset-pack-editor-file-edit-properties.png
+ .. image:: ../images/asset-pack-editor-add-file-2-04072020.png
+   :alt: Select the files to be added.
+
+4. Change the properties of the file configurations in the |InspectorView|_.
+
+
+ .. image:: ../images/asset-pack-editor-edit-file-inspector-view-2-04072020.png
    :alt: Edit properties of a file configuration.
-
-The context menu also has the option **Add File Key**.
