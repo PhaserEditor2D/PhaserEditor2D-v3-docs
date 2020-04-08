@@ -56,21 +56,3 @@ The |AssetPackFile|_ is relevant in the IDE for two main reasons:
 
 * It is a Phaser_ built-in format. This means, you can create an |AssetPackFile|_ with |PhaserEditor|_ and use it in any Phaser_ project, no matter if you are using other IDE. 
 * Many of the tools provided by the IDE are based on Phaser_ (like the |SceneEditor|_ others that should be included).  This means, that we can reuse the |AssetPackFile|_ information to load the assets into the IDE internal tools.
-
-Common operations
------------------
-
-All operations like add, delete, modify the file configurations can be undone and redone. To delete file keys you can press the ``Delete`` key or use the context menu.
-
-
-Asset Pack state of the project
--------------------------------
-
-As we mentioned at the beginning of this chapter, the files configured in the **Asset Pack** files are used by other tools in |PhaserEditor|_. For these reasons, the editor keeps an internal, in-memory model (or cache) of the file configurations, so it is not required to parse all the **Asset Pack** files each time a tool needs the information about the files.
-
-This in-memory state is computed by project builders that run each time a file is modified, and it is possible that something (like out of synchronization resources) breaks the builders or that other builders (like thumbnail builders) that run asynchronous operations are not done at a certain moment. In these cases, you can `clean the state of the project <workbench.html#cleaning-projects>`_ and run the builders again.
-
-You can see the in-memory **Asset Pack** files state in the `Assets view <workbench.html#assets-view>`_.
-
-.. image:: ../images/workbench/assets-view.webp
-  :alt: The Assets view.
