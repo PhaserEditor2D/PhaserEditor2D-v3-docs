@@ -9,7 +9,7 @@ The `Command palette`_ is a dialog that shows the commands available in the **cu
 
 Not all commands are shown, those that do not apply to the **current context** (active view, active editor or active dialog) are omitted.
 
-In the dialog you can select a command and execute it by pressing the **Execute** button.
+In the dialog, you can select a command and execute it by pressing the **Execute** button.
 
 .. image:: ../images/workbench-command-palette-04072020.png
  :alt: Command palette dialog.
@@ -43,7 +43,7 @@ Here a list of all the available commands, grouped by category:
     "Edit","Update Current Editor","``Ctrl+Alt+U``","Refresh the current editor's content."
     "New File","New File","``Ctrl+Alt+N``","Create new content."
     "Project","Open Project","``Ctrl+Alt+P``","Open other project or create a new one."
-    "Project","Play Project","``F12``","Run this project in other tab"
+    "Project","Play Project","``F12``","Run this project in another tab"
     "Project","Quick Play Project","``F10``","Run this project in a dialog."
     "Project","Reload Project","``Ctrl+Alt+R``","Reload the project files."
     "Project","Locate File","``Ctrl+Alt+L``","Open the selected file (or project root) in the OS file manager."
@@ -79,5 +79,5 @@ Here a list of all the available commands, grouped by category:
     "Scene Editor","Select All With Same Texture","````","Select all the objects with the same texture."
     "Scene Editor","Replace Texture","``X``","Change the texture of the selected objects."
     "Scene Editor","Toggle Snapping","``E``","Enable/disable the snapping."
-    "Scene Editor","Snap To Object Size","``W``","Enable snapping and set size to the selected object."
+    "Scene Editor","Snap To Object Size","``W``","Enable snapping and set the size to the selected object."
 

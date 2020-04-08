@@ -49,7 +49,7 @@ The dialog displays all the projects in the workspace, you can select one and op
 
 Note the dialog also shows a **New Project** button, it opens the `New Project dialog`_.
 
-When a project is opened, the IDE restore the last state of the project. This state contains the open editors and the state of each editor.
+When a project is opened, the IDE restores the last state of the project. This state contains the open editors and the state of each editor.
 
 This information is stored in the browser local storage so you can delete it at any time.
 
@@ -60,9 +60,9 @@ The `New Project dialog`_ displays the project templates. These are just project
 
 You can find these project templates in the ``PhaserEditor2D/templates`` folder of your IDE installation.
 
-These folder contains the ``include`` folder and the ``providers`` folder.
+This folder contains the ``include`` folder and the ``providers`` folder.
 
-The ``templates/include`` folder contains files that are copied to all the new projects. It contains the Phaser_ runtime files and the Phaser_ TypeScript type definitions. You can add your own files there if you wish to include them in all the new projects.
+The ``templates/include`` folder contains files that are copied to all the new projects. It contains the Phaser_ runtime files and the Phaser_ TypeScript type definitions. You can add your files there if you wish to include them in all the new projects.
 
 The ``templates/providers`` folder contains the project templates grouped by its provider folder. You can create a new provider folder, let's say ``templates/MyTemplates`` and copy there all the projects you wish to include in the `New Project dialog`_. Remember, you don't need to include the Phaser_ runtime in the project templates, it is included in the ``templates/include`` folder.
 
@@ -89,7 +89,7 @@ The ``templates/providers`` folder contains the project templates grouped by its
           MyGame2/ # your template 2
             ...
 
-Important: in the project template folder you should create a ``template.json`` file. This file contains information of the template. For now, this information only includes the files should be open when the project is created. For example, let's say your template has a ``Level.scene`` file that you want to open each time you create a project. You can create a ``template.json`` file like this:
+Important: in the project template folder you should create a ``template.json`` file. This file contains information on the template. For now, this information only includes the files should be open when the project is created. For example, let's say your template has a ``Level.scene`` file that you want to open each time you create a project. You can create a ``template.json`` file like this:
 
 .. highlihgt:: json
 
@@ -104,15 +104,15 @@ Important: in the project template folder you should create a ``template.json`` 
 Reload project
 --------------
 
-|PhaserEditor|_ is not created with the collaborative editing in mind. This means, that it assumes that only one user is working in the same project at the same time. You can use source control managers like ``Git`` for collaborate with your team.
+|PhaserEditor|_ is not created with collaborative editing in mind. This means, that it assumes that only one user is working on the same project at the same time. You can use source control managers like ``Git``to collaborate with your team.
 
-However, it may be possible that you changes the project files with external tools and you need to refresh that changes in the IDE. When the IDE gets the focus, it does an incremental reload of the changes made by external tools, but you can force (and we recommend) a full reload of the project:
+However, it may be possible that you change the project files with external tools and you need to refresh that changes in the IDE. When the IDE gets the focus, it does an incremental reload of the changes made by external tools, but you can force (and we recommend) a full reload of the project:
 
 * Pressing ``Ctrl+Alt+R``.
 * Or clicking on the **Reload Project** option of the |MainMenu|_.
  
 A full reload of the project also may help to fix a glitch with the |SceneEditor|_ or any other editor.
 
-A reload of the project is different to a reload of the whole web page because only the files of the project are requested again. But a full web page reload is a good procedure if you see your IDE is consuming a lot of memory resources.
+A reload of the project is different from a reload of the whole web page because only the files of the project are requested again. But a full web page reload is a good procedure if you see your IDE is consuming a lot of memory resources.
 
 You can read the `Resources caching <../misc/resources-caching.html>`_ section for additional information.

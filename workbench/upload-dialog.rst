@@ -3,9 +3,9 @@
 Upload dialog
 -------------
 
-The `Upload dialog`_ allows to add local files to your project.
+The `Upload dialog`_ allows adding local files to your project.
 
-In the `Files view <files-view.html>`_, right click on a folder or file and select the **Upload Files** option. It opens the `Upload dialog`_.
+In the `Files view <files-view.html>`_, right-click on a folder or file and select the **Upload Files** option. It opens the `Upload dialog`_.
 
 Click on the **Browse** button to select the files in your PC and press the **Upload** button to add them to the project. The new files are added under the selected folder in the `Files view`_, or the parent folder is the selection is a file.
 

@@ -5,8 +5,8 @@
 Licensing and pricing
 ---------------------
 
-|PhaserEditor|_ is a commercial product. You can use it by free in small games. For projects with a bigger number of files, you should `purchase a license key <https://gumroad.com/l/phasereditor/>`_ and unlock the IDE.
+|PhaserEditor|_ is a commercial product. You can use it for free in small games. For projects with a bigger number of files, you should `purchase a license key <https://gumroad.com/l/phasereditor/>`_ and unlock the IDE.
 
-However, a huge part of the IDE is open source (MIT license) and you can modify it or use it in your own project.
+However, a huge part of the IDE is open-source (MIT license) and you can modify it or use it in your own project.
 
 `Learn more about licensing and pricing <pricing.html>`_

@@ -1,5 +1,4 @@
 .. include:: ../_header.rst
-   
 
 Main menu
 ---------

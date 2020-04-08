@@ -1,11 +1,9 @@
 .. include:: ../_header.rst
    
-.. highlight:: javascript
-
 Views
 -----
 
-A view is a panel that can be used with any purpose. In the IDE they are used mostly to display structured data or the properties of an object.
+A view is a panel that can be used for any purpose. In the IDE they are used mostly to display structured data or the properties of an object.
 
 There are a couple of views in the IDE: some of them show content related to the active editor, content related to the selected element in the workbench, or content of the project.
 

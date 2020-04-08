@@ -5,7 +5,7 @@
 Main toolbar
 ------------
 
-The |MainToolbar| is placed at the top of the window. The toolbar is divided in three areas: left, center and right.
+The |MainToolbar| is placed at the top of the window. The toolbar is divided into three areas: left, center and right.
 
 In the left area there are buttons to trigger global commands: 
 

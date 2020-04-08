@@ -3,7 +3,7 @@
 New File dialog
 ---------------
 
-The `New File dialog`_ shows the different type of files you can create. When you select a type of file, it launches a dedicated dialog to create the file. These specific file dialogs are contributed by the different plugins.
+The `New File dialog`_ shows the different types of files you can create. When you select a type of file, it launches a dedicated dialog to create the file. These specific file dialogs are contributed by the different plugins.
 
 .. image:: ../images/workbench-new-file-dialog-04072020.png
  :alt: New File dialog.

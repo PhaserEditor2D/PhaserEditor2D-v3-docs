@@ -12,7 +12,7 @@ You can help us by reporting issues, providing ideas, sending code modifications
 
 The main place for collaboration is the `Phaser Editor 2D repository in GitHub <https://github.com/PhaserEditor2D/PhaserEditor2D-v3/>`_.
 
-In addition, you can contact us in our social channels:
+Also, you can contact us in our social channels:
 
 `Twitter @PhaserEditor2D <https://twitter.com/PhaserEditor2D>`_
 

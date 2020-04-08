@@ -5,12 +5,12 @@
 Editors
 -------
 
-An editor is a panel that is dedicated to edit an object, or input. It has a title and a content area. The title shows the name or identifier of the input object and the content area provides the UI elements to edit the input. In the majority of the cases, the input of an editor is a file.
+An editor is a panel that is dedicated to editing an object or input. It has a title and a content area. The title shows the name or identifier of the input object and the content area provides the UI elements to edit the input. In the majority of the cases, the input of an editor is a file.
 
 Dirty state
 ~~~~~~~~~~~
 
-An important characteristic of the editors is the "dirty" state. When the user changes something in the editor, the editor is labeled as "dirty", and indicates that it should be saved to persist the changes. If you close an editor but it is dirty, it shows a confirmation message, because the changes will be lost.
+An important characteristic of the editors is the "dirty" state. When the user changes something in the editor, the editor is labeled as "dirty" and indicates that it should be saved to persist the changes. If you close an editor but it is dirty, it shows a confirmation message, because the changes will be lost.
 
 .. image:: ../images/workbench-editor-dirty-04042020.jpg
  :alt: Editor dirty state and content preview.

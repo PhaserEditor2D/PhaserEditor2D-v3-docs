@@ -5,7 +5,7 @@ Files view
 
 The |FilesView|_ shows the files of the project. The files are displayed in a tree structure, like in many other file navigators. 
 
-Like the other `content viewers <../misc/content-viewers.html>`_ present in the IDE, the |FilesView| shows inline previews of certain type of files. At the same time, you can zoom in/out them by pressing the ``Shift`` key and rolling the mouse wheel.
+Like the other `content viewers <../misc/content-viewers.html>`_ present in the IDE, the |FilesView| shows inline previews of a certain type of files. At the same time, you can zoom in/out them by pressing the ``Shift`` key and rolling the mouse wheel.
 
 .. image:: ../images/files-view-zoom-04052020.jpg
  :alt: Files view zooming.
@@ -15,13 +15,13 @@ Context menu
 
 The context menu lists a couple of common file operations.
 
-The **New** option opens the `New File dialog <new-file-dialog.html>`_. A dialog that allows to create new files related to the IDE tools, and new projects.
+The **New** option opens the `New File dialog <new-file-dialog.html>`_. A dialog that allows creating new files related to the IDE tools, and new projects.
 
-There are options **Rename**, **Move**, **Copy To** and **Delete** work just like in any other file manager. But warning, at this moment, these operations cannot be un-done, so take care with them.
+There are options **Rename**, **Move**, **Copy To** and **Delete** work just like in any other file manager. But warning, at this moment, these operations cannot be undone, so take care of them.
 
 If you run the server with the ``-desktop`` option, then the context menu shows the **Locate File** item. It opens the default file manager of your OS at the location of the selected file or folder.
 
-The context menu can be extended by plugins. It is the case of the |SceneEditor|_ plugin, that inserts the **Compile Scenes** option in the menu. If you click it, the selected scene files will be compiled.
+The context menu can be extended by plugins. It is the case of the |SceneEditor|_ plugin, that inserts the **Compile Scenes** option on the menu. If you click it, the selected scene files will be compiled.
 
 The **Upload Files** option opens the `Upload dialog <upload-dialog.html>`_. The files will be uploaded to the selected folder (or parent folder if the selected item is a file).
 

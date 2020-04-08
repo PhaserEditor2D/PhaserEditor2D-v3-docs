@@ -10,4 +10,4 @@ Color themes
 .. image:: ../images/workbench-color-themes-04072020.png
  :alt: Color theme dialog.
 
-The color themes are contributed by plugins. We should write how to create your own theme in a future Plugin Developer Guide.
+The color themes are contributed by plugins. We should write how to create your custom theme in a future Plugin Developer Guide.
