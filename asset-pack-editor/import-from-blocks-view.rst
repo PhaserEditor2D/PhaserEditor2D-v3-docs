@@ -31,4 +31,4 @@ The workflow is the following:
 
 #. When the files are imported, edit the new configurations in the |InspectorView|_.
 
-This is a shorter workflow, you select the files you want to import and the editor automatically provides to you the options to import the files, based on the content type and name of the files.
+This is a shorter workflow, you select the files you want to import and the editor automatically provides you the options to import the files, based on the content type and name of the files.
