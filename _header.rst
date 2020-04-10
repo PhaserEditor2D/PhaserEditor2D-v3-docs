@@ -51,3 +51,7 @@
 
 .. |AssetPackFile| replace:: Asset Pack file
 .. _AssetPackFile: https://photonstorm.github.io/phaser3-docs/Phaser.Types.Loader.FileTypes.html#Phaser.Loader.LoaderPlugin.html#pack__anchor
+
+.. _prefab: ../scene-editor/prefabs.html
+
+.. _prefabs: ../scene-editor/prefabs.html

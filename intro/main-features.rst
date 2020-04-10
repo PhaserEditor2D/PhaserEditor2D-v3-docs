@@ -31,7 +31,7 @@ The |SceneEditor|_ uses a custom format, but the editor files are compiled into 
 
 `Learn more about the Scene Editor <../scene-editor/index.html>`_
 
-.. image:: ../ images/scene-editor-03312020.jpg
+.. image:: ../ images/scene-editor-04102020.webp
   :alt: Scene Editor.
 
 Code Editor
