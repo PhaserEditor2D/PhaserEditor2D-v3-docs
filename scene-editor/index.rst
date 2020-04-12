@@ -17,6 +17,7 @@ Scene Editor
     tile-sprite-object
     text-object
     bitmap-text-object
+    container-object
     object-list
     prefabs
     replace-object-type
