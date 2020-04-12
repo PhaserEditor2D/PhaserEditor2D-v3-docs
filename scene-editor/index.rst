@@ -6,13 +6,18 @@ Scene Editor
 ------------
 
 .. toctree::
+    :maxdepth: 2
 
     create-new-scene-file
     add-object
+    supported-types
     image-object
+    common-properties
     sprite-object
     tile-sprite-object
+    text-object
     bitmap-text-object
+    object-list
     prefabs
     replace-object-type
     scene-compiler

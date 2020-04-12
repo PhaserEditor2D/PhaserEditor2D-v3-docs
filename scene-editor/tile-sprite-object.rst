@@ -1,7 +1,7 @@
 
 .. include:: ../_header.rst
 
-Tile Sprite Object
+Tile Sprite object
 ------------------
 
 TODO
