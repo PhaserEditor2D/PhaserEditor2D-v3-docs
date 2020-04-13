@@ -4,7 +4,7 @@
 Transform properties
 --------------------
 
-The transformation properties of the object can be modified in the |InspectorView|_ or by using the `manipulation tools <manipulation-tools.html>`_.
+The `transform properties`_ of the object can be modified in the |InspectorView|_ or by using the `manipulation tools <manipulation-tools.html>`_.
 
 .. image:: ../images/scene-editor-transform-props-04132020.webp
  :alt: Transformation properties.

@@ -10,6 +10,7 @@ Common properties
     lists-properties
     parent-container-properties
     transform-properties
+    origin-properties
 
 The properties of the objects are listed and grouped in the |InspectorView|_. In this view, you can modify a property of the selected objects.
 
