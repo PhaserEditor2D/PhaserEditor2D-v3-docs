@@ -19,8 +19,10 @@ Scene Editor
     bitmap-text-object
     container-object
     object-list
+    display-list
     prefabs
     replace-object-type
+    manipulation-tools
     scene-compiler
 
 The |SceneEditor|_ is the most important editor of the IDE, it provides the visual tools to create scenes (or levels).

@@ -4,10 +4,12 @@ Common properties
 -----------------
 
 .. toctree::
-
+    :maxdepth: 1
+    
     variable-properties
     lists-properties
     parent-container-properties
+    transform-properties
 
 The properties of the objects are listed and grouped in the |InspectorView|_. In this view, you can modify a property of the selected objects.
 
