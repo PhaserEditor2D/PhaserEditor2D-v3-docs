@@ -5,6 +5,9 @@
 .. |PhaserDevs| replace:: Phaser developers
 .. _PhaserDevs: https://photonstorm.com
 
+.. |PhaserDocs| replace:: Phaser documentation
+.. _PhaserDocs: https://photonstorm.github.io/phaser3-docs/
+
 .. |PhaserOfficialExamples| replace:: Phaser Official Examples
 .. _PhaserOfficialExamples: https://phaser.io/examples
 

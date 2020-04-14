@@ -6,7 +6,7 @@ Scene Editor
 ------------
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     create-new-scene-file
     add-object
