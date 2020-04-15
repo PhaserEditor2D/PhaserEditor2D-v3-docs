@@ -15,9 +15,22 @@ An `Image`_ is created in code using the `image factory <https://photonstorm.git
 
   const branch_1 = this.add.image(192, 512, "atlas-props", "branch-01");
 
-The `Image`_ type has properties that can be modified in the |InspectorView|_.
+The `Image`_ has properties common to other object types:
 
-Texture properties
-~~~~~~~~~~~~~~~~~~
+* `Variable properties <variable-properties.html>`_
 
-TODO
+* `Lists properties <lists-properties.html>`_
+
+* `Parent Container properties <parent-container-properties.html>`_
+
+* `Transform properties <transform-properties.html>`_
+
+* `Origin properties <origin-properties.html>`_
+
+* `Flip properties <flip-properties.html>`_
+
+* `Visible property <visible-property.html>`_
+
+* `Alpha properties <alpha-properties.html>`_
+
+* `Texture property <texture-property.html>`_

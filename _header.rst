@@ -8,6 +8,9 @@
 .. |PhaserDocs| replace:: Phaser documentation
 .. _PhaserDocs: https://photonstorm.github.io/phaser3-docs/
 
+.. |PhaserAPI| replace:: Phaser API
+.. _PhaserAPI: https://photonstorm.github.io/phaser3-docs/
+
 .. |PhaserOfficialExamples| replace:: Phaser Official Examples
 .. _PhaserOfficialExamples: https://phaser.io/examples
 
@@ -48,6 +51,9 @@
 
 .. |SceneEditor| replace:: Scene Editor
 .. _SceneEditor: ../scene-editor/index.html
+
+.. |SceneCompiler| replace:: scene compiler
+.. _SceneCompiler: ../scene-editor/scene-compiler.html
 
 .. |AssetPackEditor| replace:: Asset Pack Editor
 .. _AssetPackEditor: ../asset-pack-editor/index.html

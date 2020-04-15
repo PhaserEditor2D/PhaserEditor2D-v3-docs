@@ -1,5 +1,5 @@
 
-.. include:: ../_reader.rst
+.. include:: ../_header.rst
 
 Alpha properties
 ----------------
