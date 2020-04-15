@@ -1,6 +1,6 @@
 .. include:: ../_header.rst
 
-Bitmap Text object
-------------------
+Bitmap Text objects
+-------------------
 
 TODO

@@ -1,7 +1,7 @@
 
 .. include:: ../_header.rst
 
-Text object
------------
+Text objects
+------------
 
 TODO

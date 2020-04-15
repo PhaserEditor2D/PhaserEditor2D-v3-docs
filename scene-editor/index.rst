@@ -11,8 +11,8 @@ Scene Editor
     create-new-scene-file
     add-object
     supported-types
-    image-object
     common-object-properties
+    image-object    
     sprite-object
     tile-sprite-object
     text-object
@@ -22,8 +22,10 @@ Scene Editor
     display-list
     prefabs
     replace-object-type
+    inspector-view-integration
     manipulation-tools
     scene-compiler
+    troubleshooting
 
 The |SceneEditor|_ is the most important editor of the IDE, it provides the visual tools to create scenes (or levels).
 

@@ -106,8 +106,7 @@ Important: in the project template folder you should create a ``template.json`` 
 
 Reload project
 --------------
-
-|PhaserEditor|_ is not created with collaborative editing in mind. This means, that it assumes that only one user is working on the same project at the same time. You can use source control managers like ``Git``to collaborate with your team.
+|PhaserEditor|_ is not created with collaborative editing in mind. This means, that it assumes that only one user is working on the same project at the same time. You can use source control managers like ``Git`` to collaborate with your team.
 
 However, it may be possible that you change the project files with external tools and you need to refresh that changes in the IDE. When the IDE gets the focus, it does an incremental reload of the changes made by external tools, but you can force (and we recommend) a full reload of the project:
 

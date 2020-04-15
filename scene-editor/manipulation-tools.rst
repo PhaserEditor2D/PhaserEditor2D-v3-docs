@@ -21,3 +21,5 @@ Angle tool
 
 TODO
 
+Resize Tile Sprite tool
+~~~~~~~~~~~~~~~~~~~~~~~
