@@ -1,7 +1,7 @@
 .. include:: ../_header.rst
 
-Common properties
------------------
+Common object properties
+------------------------
 
 .. toctree::
     :maxdepth: 1
