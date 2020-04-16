@@ -15,6 +15,7 @@ Common object properties
     visible-property
     alpha-properties
     texture-property
+    text-property
 
 The properties of the objects are listed and grouped in the |InspectorView|_. In this view, you can modify a property of the selected objects.
 
