@@ -11,6 +11,28 @@ You can create a `Text object <text-object.html>`_ using the `Add Object dialog 
 .. image:: ../images/scene-editor-text-object-04162020.webp
     :alt: Text object.
 
+
+The `Text <text-object.html>`_ objects are created in code using the `text factory <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectFactory.html#text__anchor>`_. This is how the `scene compiler <scene-compiler.html>`_ generates that code:
+
+.. code::
+
+    const text_1 = this.add.text(90, 385, "", {});
+    text_1.text = "New Text object";
+    text_1.setStyle({
+        "backgroundColor":"blue",
+        "color":"orange",
+        "fontFamily":"serif",
+        "fontSize":"60px",
+        "fontStyle":"bold italic",
+        "stroke":"orange",
+        "shadow.offsetX":5,
+        "shadow.offsetY":5,
+        "shadow.color":"brown",
+        "shadow.blur":7,
+        "shadow.stroke":true,
+        "shadow.fill":true});
+    text_1.setPadding({"left":10,"top":10,"right":10,"bottom":10});
+
 Text type properties
 ~~~~~~~~~~~~~~~~~~~~
 
