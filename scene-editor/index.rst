@@ -22,7 +22,6 @@ Scene Editor
     display-list
     prefabs
     replace-object-type
-    inspector-view-integration
     manipulation-tools
     scene-compiler
     troubleshooting
