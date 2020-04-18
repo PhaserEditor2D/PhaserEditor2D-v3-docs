@@ -11,3 +11,5 @@ You can click on the button to move the object to other `Container`_ or the `Dis
 When you change the parent of an object, the local position of the object is modified to keep the same absolute position.
 
 .. image:: ../images/parent-container-prop-04122020.webp
+
+Also, you can open this dialog with the `Move To Parent <container-object.html#moving-an-object-to-a-container>`_ command.
