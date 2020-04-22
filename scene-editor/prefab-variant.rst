@@ -18,10 +18,20 @@ Let's say we want to create a purple skinned |PrefabVariant|_ of the **Dragon** 
 
 #. Drop the **Dragon** prefab_ on the scene. This creates a |PrefabInstance|_ that is the `prefab object <prefab-object.html>`_ of the file.
 
-#. Unlock the `texture property <texture-properties.html>`_ of the object and change it to the purple dragon texture.
+    .. image:: ../images/scene-editor-prefab-variant-1-04222020.webp
+        :alt: Create prefab object with Dragon prefab.
 
-#. Save the file.
+#. Unlock the `texture property <texture-properties.html>`_ of the object and change it to the purple dragon texture. Save the file.
 
-#. Open the **Level** scene file, and look in the |BlocksView|_ there are the **Dragon** prefab_ and the **PurpleDragon** prefab_.
+    .. image:: ../images/scene-editor-prefab-variant-2-04222020.webp
+        :alt: Change the prefab object texture.
 
-#. TODO
+#. Open the **Level** scene file, and look in the |BlocksView|_ there are the **Dragon** prefab_ and the **PurpleDragon** prefab_. Drop the **PurpleDragon** prefab_ on the scene. It will create a new, purple, |PrefabInstance|_. 
+
+    .. image:: ../images/scene-editor-prefab-variant-3-04222020.webp
+        :alt: Create a green and purple dragons.
+
+#. But you want to reduce the size of both dragons. To do this, you change the scale of the X acis of the **Dragon** prefab_. It will affect both instances, the **Dragon** and **PurpleDragon** instances, because the **PurpleDragon**is a variant of the now scaled **Dragon** prefab_.
+
+    .. image:: ../images/scene-editor-prefab-variant-4-04222020.webp
+        :alt: The new scale is applied to both instances.
