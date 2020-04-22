@@ -10,6 +10,7 @@ Prefabs
     prefab-object
     prefab-create-instance
     prefab-code
+    prefab-set-properties
     prefab-variant
     prefab-black-box    
 
