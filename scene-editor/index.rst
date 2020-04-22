@@ -12,6 +12,7 @@ Scene Editor
     add-object
     supported-types
     common-object-properties
+    scene-properties
     image-object    
     sprite-object
     tile-sprite-object
