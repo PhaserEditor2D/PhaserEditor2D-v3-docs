@@ -7,11 +7,11 @@ Changing a property of a prefab instance
 
 As we explained in the previous sections, a prefab_ is just a class that extends other prefab_ class or a Phaser_ built-in type.
 
-When you create a prefab_ instance, the new object gets the properties set in the prefab_. For example, the texture of the new instance is the same texture set in the prefab_ (in the constructor of the prefab_ class).
+When you create a |PrefabInstance|_, the new object gets the properties set in the prefab_. For example, the texture of the new instance is the same texture set in the prefab_ (in the constructor of the prefab_ class).
 
-If you change the texture in the prefab_, all the prefab instances will use the new texture. However, you can unlock the `texture property <texture-property.html>`_ of certain instances and set a different texture.
+If you change the texture in the prefab_, all the |PrefabInstances|_ will use the new texture. However, you can unlock the `texture property <texture-property.html>`_ of certain instances and set a different texture.
 
-Note that when you select a prefab_ instance, the |InspectorView|_ shows a "lock" icon next to the object properties. That icon is saying that the property is locked. If you click the icon, it is changed to an "unlocked" icon, and means that the property is unlocked.
+Note that when you select a |PrefabInstance|_, the |InspectorView|_ shows a "lock" icon next to the object properties. That icon is saying that the property is locked. If you click the icon, it is changed to an "unlocked" icon, and means that the property is unlocked.
 
 When you unlock a property, you can change its value, and it is not going to be updated if the property is changed in the prefab_. An unlocked property is not linked to the prefab_ anymore.
 
@@ -31,12 +31,12 @@ Let's see an example step by step:
     .. image:: ../images/prefab-set-property-example-2-04212020.webp
         :alt: Unlock texture property.
 
-#. You want to see how it looks with a purple texture, but you change it in the **Dragon** prefab_ file, so, the second prefab_ instance will be updated automatically to show the new purple dragon texture:
+#. You want to see how it looks with a purple texture, but you change it in the **Dragon** prefab_ file, so, the second |PrefabInstance|_ will be updated automatically to show the new purple dragon texture:
 
     .. image:: ../images/prefab-set-property-example-3-04212020.webp
         :alt: You changed the texture in the prefab.
 
-#. Ok, you love the purple color of the dragon, so you want all the **Dragon** prefab_ instances to have the same color. To do this, you lock again the `texture property`_ of the first (yet brown) dragon and it gets the prefab_ texture: the purple one:
+#. Ok, you love the purple color of the dragon, so you want all the **Dragon** |PrefabInstances|_ to have the same color. To do this, you lock again the `texture property`_ of the first (yet brown) dragon and it gets the prefab_ texture: the purple one:
 
     .. image:: ../images/prefab-set-property-example-4-04212020.webp
         :alt: Both instances with same prefab texture.

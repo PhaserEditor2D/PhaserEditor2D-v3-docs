@@ -18,4 +18,4 @@ If later you decided to use a different dragon for your prefab_, then you can mo
 .. image:: ../images/scene-editor-prefab-object-2-04202020.webp
     :alt: Another prefab object
 
-The `prefab object`_ could be any object of any type (an `image <image-object.html>`_, a `text <text-object.html>`_, a `container <container-object.html>`_, whatever type supported by the |SceneEditor|_), even, it could be a prefab_ instance. When the `prefab object`_ is a prefab_ instance (of the prefab_ **SomePrefab**) then we say it is a `prefab variant <prefab-variant.html>`_ of the **SomePrefab** prefab_.
+The `prefab object`_ could be any object of any type (an `image <image-object.html>`_, a `text <text-object.html>`_, a `container <container-object.html>`_, whatever type supported by the |SceneEditor|_), even, it could be a |PrefabInstance|_. When the `prefab object`_ is a |PrefabInstance|_ (of the prefab_ **SomePrefab**) then we say it is a |PrefabVariant|_ of the **SomePrefab** prefab_.

@@ -32,7 +32,7 @@ The constructor of the **Dragon** class has the same arguments of the `Image`_ c
     this.scaleY = 0.7;  
 
 
-When the |SceneCompiler|_ compiles a regular scene file, the prefab_ instances in it are generated as instances of the prefab_ class:
+When the |SceneCompiler|_ compiles a regular scene file, the |PrefabInstances|_ in it are generated as instances of the prefab_ class:
 
 .. code::
 

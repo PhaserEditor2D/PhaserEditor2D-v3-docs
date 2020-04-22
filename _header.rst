@@ -49,6 +49,9 @@
 .. |MonacoEditor| replace:: Monaco editor
 .. _MonacoEditor: https://microsoft.github.io/monaco-editor/
 
+.. |Unity| replace:: Unity Engine
+.. _Unity: https://unity.com
+
 .. |SceneEditor| replace:: Scene Editor
 .. _SceneEditor: ../scene-editor/index.html
 
@@ -64,3 +67,15 @@
 .. _prefab: ../scene-editor/prefabs.html
 
 .. _prefabs: ../scene-editor/prefabs.html
+
+.. |PrefabInstance| replace:: prefab instance
+
+.. _PrefabInstance: ../scene-editor/prefab-create-instance.html
+
+.. |PrefabInstances| replace:: prefab instances
+
+.. _PrefabInstances: ../scene-editor/prefab-create-instance.html
+
+.. |PrefabVariant| replace:: prefab variant
+
+.. _PrefabVariant: ../scene-editor/prefab-variant.html
