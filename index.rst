@@ -21,5 +21,7 @@ Last update: |date|
    asset-pack-editor/index
    scene-editor/index
    code-editor/index
+   animations-editor/index
+   atlas-editor/index
    misc/index
    pricing/index
