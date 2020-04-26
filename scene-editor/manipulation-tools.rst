@@ -4,22 +4,51 @@
 Manipulation tools
 ------------------
 
-TODO
+The manipulation tools are in-scene tools that allows to change properties of the objects.
 
-Position tool
-~~~~~~~~~~~~~
+Each tool has a command to activate/deactivate it. You can execute the command using a key, the context menu or the |MainToolbar|_.
 
-TODO
+You can activate one tool or the time. Or deactivate the tool.
+
+.. image:: ../images/scene-editor-tools-04262020.webp
+    :alt: Manipulators.
+
+
+
+Translate tool
+~~~~~~~~~~~~~~
+
+This tool allows you to move the objects in the screen. It affects the **X** and **Y** properties.
+
+You can activate it with the ``T`` key, or in the context menu or the |MainToolbar|_.
+
+Drag the red arrow to change the **X**, and the green arrow to change the **Y**.
+
+.. image:: ../images/scene-editor-tools-translate-04262020.webp
+    :alt: Translate tool.
 
 Scale tool
 ~~~~~~~~~~
 
-TODO
+Activate this tool to change the scale of an object. You can activate it in the context menu, the |MainToolbar|_ or with the ``S`` key.
 
-Angle tool
-~~~~~~~~~~
+.. image:: ../images/scene-editor-tools-scale-04262020.webp
+    :alt: Scale tool.
 
-TODO
+Rotate tool
+~~~~~~~~~~~
+
+This tool changes the angle of the object. You can activate it in the context menu, the |MainToolbar|_ or with the ``R`` key.
+
+.. image:: ../images/scene-editor-tools-rotate-04262020.webp
+    :alt: Rotate tool.
 
 Resize Tile Sprite tool
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+This tool allows to change the size of a `TileSprite <tile-sprite-object.html>`_ object.  You can activate it in the context menu or with the ``Z`` key.
+
+This tool only applies to `TileSprite`_ objects, but you can `convert any object to a TileSprite <replace-object-type.html>`_.
+
+.. image:: ../images/scene-editor-tools-tilesprite-size-04262020.webp
+    :alt: TileSprite size tool.
