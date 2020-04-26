@@ -10,4 +10,19 @@ However, you can change the type of the `Image`_ object to another, like a `Spri
 
 To replace the type, execute the **Replace Type** command that is shown in the **Type** sub-menu of the context menu. That command opens the **Replace Type** dialog. The dialog shows the different types supported by the editor, including your own prefabs_. Select the new type and press **Replace**.
 
-TODO: fix the problem with converting a text object to a bitmap-text. Then use it as example here, in the images.
+For example, you can convert a `Text <text-object.html>`_ object to a `BitmapText <bitmap-text-object.html>`_:
+
+#. Select the `Text`_ object, open the context menu and launch the **Replace Type** dialog:
+
+    .. image:: ../images/scene-editor-replace-type-1-04262020.webp
+        :alt: Open the Replace Type dialog.
+
+#. In the **Replace Type** dialog, select the `BitmapText`_ type. It opens the **Select Bitmap Font** dialog. Select the desired font for the new object (you cannot create a `BitmapText`_ object without a font):
+
+    .. image:: ../images/scene-editor-replace-type-2-04262020.webp
+        :alt: Select the font for the new BitmapText.
+
+#. Finally, the object is converted to a `BitmapText`_. Note the properties shared by both types are conserved the same. The `Text property <text-property.html>`_ is an example of that:
+
+    .. image:: ../images/scene-editor-replace-type-3-04262020.webp
+        :alt: Converted to BitmapText.
