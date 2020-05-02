@@ -1,6 +1,5 @@
 {
     "editor.fontSize": 18,
-    "editor.wordWrap": "wordWrapColumn",
     "browser-preview.startUrl": "http://127.0.0.1:8000/",
     "browser-preview.format": "png",
     "workbench.preferredDarkColorTheme": "Quiet Light",
@@ -8,5 +7,9 @@
     "cSpell.words": [
         "tilemap",
         "toolkits"
-    ]
+    ],
+    "restructuredtext.confPath": "${workspaceFolder}",
+    "restructuredtext.linter.run": "onSave",
+    "restructuredtext.languageServer.disabled": false,
+    "editor.wordWrap": "wordWrapColumn"
 }
