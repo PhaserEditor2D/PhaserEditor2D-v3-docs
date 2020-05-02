@@ -8,6 +8,7 @@ Asset Pack Editor
 .. toctree::
 
     create-asset-pack-file
+    asset-pack-file
     editor-content-layout
     add-file
     organizing-the-assets       

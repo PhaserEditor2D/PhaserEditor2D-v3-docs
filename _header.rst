@@ -55,6 +55,10 @@
 .. |SceneEditor| replace:: Scene Editor
 .. _SceneEditor: ../scene-editor/index.html
 
+.. |JavaScriptEditor| replace:: JavaScript Editor
+.. _JavaScriptEditor: ../code-editor/js-editor.html
+
+
 .. |SceneCompiler| replace:: scene compiler
 .. _SceneCompiler: ../scene-editor/scene-compiler.html
 
@@ -62,7 +66,7 @@
 .. _AssetPackEditor: ../asset-pack-editor/index.html
 
 .. |AssetPackFile| replace:: Asset Pack file
-.. _AssetPackFile: https://photonstorm.github.io/phaser3-docs/Phaser.Types.Loader.FileTypes.html#Phaser.Loader.LoaderPlugin.html#pack__anchor
+.. _AssetPackFile: ../asset-pack-editor/asset-pack-file.html
 
 .. _prefab: ../scene-editor/prefabs.html
 
