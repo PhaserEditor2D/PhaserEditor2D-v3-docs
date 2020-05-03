@@ -5,7 +5,7 @@
 Server options
 --------------
 
-To get the full list of options of the |PhaserEditor|_ server you can use the ``--help`` option. Here we explain them in details.
+To get the full list of options of the |PhaserEditor|_ server you can use the ``--help`` option. Here we explain them in detail.
 
 .. code:: bash
 
@@ -24,11 +24,11 @@ Use this option if you are working with a local server:
 
 **-disable-gzip**
 
-By default, the server g-zip compresses the files sent over the network. It requires an extra usage of the CPU, so you may disable it if you want to use less CPU in the server machine.
+By default, the server gzip compresses the files sent over the network. It requires an extra usage of the CPU, so you may disable it if you want to use less CPU in the server machine.
 
 **-disable-open-browser**
 
-If you don't want to open the default browser when run the server with the **-desktop** option.
+If you don't want to open the default browser when running the server with the **-desktop** option.
 
 **-editor string**
 
@@ -36,7 +36,7 @@ In the installation folder of |PhaserEditor|_ there is the ``editor`` folder. It
 
 **-templates string**
 
-In the installation folder of |PhaserEditor|_ there is the ``templates`` folder. It contains the project templates used in the IDE. If you want to to use other templates you can use the ``-templates /other/templates`` option.
+In the installation folder of |PhaserEditor|_ there is the ``templates`` folder. It contains the project templates used in the IDE. If you want to use other templates you can use the ``-templates /other/templates`` option.
 
 **-enable-advanced-js-editor**
 
