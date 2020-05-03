@@ -32,7 +32,7 @@ The |SceneEditor|_ is the most important editor of the IDE, it provides the visu
 .. image:: ../images/scene-editor-04102020.webp
   :alt: Scene Editor screenshot.
 
-The |SceneEditor|_ is similar to other scene makers tools. The most particular characteristic is that this editor `compiles the scene <scene-compiler.html>`_ into readable Phaser_ code.
+The |SceneEditor|_ is similar to other scene maker tools. The most peculiar characteristic is that this editor `compiles the scene <scene-compiler.html>`_ into readable Phaser_ code.
 
 Phaser_ provides support for certain file formats like the |AssetPackFile|_ (edited by the |AssetPackEditor|_), but it lacks a full-feature Scene file format suitable for level editors. Maybe it should be that way because Phaser_ is a framework and you may use it in very different ways and very different contexts.
 
@@ -46,4 +46,4 @@ The second option plays much better with the |PhaserEditor|_ philosophy of being
 
 In previous desktop-based versions of |PhaserEditor|_, the |SceneEditor|_ used a custom renderer to build the scene. This render was based on desktop UI toolkits. In this version, we use Phaser_ and the browser to render the scene in the editor. It is a huge advantage, now what you see in the |SceneEditor|_ is what you get in the game.
 
-This chapter covers in depth the |SceneEditor|_ tools and concepts, if you want a quick tutorial to create a scene, read the `First steps chapter <../first-steps/index.html>`_.
+This chapter covers in-depth the |SceneEditor|_ tools and concepts, if you want a quick tutorial to create a scene, read the `First steps chapter <../first-steps/index.html>`_.

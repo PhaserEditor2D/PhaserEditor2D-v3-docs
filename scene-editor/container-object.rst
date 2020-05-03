@@ -100,4 +100,4 @@ The `Container`_ type contains some of the `common object properties <common-obj
 
 * `Visible property <visible-property.html>`_
 
-In addition, it has the **Allow Pick Children** property. This property is not part of the |PhaserAPI|_, it is used to indicates the editor that you can pick the children of the container in the scene, with the mouse. If this property is set off, then when you pick a child of the container the container is selected and not the child.
+Also, it has the **Allow Pick Children** property. This property is not part of the |PhaserAPI|_, it is used to indicates the editor that you can pick the children of the container in the scene, with the mouse. If this property is set off, then when you pick a child of the container the container is selected and not the child.

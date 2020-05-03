@@ -42,7 +42,7 @@ The `Bitmap Text`_ type contains many of the `common object properties <common-o
 
 * `Alpha properties <alpha-properties.html>`_
 
-It also contains the `Text property <text-property.html>`_, that is dedicated to all the objects with texts, and its own specific properties:
+It also contains the `Text property <text-property.html>`_, that is dedicated to all the objects with texts, and its specific properties:
 
 * The `font <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.BitmapText.html#font__anchor>`_ property shows the key of the BitmapFont in the |AssetPackFile|_. To change the font, click on the button. It opens the **Select Bitmap Font** dialog.
 

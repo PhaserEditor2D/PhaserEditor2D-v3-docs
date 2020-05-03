@@ -24,7 +24,7 @@ This is the code generated after compile the **Dragon** prefab:
     
 Note the prefab_ class extends the `Phaser.GameObjects.Image <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Image.html>`_ class, because the `prefab object <prefab-object.html>`_ is an `Image`_.
 
-The constructor of the **Dragon** class has the same arguments of the `Image`_ class, but by default, it uses the texture set in the `prefab object`_. In addition, in the body of the constructor, are set the properties modified in the `prefab object`_:
+The constructor of the **Dragon** class has the same arguments of the `Image`_ class, but by default, it uses the texture set in the `prefab object`_. Also, in the body of the constructor, are set the properties modified in the `prefab object`_:
 
 .. code::
 
@@ -37,7 +37,7 @@ When the |SceneCompiler|_ compiles a regular scene file, the |PrefabInstances|_ 
 .. code::
 
     class Level extends Phaser.Scene {
-	
+    
         constructor() {
             super("Level");            
         }
@@ -56,5 +56,5 @@ When the |SceneCompiler|_ compiles a regular scene file, the |PrefabInstances|_ 
         }
     }
 
-Also, the prefab_ class can be instantiated manually by you, at any time in your game. It is just a custom object class that looks like if you written it by hand.
+Also, the prefab_ class can be instantiated manually by you, at any time in your game. It is just a custom object class that looks like if you write it by hand.
 

@@ -4,7 +4,7 @@
 Snapping properties
 ~~~~~~~~~~~~~~~~~~~
 
-The snapping properties allow to divide the scene in a grid and place the objects in the cells of the grid. This is a very useful technique to keep the objects properly aligned.
+The snapping properties allow you to divide the scene into a grid and place the objects in the cells of the grid. This is a very useful technique to keep the objects properly aligned.
 
 .. image:: ../images/scene-editor-snap-properties-04222020.webp
     :alt: Snapping properties.
@@ -20,7 +20,7 @@ The context menu of the scene shows the **Snapping** sub-menu with the snapping 
 
 * Toggle Snapping (``E``).
 
-* Snap To Object Size (``W``). This command takes the size of the selected object and set it as the snapping size values of the scene.
+* Snap To Object Size (``W``). This command takes the size of the selected object and sets it as the snapping size values of the scene.
 
 .. image:: ../images/scene-editor-snap-menu-04222020.webp
     :alt: Snapping commands in context menu.

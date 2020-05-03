@@ -6,7 +6,7 @@ The prefab object
 
 The `prefab object <prefab-object.html>`_ is the object at the top of the prefab_ file. You can add many objects to the `display list <display-list.html>`_ of the prefab_, but only the one at the top will be considered as the real prefab_, the other objects will be ignored.
 
-We did it this way for simplicity, but it also allows to create different versions of the `prefab object`_ and move them to the top of the list in case we want to promote a different object as the `prefab object`_.
+We did it this way for simplicity, but it also allows us to create different versions of the `prefab object`_ and move them to the top of the list in case we want to promote a different object as the `prefab object`_.
 
 Look in the next image, it shows the **Dragon** prefab. There are three objects in the file, but only the **green dragon** object will be used as the `prefab object`_ of the **Dragon** prefab_:
 

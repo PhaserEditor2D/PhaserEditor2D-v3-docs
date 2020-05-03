@@ -4,7 +4,6 @@
 Executing the compiler
 ~~~~~~~~~~~~~~~~~~~~~~
 
-
 You have multiple options to compile a scene file:
 
 * When you save the modifications of a scene file in the |SceneEditor|_ the scene is compiled automatically.

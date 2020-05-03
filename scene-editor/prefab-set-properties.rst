@@ -11,11 +11,11 @@ When you create a |PrefabInstance|_, the new object gets the properties set in t
 
 If you change the texture in the prefab_, all the |PrefabInstances|_ will use the new texture. However, you can unlock the `texture property <texture-property.html>`_ of certain instances and set a different texture.
 
-Note that when you select a |PrefabInstance|_, the |InspectorView|_ shows a "lock" icon next to the object properties. That icon is saying that the property is locked. If you click the icon, it is changed to an "unlocked" icon, and means that the property is unlocked.
+Note that when you select a |PrefabInstance|_, the |InspectorView|_ shows a "lock" icon next to the object properties. That icon is saying that the property is locked. If you click the icon, it is changed to an "unlocked" icon and means that the property is unlocked.
 
 When you unlock a property, you can change its value, and it is not going to be updated if the property is changed in the prefab_. An unlocked property is not linked to the prefab_ anymore.
 
-It is easy to understand if you see it in terms of a class and a class instance. By default, the instance get the properties set in the class constructor. But you can change that value when you create the instance, and it will remains the same no matter if you change the class constructor.
+It is easy to understand if you see it in terms of a class and a class instance. By default, the instance gets the properties set in the class constructor. But you can change that value when you create the instance, and it will remain the same no matter if you change the class constructor.
 
 Now, if you lock the property again, the property will get the value set in the prefab_. Unlocking a property is like reset it to the prefab_ value.
 
@@ -39,4 +39,4 @@ Let's see an example step by step:
 #. Ok, you love the purple color of the dragon, so you want all the **Dragon** |PrefabInstances|_ to have the same color. To do this, you lock again the `texture property`_ of the first (yet brown) dragon and it gets the prefab_ texture: the purple one:
 
     .. image:: ../images/prefab-set-property-example-4-04212020.webp
-        :alt: Both instances with same prefab texture.
+        :alt: Both instances with the same prefab texture.

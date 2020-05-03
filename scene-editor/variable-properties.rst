@@ -9,7 +9,7 @@ The `variable properties`_ are introduced by the |SceneEditor|_ to be used by th
 Name property
 `````````````
 
-Is the name of the variable generated to reference the object. When an object is created. This name is also used in the |OutlineView|_ as label of the object.
+Is the name of the variable generated to reference the object. When an object is created. This name is also used in the |OutlineView|_ as the label of the object.
 
 By default, this property gets the name of the file (like an image file) used to create the object. 
 
@@ -19,7 +19,7 @@ By default, this property gets the name of the file (like an image file) used to
 Type property
 `````````````
 
-This property is read only. It shows the type of the selected object. In case pr prefabs, it shows the name of the prefab and the Phaser_ type that is the root of the prefab. For example: ``prefab PlayButton (Image)``.
+This property is read-only. It shows the type of the selected object. In the case of prefabs_, it shows the name of the prefab and the Phaser_ type that is the root of the prefab. For example: ``prefab PlayButton (Image)``.
 
 Scope property
 ``````````````

@@ -4,7 +4,7 @@
 Tile Sprite objects
 -------------------
 
-The `Tile Sprite <tile-sprite-object.html>`_ is a built-in Phaser_ object type: `Phaser.GameObjects.TileSprite <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.TileSprite.html>`_. This type allows to create objects with repeating textures, like background elements.
+The `Tile Sprite <tile-sprite-object.html>`_ is a built-in Phaser_ object type: `Phaser.GameObjects.TileSprite <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.TileSprite.html>`_. This type allows creating objects with repeating textures, like background elements.
 
 A `Tile Sprite`_ is created in code using the `tileSprite factory <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectFactory.html#tileSprite__anchor>`_. This is how the |SceneCompiler|_ generates the code of a `Tile Sprite`_:
 

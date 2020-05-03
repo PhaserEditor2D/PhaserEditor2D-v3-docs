@@ -6,13 +6,13 @@ Prefab variants
 
 A |PrefabVariant|_ is a prefab_ that extends other prefab_. This is a concept similar to the |Unity|_ **prefab variants** so we use the same name. However, like everything else in the |SceneEditor|_, the best way to understand the |PrefabVariant|_ is looking into the generated code. Then you realize that a variant of a prefab_ is a sub-class of the prefab_ class. 
 
-A |PrefabVariant|_ inherits the properties and values of the base prefab_, however, you can can unlock the properties and modify them.
+A |PrefabVariant|_ inherits the properties and values of the base prefab_, however, you can unlock the properties and modify them.
 
 `Learn more about set unlock a prefab property <prefab-set-properties.html>`_.
 
 You can create a |PrefabVariant|_ very easy, the only thing you need is to use a prefab_ as the `prefab object <prefab-object.html>`_ of the prefab_ file.
 
-Let's say we want to create a purple skinned |PrefabVariant|_ of the **Dragon** prefab_. These are the steps:
+Let's say we want to create a purple-skinned |PrefabVariant|_ of the **Dragon** prefab_. These are the steps:
 
 #. Create a new prefab_ file, named **PurpleDragon**. Learn `how to create a prefab file <prefab-new-file.html>`_.
 
@@ -31,7 +31,7 @@ Let's say we want to create a purple skinned |PrefabVariant|_ of the **Dragon** 
     .. image:: ../images/scene-editor-prefab-variant-3-04222020.webp
         :alt: Create a green and purple dragons.
 
-#. But you want to reduce the size of both dragons. To do this, you change the scale of the X acis of the **Dragon** prefab_. It will affect both instances, the **Dragon** and **PurpleDragon** instances, because the **PurpleDragon**is a variant of the now scaled **Dragon** prefab_.
+#. But you want to reduce the size of both dragons. To do this, you change the scale of the X-axis of the **Dragon** prefab_. It will affect both instances, the **Dragon** and **PurpleDragon** instances, because the **PurpleDragon**is a variant of the now scaled **Dragon** prefab_.
 
     .. image:: ../images/scene-editor-prefab-variant-4-04222020.webp
         :alt: The new scale is applied to both instances.
