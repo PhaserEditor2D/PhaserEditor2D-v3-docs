@@ -4,3 +4,5 @@ Resources caching
 -----------------
 
 How the IDE and project files are cached.
+
+TODO
