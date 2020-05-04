@@ -32,3 +32,5 @@ The server should start and open the default browser in the address: ``http://12
 The projects will be stored in your home folder, in the ``PhaserEditor2D_Projects`` folder.
 
 `Learn the other command line options <../misc/server-options.html>`_
+
+If you want to code in JavaScript inside the IDE, then we recommend to `enable the advanced JavaScript tools <../code-editor/js-editor-advanced-features.html>`_.
