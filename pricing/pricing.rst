@@ -3,7 +3,7 @@
 Pricing
 ~~~~~~~
 
-There are three different type of |PhaserEditor|_ license. The licenses are valid for all the versions (previous and future) of the IDE. The only limitation is the expiration date.
+There are three different types of |PhaserEditor|_ license. The licenses are valid for all the versions (previous and future) of the IDE. The only limitation is the expiration date.
 
 One Year license
 ````````````````
@@ -26,7 +26,7 @@ Two Years license
 Lifetime license
 ````````````````
 
-* Valid for lifetime.
+* Valid for a lifetime.
 
 * Phaser Editor 2D Team email support. Write to ``developers@phasereditor2d.com``.
 
@@ -34,6 +34,6 @@ Lifetime license
 
 Purchase
 ````````
-You can purchase a license in the `Gumroad page of Phaser Editor 2D <https://gumroad.com/l/phasereditor/>`_. `Gumroad <https://gumroad.com>`_ is a popular selling platform for creators. We invite you to read `A guide to buying on Gumroad <https://customers.gumroad.com/article/191-a-guide-to-buying-on-gumroad>`_.
+You can purchase a license on the `Gumroad page of Phaser Editor 2D <https://gumroad.com/l/phasereditor/>`_. `Gumroad <https://gumroad.com>`_ is a popular selling platform for creators. We invite you to read `A guide to buying on Gumroad <https://customers.gumroad.com/article/191-a-guide-to-buying-on-gumroad>`_.
 
 The IDE has a `Free mode <free-mode.html>`_ that allows all features. Please, test it before purchase a license key.
