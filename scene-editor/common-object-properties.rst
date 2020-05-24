@@ -14,6 +14,7 @@ Common object properties
     flip-properties
     visible-property
     alpha-properties
+    tint-properties
     texture-property
     text-property
 
