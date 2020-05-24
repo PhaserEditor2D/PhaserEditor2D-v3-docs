@@ -8,7 +8,7 @@ The `Text type <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Te
 
 You can create a `Text object <text-object.html>`_ using the `Add Object dialog <add-object-dialog.html>`_. Also, using the `type replacing dialog <replace-object-type.html>`_, you can convert a `Bitmap Text <bitmap-text-object.html>`_ (or any other object) into a `Text object`_.
 
-.. image:: ../images/scene-editor-text-object-04162020.webp
+.. image:: ../images/scene-editor-text-object-05242020.webp
     :alt: Text object.
 
 
