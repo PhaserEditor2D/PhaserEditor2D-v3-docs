@@ -13,3 +13,6 @@ There are commands to change the origin to a preset value. These commands are av
 
 .. image:: ../images/scene-editor-origin-context-menu-04132020.webp
  :alt: Origin commands.
+
+Also, you can change the origin of an object with the `origin manipulator tool <manipulations-tools.html#origin-tool>`_.
+)
