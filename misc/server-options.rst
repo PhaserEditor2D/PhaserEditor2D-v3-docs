@@ -26,6 +26,12 @@ Use this option if you are working with a local server:
 
 By default, the server gzip compresses the files sent over the network. It requires an extra usage of the CPU, so you may disable it if you want to use less CPU in the server machine.
 
+**-disable-check-for-updates**
+
+When the server starts it connects with the updates server and checks for the latest released version. If there is a new version it prints a message with the new version and a short description of the new changes.
+
+You can disable this function.
+
 **-disable-open-browser**
 
 If you don't want to open the default browser when running the server with the **-desktop** option.
