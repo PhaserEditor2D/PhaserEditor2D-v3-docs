@@ -59,3 +59,11 @@ By default, the server uses the ``1959`` port for HTTP networking. You can use t
 **-ws string**
 
 Use this option to change the workspace. By default, the server uses the ``<user-home>/PhaserEditor_Projects`` folder: ``-ws /path/to/my/workspace/``. See the `Projects <../workbench/projects.html>`_ chapter.
+
+**-update**
+
+When you run this option, the server downloads and installs the latest version. The old files are deleted and the new files are copied. It does not require any extra action.
+
+**-download**
+
+Use this option to download the latest version of Phaser Editor 2D. The download is a ZIP file with the binaries for your platform.
