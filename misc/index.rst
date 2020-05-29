@@ -9,5 +9,6 @@ Miscellaneous
     resources-caching
     local-preferences
     content-viewers
+    update
 
 This chapter is about general questions like IDE internals and tips.
