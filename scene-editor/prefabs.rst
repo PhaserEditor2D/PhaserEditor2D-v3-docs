@@ -8,6 +8,7 @@ Prefabs
 
     prefab-new-file
     prefab-object
+    prefab-user-properties
     prefab-create-instance
     prefab-code
     prefab-set-properties
