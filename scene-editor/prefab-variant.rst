@@ -31,7 +31,7 @@ Let's say we want to create a purple-skinned |PrefabVariant|_ of the **Dragon** 
     .. image:: ../images/scene-editor-prefab-variant-3-04222020.webp
         :alt: Create a green and purple dragons.
 
-#. But you want to reduce the size of both dragons. To do this, you change the scale of the X-axis of the **Dragon** prefab_. It will affect both instances, the **Dragon** and **PurpleDragon** instances, because the **PurpleDragon**is a variant of the now scaled **Dragon** prefab_.
+#. But you want to reduce the size of both dragons. To do this, you change the scale of the X-axis of the **Dragon** prefab_. It will affect both instances, the **Dragon** and **PurpleDragon** instances, because the **PurpleDragon** is a variant of the now scaled **Dragon** prefab_.
 
     .. image:: ../images/scene-editor-prefab-variant-4-04222020.webp
         :alt: The new scale is applied to both instances.
