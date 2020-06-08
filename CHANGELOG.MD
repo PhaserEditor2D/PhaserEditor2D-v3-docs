@@ -6,3 +6,4 @@
 * A new section: **Automatic update**.
 * A new section: **Prefab user properties**.
 * Update the Files view section with the New sub-menu.
+* The Create Prefab With Object option.
