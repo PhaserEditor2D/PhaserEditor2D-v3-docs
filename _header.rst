@@ -58,6 +58,8 @@
 .. |JavaScriptEditor| replace:: JavaScript Editor
 .. _JavaScriptEditor: ../code-editor/js-editor.html
 
+.. |CodeEditor| replace:: Code Editor
+.. _CodeEditor: ../code-editor/index.html
 
 .. |SceneCompiler| replace:: scene compiler
 .. _SceneCompiler: ../scene-editor/scene-compiler.html
