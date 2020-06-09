@@ -8,3 +8,4 @@
 * Update the Files view section with the New sub-menu.
 * The Create Prefab With Object option.
 * A new section: **Editing the generated code**.
+* Includes the commands to launch VS Code.

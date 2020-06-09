@@ -17,9 +17,8 @@ Use this option if you are working with a local server:
 
 * When you run the server, it automatically opens the default browser and the IDE.
 
-* It allows the IDE to interact with local resources,
- like the File manager. See more in the `Files view <../workbench/files-view.html#context-menu>`_ chapter.
-
+* It allows the IDE to interact with local resources, like the File manager. See more in the `Files view <../workbench/files-view.html#context-menu>`_ chapter.
+* It allows launching |VSCode|_ from the IDE.
 * It denies connections from external hosts.
 
 **-disable-gzip**

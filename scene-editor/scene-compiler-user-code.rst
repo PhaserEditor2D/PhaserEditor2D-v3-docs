@@ -46,6 +46,8 @@ The |SceneEditor|_ provides two commands to quickly edit the code file generated
 
 The **Open Output File** command opens the generated file in a new |CodeEditor|_, in the traditional way.
 
+The **Open Output File in VS Code** command is enabled in the IDE if it is running in `desktop mode <../misc/server-options.html>`_. This command launches a local |VSCode|_ instance that opens the generated file.
+
 The **Quick Edit Output File** command (bound to the ``Q`` key) opens the generated file in a |CodeEditor|_ that is embedded in a modal dialog. This way is perfect for quick modifications, however, intellisense and all the other |MonacoEditor|_ features are enabled, so you have a similar experience in comparison with the traditional way of editing.
 
 .. image:: ../images/scene-compiler-quick-edit-code-06092020.webp

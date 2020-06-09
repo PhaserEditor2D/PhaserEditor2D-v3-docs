@@ -5,12 +5,14 @@ Main menu
 
 The |MainMenu|_ lists common general commands. You can open it by pressing in the menu button at the right of the |MainToolbar|_:
 
-.. image:: ../images/workbench-main-menu-04062020.webp
+.. image:: ../images/workbench-main-menu-06092020.webp
  :alt: Main menu.
 
 * **Open Project**: launches the `Open Project dialog <projects.html#projects-dialog>`_.
 
 * **Reload Project**: `reloads the project files <projects.html#reload-project>`_.
+
+* **Open Visual Studio Code**: opens the project in a local |VSCode|_ instance. This is available only if the |PhaserEditor|_ server is running in `desktop mode <../misc/server-options.html>`_.
 
 * **Select Color Theme**: opens the `Color Themes dialog <color-themes.html>`_.
 
