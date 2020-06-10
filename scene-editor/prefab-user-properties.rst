@@ -32,7 +32,7 @@ Below the parameters of the property, it shows a **Delete** button, to remove th
 
 .. topic:: Simple property type
 
-    The **Number**, **Integer**, and **String** properties are the simplest. The |SceneCompiler|_ generates fields like this:
+    The **Number** and **String** properties are the simplest. The |SceneCompiler|_ generates fields like this:
 
     .. code::
 
