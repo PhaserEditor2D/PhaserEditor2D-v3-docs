@@ -25,10 +25,13 @@ All type of properties requires some common parameters that you should provide:
 * The **Tooltip**. Used in the UI as documentation of the property.
 * The **Default** value. 
 
-Below the parameters of the property, it shows a **Delete** button, to remove the property. All changes in user properties can be undoable.
-
 .. image:: ../images/prefab-user-props-common-params-06062020.webp
     :alt: Common parameters of a property.
+
+In the title bar of the property, there is a menu with commands to delete the property or move it up/down. You can undo/redo all changes in the properties.
+
+.. image:: ../images/prefab-user-props-menu-06112020.webp
+    :alt: Property menu.
 
 .. topic:: Simple property type
 
