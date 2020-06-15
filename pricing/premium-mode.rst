@@ -5,7 +5,7 @@ Premium mode
 
 With the Premium mode, you can use the IDE without any limitation.
 
-To unlock this mode you need to purchase a license key in the `Phaser Editor 2D Gumroad's page <gumroad.com/l/phasereditor/>`_.
+To unlock this mode you need to purchase a license key in the `Phaser Editor 2D Gumroad's page <https://gumroad.com/l/phasereditor/>`_.
 
 The license key is sent to your mail. Copy the key and un-lock the IDE with the ``lickey`` option:
 

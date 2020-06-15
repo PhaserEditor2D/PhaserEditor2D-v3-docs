@@ -10,5 +10,5 @@ Adding an object to the scene
 
 There are multiple ways to add objects to the scene:
 
-#. Opening the `Add Object dialog <the-add-object-dialog.html>`_.
+#. Opening the `Add Object dialog <add-object-dialog.html>`_.
 #. By `dropping an asset from the Blocks view <blocks-view-integration.html>`_.

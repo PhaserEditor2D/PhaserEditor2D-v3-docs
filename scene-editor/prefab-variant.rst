@@ -21,7 +21,7 @@ Let's say we want to create a purple-skinned |PrefabVariant|_ of the **Dragon** 
     .. image:: ../images/scene-editor-prefab-variant-1-04222020.webp
         :alt: Create prefab object with Dragon prefab.
 
-#. Unlock the `texture property <texture-properties.html>`_ of the object and change it to the purple dragon texture. Save the file.
+#. Unlock the `texture property <texture-property.html>`_ of the object and change it to the purple dragon texture. Save the file.
 
     .. image:: ../images/scene-editor-prefab-variant-2-04222020.webp
         :alt: Change the prefab object texture.

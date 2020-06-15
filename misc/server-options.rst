@@ -45,7 +45,7 @@ In the installation folder of |PhaserEditor|_ there is the ``templates`` folder.
 
 **-enable-advanced-js-editor**
 
-By default, the IDE provides a |JavaScriptEditor|_ with basic features. If you use this option, the IDE will load extra resources (like the Phaser_ TypeScript definition files) to provide a better coding experience. See the `Advanced JavaScript editing features <code-editor/js-editor-advanced-features.html>`_ chapter.
+By default, the IDE provides a |JavaScriptEditor|_ with basic features. If you use this option, the IDE will load extra resources (like the Phaser_ TypeScript definition files) to provide a better coding experience. See the `Advanced JavaScript editing features <../code-editor/js-editor-advanced-features.html>`_ chapter.
 
 **-lickey string**
 
