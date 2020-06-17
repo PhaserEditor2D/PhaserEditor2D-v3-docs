@@ -3,6 +3,7 @@
 ## v3.2.0-1 - June 14, 2020
 
 * Fixes broken links.
+* A new section: **Select Region tool**.
 
 ## v3.2.0 - June 14, 2020
 

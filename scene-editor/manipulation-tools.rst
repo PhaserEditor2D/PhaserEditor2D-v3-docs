@@ -69,3 +69,11 @@ This tool only applies to `TileSprite`_ objects, but you can `convert any object
 
 .. image:: ../images/scene-editor-tools-tilesprite-size-04262020.webp
     :alt: TileSprite size tool.
+
+Select Region tool
+~~~~~~~~~~~~~~~~~~
+
+This tool allows to mark a region in the scene and select all objects inside the region. You can select it in the toolbar, the context menu or by pressing the ``Shift+S`` keys.
+
+.. image:: ../images/scene-editor-tools-select-region-06172020.webp
+    :alt: Select objects in region tool.
