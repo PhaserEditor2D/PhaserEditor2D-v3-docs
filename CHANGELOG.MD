@@ -3,7 +3,9 @@
 ## v3.2.0-1 - June 14, 2020
 
 * Fixes broken links.
-* A new section: **Select Region tool**.
+* Scene Editor: a new section **Select Region tool**.
+* Scene Editor: mentions you can press the ``Shift`` key to scale proportionally.
+* Scene Editor: shows the **Move Object Position** commands in the **Snapping** section.
 
 ## v3.2.0 - June 14, 2020
 
