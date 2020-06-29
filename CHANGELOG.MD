@@ -8,6 +8,7 @@
 * Scene Editor: shows the **Move Object Position** commands in the **Snapping** section.
 * Scene Editor: update **The prefab object** section with screenshots of the transparent, non-prefab objects.
 * Scene Editor: update codes with user properties (uses constructor initialization).
+* Scene Editor: add new **Automatic Container creation** section.
 * Import files section updated (import button image).
 
 ## v3.2.0 - June 14, 2020
