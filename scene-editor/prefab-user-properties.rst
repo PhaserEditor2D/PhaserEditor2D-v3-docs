@@ -40,10 +40,14 @@ In the title bar of the property, there is a menu with commands to delete the pr
     .. code::
 
         class Dragon extends Phaser.GameObjects.Sprite {
-            ...
-            public maxSpeed: number = 100;
-            public spellOnHit: string = "ouch!";
-            ...
+
+            constructor() {
+                ...
+                /** @type {number} */
+                this.maxSpeed = 100;
+                /** @type {string} */
+                this.spellOnHit = "ouch!";
+            }            
         }
 
 .. topic:: Option property type
@@ -60,9 +64,12 @@ In the title bar of the property, there is a menu with commands to delete the pr
     .. code::
 
         class Dragon extends Phaser.GameObjects.Sprite {
-            ...
-            public flameType: "fire"|"smoke"|"laser" = "fire";
-            ...
+            
+            constructor() {
+                ...
+                /** @type {"fire"|"smoke"|"laser"} */
+                this.flameType = "fire";
+            }
         }        
 
 .. topic:: Expression property type
@@ -77,9 +84,12 @@ In the title bar of the property, there is a menu with commands to delete the pr
     .. code::
 
         class Dragon extends Phaser.GameObjects.Sprite {
-            ...
-            public onClickHandler: (obj:Dragon) => void = obj => {};
-            ...
+           
+            constructor() {
+                ...
+                /** @type {(obj:Dragon)=>void} */
+                this.onClickHandler = obj => {};
+            }
         }
 
 User properties in a prefab instance
