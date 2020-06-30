@@ -22,5 +22,7 @@ The context menu of the scene shows the **Snapping** sub-menu with the snapping 
 
 * Snap To Object Size (``W``). This command takes the size of the selected object and sets it as the snapping size values of the scene.
 
-.. image:: ../images/scene-editor-snap-menu-04222020.webp
+* A couple of commands to move the selected objects position in four directions: left, right, up, down. The commands respects the snapping size. Look there are 10x commands that change the object's position in 10 times.
+
+.. image:: ../images/scene-editor-snap-menu-06172020.webp
     :alt: Snapping commands in context menu.
