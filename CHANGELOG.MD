@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.2.0-next - June 14, 2020
+## v3.3.0 - July 1, 2020
 
 * Fixes broken links.
 * Scene Editor: a new section **Select Region tool**.
