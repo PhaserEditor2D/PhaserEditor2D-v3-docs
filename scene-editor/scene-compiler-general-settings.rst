@@ -1,8 +1,8 @@
 
 .. include:: ../_header.rst
 
-General settings
-~~~~~~~~~~~~~~~~
+Compiler settings
+~~~~~~~~~~~~~~~~~
 
 The |SceneCompiler|_ uses two different sets of parameters to refine the code generation of a Phaser_ scene and a prefab file. However, there are general, or shared settings, used in both cases:
 

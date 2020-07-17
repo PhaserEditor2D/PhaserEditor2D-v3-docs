@@ -3,6 +3,7 @@
 ## v3.3.1-next
 
 * Updated user properties code generation.
+* Removes Prefab Compiler settings section.
 
 ## v3.3.0 - July 1, 2020
 

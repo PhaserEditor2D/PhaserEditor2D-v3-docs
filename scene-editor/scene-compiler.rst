@@ -8,8 +8,7 @@ The scene compiler
     scene-compiler-executing-compiler
     scene-compiler-user-code
     scene-compiler-general-settings    
-    scene-compiler-scene-settings
-    scene-compiler-prefab-settings
+    scene-compiler-scene-settings    
 
 Traditionally, a game engine has its file format to create scenes and part of its API is focused on the integration with a scene editor.
 
