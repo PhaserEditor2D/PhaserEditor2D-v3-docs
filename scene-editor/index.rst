@@ -22,6 +22,7 @@ Scene Editor
     object-list
     display-list
     prefabs
+    user-components
     replace-object-type
     manipulation-tools
     scene-compiler
