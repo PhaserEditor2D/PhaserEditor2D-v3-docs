@@ -10,11 +10,12 @@ User Components
     user-components-create-file
     user-components-editor
     user-components-compiler
+    user-components-start-update-methods
     user-components-instancing
 
 A Component is a `design pattern <https://gameprogrammingpatterns.com/component.html>`_ that you can use to create reusable code and extend the behavior and state of a game object, using `composition over inheritance <https://en.wikipedia.org/wiki/Composition_over_inheritance>`_.
 
-For example, an **HorizontalMove** component can be added to any kind of enemy object that moves horizontally from one position to other. This component class can be written like this:
+For example, an **HorizontalMove** component can be added to any kind of enemy object that moves horizontally from one position to other. This component class can be written more or less like this (see the |UserComponentsCompiler|_ section for a real example):
 
 .. code::
 

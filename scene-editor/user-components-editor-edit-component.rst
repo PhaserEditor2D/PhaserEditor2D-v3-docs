@@ -28,7 +28,7 @@ The above image shows the **HorizontalMove** component. It has a game object typ
     class HorizontalMove {
         
         constructor(gameObject) {
-            HorizontalMove.setComponent(gameObject, this);
+            gameObject["__HorizontalMove"] = this;
             
             /** @type {Phaser.GameObjects.Image} */
             this.gameObject = gameObject;
@@ -47,15 +47,7 @@ The above image shows the **HorizontalMove** component. It has a game object typ
         /** @returns {HorizontalMove} */
         static getComponent(gameObject) {
             return gameObject["__HorizontalMove"];
-        }
-        
-        static setComponent(gameObject, horizontalMove) {
-            gameObject["__HorizontalMove"] = horizontalMove;
-        }
-        
-        static hasComponent(gameObject) {
-            return "__HorizontalMove" in gameObject;
-        }
+        }        
         
         /* START-USER-CODE */
         // You can write code here
