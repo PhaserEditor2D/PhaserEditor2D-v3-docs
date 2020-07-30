@@ -97,6 +97,12 @@ The generated class is very simple, next we explain it part by part:
 
     You can add members to the component class. Just write them inside the ``/* STAR-USER-CODE */`` and ``/* END-USER-CODE */`` comments.
 
-    TODO: add reference to the start() and update() methods.
+    Probably, you would like to write a **start** and **update** method, like is explained in the `Starting and updating components <user-components-start-update-methods.html>`_ section.
 
-TODO select output language in settings.
+Selecting the output language
+'''''''''''''''''''''''''''''
+
+The User Components compiler supports two JavaScript and TypeScript as output languages. You can select this language in the |InspectorView|_, when no component is selected:
+
+.. image:: ../images/scene-editor-user-components-output-lang-07302020.webp
+    :alt: Selecting compiler output language.
