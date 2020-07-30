@@ -8,48 +8,45 @@ Many |UserComponents|_ you will create will implement certain behavior of an obj
 
 Game engines like `Unity <https://unity.com>`_, that support a similar design pattern, `use a Start and Update methods <https://docs.unity3d.com/Manual/CreatingAndUsingScripts.html>`_ to implement the behavior of the component.
 
-The Phaser_ framework does not provide a similar approach, components are not part of the Phaser_ API. However, Phaser_ provides a lot of events that you can listen and implement the gameplay. For example, you can simulate the Unity scripting using the |UserComponents|_ and the Phaser_ events in this way:
+The Phaser_ framework does not provide a similar approach, components are not part of the Phaser_ API. However, Phaser_ provides a lot of events that you can listen and implement the gameplay. For example, you can simulate the Unity scripting using the |UserComponents|_ and the Phaser_ events. You can create an **EventComponent** class that handles the events:
 
 .. code::
 
-    class HorizontalMove {
-        
+    class EventComponent {
+
+        /**
+        * @param {Phaser.GameObjects.GameObject} gameObject
+        */
         constructor(gameObject) {        
-            ...
             
-            /* START-USER-CTR-CODE */
-
-            const scene = this.gameObject.scene;
-
-            scene.events.once(Phaser.Scenes.Events.UPDATE, this.start, this);
-            scene.events.on(Phaser.Scenes.Events.UPDATE, this.update, this);
-
-            /* END-USER-CTR-CODE */
+            this.scene = gameObject.scene;        
+            
+            // first time the scene is updated, call the `start` method
+            this.scene.events.once(Phaser.Scenes.Events.UPDATE, this.start, this);
+            // each time the scene is updated, call the `update` method
+            this.scene.events.on(Phaser.Scenes.Events.UPDATE, this.update, this);
+            // if the object is destroyed, call the `destroy` method
+            gameObject.on(Phaser.GameObjects.Events.DESTROY, this.destroy, this);        
         }
 
-        ...
-                
-        /* START-USER-CODE */
-
         start() {
-            
-            // write the start code here
+            // to be overridden in derived classes
         }
 
         update() {
-
-            // write the update code here
+            // to be overridden in derived classes
         }
 
-        /* END-USER-CODE */
+        destroy() {
+            // the object is destroyed, so we remove all the event handlers
+            this.scene.events.off(Phaser.Scenes.Events.UPDATE, this.start, this);
+            this.scene.events.off(Phaser.Scenes.Events.UPDATE, this.update, this);
+        }        
     }
 
-Look in the constructor, you can register listeners to the scene ``UPDATE`` event. A listener that is executed once is used to call the **start** method. A listener that is executed at every scene update is used to call the **update** method.
+Then, you can set the **EventComponent** class as super class to all your components:
 
-Also, if the game object could be destroyed in the game, you should remove the **update** listener:
+.. image:: ../images/scene-editor-user-components-super-class-07302020.webp
+    :alt: Setting a super class to components.
 
-.. code::
-
-        this.gameObject.on(Phaser.GameObjects.Events.DESTROY, () => {
-            scene.events.off(Phaser.Scenes.Events.UPDATE, this.update, this);
-        });
+Now, you can override the **start**, **update** and **destroy** methods in the component classes.
