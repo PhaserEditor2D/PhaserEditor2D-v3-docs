@@ -50,3 +50,15 @@ Then, you can set the **EventComponent** class as super class to all your compon
     :alt: Setting a super class to components.
 
 Now, you can override the **start**, **update** and **destroy** methods in the component classes.
+
+.. code::
+
+    class HorizontalMove extends EventComponent {
+
+        ...
+
+        update() {
+
+            this.gameObject.x += this.deltaX;
+        }
+    }
