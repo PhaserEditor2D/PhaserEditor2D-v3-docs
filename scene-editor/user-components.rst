@@ -13,9 +13,9 @@ User Components
     user-components-start-update-methods
     user-components-instancing
 
-A Component is a `design pattern <https://gameprogrammingpatterns.com/component.html>`_ that you can use to create reusable code and extend the behavior and state of a game object, using `composition over inheritance <https://en.wikipedia.org/wiki/Composition_over_inheritance>`_.
+A Component is a `design pattern <https://gameprogrammingpatterns.com/component.html>`_ that you can use to create reusable code and extend the behavior and data of a game object, using `composition over inheritance <https://en.wikipedia.org/wiki/Composition_over_inheritance>`_.
 
-For example, an **HorizontalMove** component can be added to any kind of enemy object that moves horizontally from one position to other. This component class can be written more or less like this (see the |UserComponentsCompiler|_ section for a real example):
+For example, an **HorizontalMove** component can be added to any kind of enemy object that moves horizontally from one position to another. This component class can be written more or less like this (see the |UserComponentsCompiler|_ section for a real example):
 
 .. code::
 
@@ -91,10 +91,10 @@ In the scene, you can create objects and add the **HorizontalMove** component to
         }
     }
 
-In |PhaserEditor|_, we provide a way to create game object components (we name it **User Components**, to make a difference with the built-in Phaser components) and use them in the |SceneEditor|_. The prefabs_ system is another way to create reusable behaviors and state, but has the limitation that it uses inheritance.
+In |PhaserEditor|_, we provide a way to create game object components (we name it **User Components**, to make a difference with the built-in Phaser components) and use them in the |SceneEditor|_. The prefabs_ system is another way to create reusable behaviors and data but has the limitation that it uses inheritance.
 
 Like the |SceneEditor|_, we provide a |UserComponentsEditor|_.
 
-The |UserComponentsEditor|_ allows to create User Components configuration files. A User Components configuration file (``*.components``) contains a list of component configurations that are compiled into JavaScript (or TypeScript) code. It is pretty similar to the |SceneCompiler|_.
+The |UserComponentsEditor|_ allows you to create User Components configuration files. A User Components configuration file (``*.components``) contains a list of component configurations that are compiled into JavaScript (or TypeScript) code. It is pretty similar to the |SceneCompiler|_.
 
  

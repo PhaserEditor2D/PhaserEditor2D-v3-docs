@@ -6,7 +6,7 @@ The User Components compiler
 
 The |UserComponents|_ are configured in ``*.components`` files and used by the |SceneEditor|_. It is a concept of |PhaserEditor|_, not Phaser_. So we use the same |SceneEditor|_ philosophy, it compiles our custom configurations into plain, readable, fully Phaser_ compatible code.
 
-Following, look how an **HorizontalMove** component is compiled into JavaScript.
+Following, look at how an **HorizontalMove** component is compiled into JavaScript.
 
 The component information:
 

@@ -8,7 +8,7 @@ Many |UserComponents|_ you will create will implement certain behavior of an obj
 
 Game engines like `Unity <https://unity.com>`_, that support a similar design pattern, `use a Start and Update methods <https://docs.unity3d.com/Manual/CreatingAndUsingScripts.html>`_ to implement the behavior of the component.
 
-The Phaser_ framework does not provide a similar approach, components are not part of the Phaser_ API. However, Phaser_ provides a lot of events that you can listen and implement the gameplay. For example, you can simulate the Unity scripting using the |UserComponents|_ and the Phaser_ events. You can create an **EventComponent** class that handles the events:
+The Phaser_ framework does not provide a similar approach, components are not part of the Phaser_ API. However, Phaser_ provides a lot of events that you can handle and implement the gameplay. For example, you can simulate the Unity scripting using the |UserComponents|_ and the Phaser_ events. You can create an **EventComponent** class that handles the events:
 
 .. code::
 
@@ -49,7 +49,7 @@ Then, you can set the **EventComponent** class as super class to all your compon
 .. image:: ../images/scene-editor-user-components-super-class-07302020.webp
     :alt: Setting a super class to components.
 
-Now, you can override the **start**, **update** and **destroy** methods in the component classes.
+Now, you can override the **start**, **update**, and **destroy** methods in the component classes.
 
 .. code::
 

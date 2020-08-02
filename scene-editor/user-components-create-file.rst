@@ -22,4 +22,4 @@ These are the steps to create a new |UserComponents|_ file:
 
 .. warning::
 
-    The ``*.components`` files are only used by the editor. It is recommended to exclude them from a final release of the game. Only the generated JavaScript files are relevant to the game files.
+    The ``*.components`` files are only used by the editor. It is recommended to exclude them from the final release of the game. Only the generated JavaScript files are relevant to the game files.

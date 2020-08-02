@@ -28,7 +28,7 @@ This is possible in the **User Components** section. It shows the **Add Componen
 When you click that button, it shows a menu with all the components defined in the project. Select the one you want to add:
 
 .. image:: ../images/scene-editor-user-components-obj-add-component-07302020.webp
-    :alt: Add component to object.
+    :alt: Add a component to the object.
 
 Then, the properties of the components are shown in the same **User Components** section, and are ready to be set with new values:
 
@@ -50,7 +50,7 @@ If the selected object is a prefab instance, then the components present in the 
 .. image:: ../images/scene-editor-user-components-obj-prefab-properties-07302020.webp
     :alt: Editing properties of a component of a prefab instance.
 
-Look the prefab name and the |UserComponent|_ name are shown as links. If you click on it, it will open the prefab or the |UserComponent| in its editor. Also, each |UserComponent|_ panel has a menu icon. Click on it to list other options, like select in the scene all the objects with the same |UserComponent|_:
+Look at the prefab and the |UserComponent|_ names, both are shown as links. If you click on it, it will open the prefab or the |UserComponent| in its editor. Also, each |UserComponent|_ panel has a menu icon. Click on it to list other options, like select in the scene all the objects with the same |UserComponent|_:
 
 .. image:: ../images/scene-editor-user-components-select-all-objects-07302020.webp
     :alt: Select all objects with the same User Component.
