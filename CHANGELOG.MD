@@ -4,6 +4,7 @@
 
 * Updated user properties code generation.
 * Removes Prefab Compiler settings section.
+* Updates with the rules to know the parent of a newly added object.
 
 ## v3.3.0 - July 1, 2020
 
