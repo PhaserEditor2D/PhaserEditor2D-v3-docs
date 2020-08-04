@@ -9,6 +9,7 @@ User Components Editor
 
     user-components-editor-add-component.rst
     user-components-editor-edit-component.rst
+    user-components-editor-edit-code.rst
 
 Components (or similar patterns) are widely used in popular game engines or editors. Many of these tools use custom scripting languages or certain elements of a language (like metadata or attributes) to provide the components information, like properties description, default values, UI rendering, etc... The code of the component has the metadata of the component as part of its implementation.
 
