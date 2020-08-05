@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.3.1-next
+## v3.4.0 - Aug 5, 2020
 
 * Updated user properties code generation.
 * Removes Prefab Compiler settings section.
