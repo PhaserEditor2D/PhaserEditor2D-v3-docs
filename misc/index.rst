@@ -7,6 +7,7 @@ Miscellaneous
     
     server-options
     resources-caching
+    resources-filtering
     local-preferences
     content-viewers
     update

@@ -21,11 +21,9 @@ There **Rename**, **Move**, **Copy To** and **Delete** options work just like in
 
 If you run the server with the ``-desktop`` option, then the context menu shows the **Locate File** item. It opens the default file manager of your OS at the location of the selected file or folder.
 
-The context menu can be extended by plugins. It is the case of the |SceneEditor|_ plugin, that inserts the **Compile Scenes** option on the menu. If you click it, the selected scene files will be compiled.
-
 The **Upload Files** option opens the `Upload dialog <upload-dialog.html>`_. The files will be uploaded to the selected folder (or parent folder if the selected item is a file).
 
-.. image:: ../images/files-view-context-menu-06072020.webp
+.. image:: ../images/files-view-context-menu-08032020.webp
  :alt: Context menu of the Files view.
 
 Inspector view integration

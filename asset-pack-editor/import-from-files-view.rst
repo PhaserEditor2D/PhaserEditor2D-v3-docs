@@ -12,5 +12,5 @@ No matter the editor is active, you can select a file (or multiple files) in the
 
 If the file you selected in the |FilesView|_ is already present in an |AssetPackFile|_, then the |InspectorView|_ shows a button to open that |AssetPackFile|_, in the |AssetPackEditor|_.
 
-.. image:: ../images/asset-pack-editor-import-from-files-view-2-04082020.webp
+.. image:: ../images/asset-pack-editor-import-from-files-view-2-06182020.webp
  :alt: Open Asset Pack file that contains the selected files.

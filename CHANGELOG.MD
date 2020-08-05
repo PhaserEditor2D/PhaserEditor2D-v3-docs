@@ -1,8 +1,23 @@
 # Change Log
 
-## v3.2.0-1 - June 14, 2020
+## v3.3.1-next
+
+* Updated user properties code generation.
+* Removes Prefab Compiler settings section.
+* Updates with the rules to know the parent of a newly added object.
+* Adds the new Compile Project command.
+* Filtering resources.
+
+## v3.3.0 - July 1, 2020
 
 * Fixes broken links.
+* Scene Editor: a new section **Select Region tool**.
+* Scene Editor: mentions you can press the ``Shift`` key to scale proportionally.
+* Scene Editor: shows the **Move Object Position** commands in the **Snapping** section.
+* Scene Editor: update **The prefab object** section with screenshots of the transparent, non-prefab objects.
+* Scene Editor: update codes with user properties (uses constructor initialization).
+* Scene Editor: add new **Automatic Container creation** section.
+* Import files section updated (import button image).
 
 ## v3.2.0 - June 14, 2020
 

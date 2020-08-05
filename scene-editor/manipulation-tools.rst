@@ -36,7 +36,7 @@ Drag the red arrow to change the **X**, and the green arrow to change the **Y**.
 Scale tool
 ~~~~~~~~~~
 
-Activate this tool to change the scale of an object. You can activate it in the context menu, the |MainToolbar|_, or with the ``S`` key.
+Activate this tool to change the scale of an object. You can activate it in the context menu, the |MainToolbar|_, or with the ``S`` key. Keep pressing the ``Shift`` key if you want to scale proportionally.
 
 .. image:: ../images/scene-editor-tools-scale-04262020.webp
     :alt: Scale tool.
@@ -69,3 +69,11 @@ This tool only applies to `TileSprite`_ objects, but you can `convert any object
 
 .. image:: ../images/scene-editor-tools-tilesprite-size-04262020.webp
     :alt: TileSprite size tool.
+
+Select Region tool
+~~~~~~~~~~~~~~~~~~
+
+This tool allows you to draw a region in the scene and select all objects inside that zone. You can select it in the toolbar, the context menu or by pressing the ``Shift+S`` keys. If you keep pressing the `Ctrl` key, the previous selected objects will remain selected.
+
+.. image:: ../images/scene-editor-tools-select-region-06172020.webp
+    :alt: Select objects in region tool.

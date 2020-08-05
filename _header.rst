@@ -55,6 +55,19 @@
 .. |SceneEditor| replace:: Scene Editor
 .. _SceneEditor: ../scene-editor/index.html
 
+.. |UserComponentsEditor| replace:: User Components Editor
+.. _UserComponentsEditor: ../scene-editor/user-components-editor.html
+
+.. |UserComponents| replace:: user components
+.. _UserComponents: ../scene-editor/user-components.html
+
+.. |UserComponent| replace:: user component
+.. _UserComponent: ../scene-editor/user-components.html
+
+.. |UserComponentsCompiler| replace:: User Components compiler
+.. _UserComponentsCompiler: ../scene-editor/user-components-compiler.html
+
+
 .. |JavaScriptEditor| replace:: JavaScript Editor
 .. _JavaScriptEditor: ../code-editor/js-editor.html
 
