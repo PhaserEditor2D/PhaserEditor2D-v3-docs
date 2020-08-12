@@ -83,6 +83,9 @@
 .. |AssetPackFile| replace:: Asset Pack file
 .. _AssetPackFile: ../asset-pack-editor/asset-pack-file.html
 
+.. |CommandPalette| replace:: Command Palette
+.. _CommandPalette: ../workbench/command-palette.html
+
 .. _prefab: ../scene-editor/prefabs.html
 
 .. _prefabs: ../scene-editor/prefabs.html

@@ -1,5 +1,9 @@
 # Change Log
 
+## v4.5.0-next
+
+* Scene Editor troubleshooting: the duplicated scene id.
+
 ## v3.4.0 - Aug 5, 2020
 
 * Updated user properties code generation.
