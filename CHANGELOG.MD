@@ -2,7 +2,8 @@
 
 ## v4.5.0-next
 
-* Scene Editor troubleshooting: the duplicated scene id.
+* Scene Editor: troubleshooting: the duplicated scene id.
+* Scene Editor: the Insert Spaces and Tab Size parameters.
 
 ## v3.4.0 - Aug 5, 2020
 
