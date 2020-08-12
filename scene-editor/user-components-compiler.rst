@@ -99,10 +99,12 @@ The generated class is very simple, next we explain it part by part:
 
     Probably, you would like to write a **start** and **update** method, like is explained in the `Starting and updating components <user-components-start-update-methods.html>`_ section.
 
-Selecting the output language
-'''''''''''''''''''''''''''''
+Compiler settings
+'''''''''''''''''
 
-The User Components compiler supports two JavaScript and TypeScript as output languages. You can select this language in the |InspectorView|_, when no component is selected:
+The User Components compiler supports two JavaScript and TypeScript as output languages. You can select this language in the |InspectorView|_, when no component is selected. Also, you can select if insert spaces for indentation and the tab size:
 
-.. image:: ../images/scene-editor-user-components-output-lang-07302020.webp
-    :alt: Selecting compiler output language.
+.. image:: ../images/scene-editor-user-components-compiler-setttings-08122020.webp
+    :alt: Selecting compiler settings.
+
+The settings have default values, but if there are other scene files or user components files, the default values will be taken from the latest modified file (scene file if not components files are available).

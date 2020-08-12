@@ -16,7 +16,7 @@ The |SceneEditor|_ is a complex tool. It depends on the state of the whole proje
 * Reload the project assets: press ``Ctrl+Alt+R`` or click on the **Reload Project** option in the |MainMenu|_.
 
 Outdated generated code
-``````````````````````
+```````````````````````
 It is possible that when you execute the game, the scene you see is different. A possible cause could be that the scene was not re-compiled after a prefab_ file change.
 
 If you change a prefab_ file, for example, you change the type of the `prefab object <../scene-editor/prefab-object.html>`_, then you should re-compile all the scenes referencing that prefab_ file. The quick solution is to re-compile the whole project: press ``Ctrl+Alt+B`` or select the **Compile Project** option in the |MainMenu|_.
