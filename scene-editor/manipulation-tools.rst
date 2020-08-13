@@ -77,3 +77,8 @@ This tool allows you to draw a region in the scene and select all objects inside
 
 .. image:: ../images/scene-editor-tools-select-region-06172020.webp
     :alt: Select objects in region tool.
+
+Pan tool
+~~~~~~~~
+
+This tools allows to pan the scene. It can be activated with the ``Space`` key. When it is selected, the mouse cursor is shown with a "grabbing" icon, then you can click on the scene and drag it.
