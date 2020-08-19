@@ -17,3 +17,18 @@ These are the steps to create a new scene file:
 
 .. image:: ../images/scene-editor-new-file-04102020.webp
  :alt: New scene file.
+
+Settings
+````````
+
+When a new scene is created, it will use the default settings. However, if there are other scene files, some general settings will be taken from the latest modified scene. This allows to keep the same general settings for all the scenes of your project. In the future, we should implement a better way to set general project settings.
+
+These are the settings that are copied when creating a new scene file:
+
+* **borderX**
+* **borderY**
+* **borderWidth**
+* **borderHeight**
+* **compilerOutputLanguage**
+* **compilerInsertSpaces**
+* **compilerTabSize**

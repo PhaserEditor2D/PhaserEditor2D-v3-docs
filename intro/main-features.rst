@@ -25,7 +25,7 @@ Scene Editor
 
 The |SceneEditor|_ is a visual tool to create Phaser_ scenes or levels by positioning images and other type of objects.
 
-The images can be taken from different sources like single images, sprite-sheets or texture maps. You can create different type of objects like sprites, images, tile sprites, bitmap texts, texts, containers and lists. Also, you can create your custom type of object using prefabs.
+The images can be taken from different sources like single images, sprite-sheets or texture maps. You can create different type of objects like sprites, images, tile sprites, bitmap texts, texts, containers and lists. Also, you can create your custom type of object using prefabs_ and create reusable |UserComponents|_.
 
 The |SceneEditor|_ uses a custom format, but the editor files are compiled into perfect readable Phaser_ code, compatible with any Phaser_ game and using only Phaser_ built-in API.
 
