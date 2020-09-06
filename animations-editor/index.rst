@@ -11,6 +11,7 @@ Animations Editor
     add-animation
     auto-build-animations
     edit-animations-properties
+    adding-deleting-frames
 
 `Sprite animations <https://photonstorm.github.io/phaser3-docs/Phaser.Animations.Animation.html>`_ are the most frequent option to animate characters in Phaser_ games. The principle of this animation technique is the displaying of a sequence of images (frames), at a given "speed" or frame rate.
 

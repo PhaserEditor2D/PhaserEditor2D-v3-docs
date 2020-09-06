@@ -19,3 +19,9 @@ In the majority of the cases, you want to add the animations file to an |AssetPa
 
 .. image:: ../images/animations-add-to-pack-file.webp
     :alt: Import animation file into the Asset Pack file.
+
+Also, you can load the animations file using the `Animations Loader <https://photonstorm.github.io/phaser3-docs/Phaser.Loader.LoaderPlugin#animation>`_:
+
+.. code::
+    
+    this.load.animation("playerAnimations", "assets/animations.json");

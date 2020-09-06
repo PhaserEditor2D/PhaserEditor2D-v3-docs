@@ -5,7 +5,7 @@ Editing the properties of the animations
 
 These are the properties of an animation:
 
-**Key**: The identifier of the animations. Used to play the animation in a sprite: ``player.play("walk")``.
+**Key**: The identifier of the animations. Used to play the animation in a sprite: ``sprite.play("walk")``.
 
 **Frame Rate**: The frame rate of playback in frames per second (default 24).
 

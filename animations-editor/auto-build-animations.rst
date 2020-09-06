@@ -19,6 +19,8 @@ This is how it works:
     .. image:: ../images/animations-auto-build-2.webp
         :alt: Auto build animations.
 
+Or alternatively, you can drag the frames and drop them into the editor.
+
 * It shows a dialog asking for a add a prefix to the generated animations. It is optional. This could be needed for disambiguation. For example, if the animations to be added has the names **run**, **walk**, **jump**, you can add a prefix like **player-** or **enemy-**, so the animations will have the names **player-run**, **player-walk**, **player-jump**.
 
     .. image:: ../images/animations-auto-build-3.webp
