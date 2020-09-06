@@ -2,6 +2,10 @@
 
 ## v4.5.0-next
 
+* Animations Editor chapter.
+
+## v4.5.0 - Aug 19, 2020
+
 * Scene Editor: troubleshooting: the duplicated scene id.
 * Scene Editor: the Insert Spaces and Tab Size parameters.
 * Scene Editor: the default settings when creating a new file.
