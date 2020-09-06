@@ -13,7 +13,7 @@ It opens the **New Animations File** dialog and asks for the name of the file an
 .. image:: ../images/animations-new-file-2.webp
     :alt: Select name and location.
 
-The file is created and opened ni the |AnimationsEditor|_.
+The file is created and opened in the |AnimationsEditor|_.
 
 In the majority of the cases, you want to add the animations file to an |AssetPackFile|_. To do this, select the file in the |FilesView|_ and the |InspectorView|_ will show you the option to add the animations to an |AssetPackFile|_:
 
