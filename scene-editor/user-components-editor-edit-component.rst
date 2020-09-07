@@ -16,7 +16,7 @@ This is the component metadata you can edit:
 .. image:: ../images/scene-editor-user-components-edit-props-07212020.webp
     :alt: Edit component properties
 
-The properties work the same as the `Prefab user properties <http://127.0.0.1:8000/scene-editor/prefab-user-properties.html#creating-a-prefab-user-property>`_.
+The properties work the same as the `Prefab user properties <prefab-user-properties.html#creating-a-prefab-user-property>`_.
 
 The above image shows the **HorizontalMove** component. It has a game object type ``Phaser.GameObjects.Image``. It means you should add this component to that type of objects (entities). And the **horizVelocity**, **minX** and **minY** properties. This component is compiled into this JavaScript code:
 
