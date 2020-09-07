@@ -1,10 +1,10 @@
 # Change Log
 
-## v4.5.0 - Aug 19, 2020
+## v3.6.0 - Sep 7, 2020
 
 * Animations Editor chapter.
 
-## v4.5.0 - Aug 19, 2020
+## v3.5.0 - Aug 19, 2020
 
 * Scene Editor: troubleshooting: the duplicated scene id.
 * Scene Editor: the Insert Spaces and Tab Size parameters.
