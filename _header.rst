@@ -52,6 +52,9 @@
 .. |Unity| replace:: Unity Engine
 .. _Unity: https://unity.com
 
+.. |AnimationsEditor| replace:: Animations Editor
+.. _AnimationsEditor: ../animations-editor/index.html
+
 .. |SceneEditor| replace:: Scene Editor
 .. _SceneEditor: ../scene-editor/index.html
 
