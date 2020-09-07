@@ -1,6 +1,6 @@
 # Change Log
 
-## v4.5.0-next
+## v4.5.0 - Aug 19, 2020
 
 * Animations Editor chapter.
 
