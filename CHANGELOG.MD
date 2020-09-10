@@ -3,6 +3,7 @@
 ## v3.6.0 - Sep 7, 2020
 
 * Animations Editor chapter.
+* The new property types: Asset Key, Texture Config, Animation Key, Audio Key.
 
 ## v3.5.0 - Aug 19, 2020
 
