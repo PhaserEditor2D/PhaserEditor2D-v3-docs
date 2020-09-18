@@ -58,21 +58,21 @@ The generated class is very simple, next we explain it part by part:
 
 .. topic:: The super class
 
-If a value (in this case ``BaseComponent``) is set to the **Super Class** parameter. Then the class code is generated like this:
+    If a value (in this case ``BaseComponent``) is set to the **Super Class** parameter. Then the class code is generated like this:
 
-.. code::
+    .. code::
 
-    class HorizontalMove extends BaseComponent {
-        ...
-    }
+        class HorizontalMove extends BaseComponent {
+            ...
+        }
 
-A super class allows to create behaviors that are common to certain components, or provide helper methods. It is the case of the ``EventComponent`` class, explained in the `Starting and updating the User Components <user-components-start-update-methods.html>`_ section.
+    A super class allows to create behaviors that are common to certain components, or provide helper methods. It is the case of the ``EventComponent`` class, explained in the `Starting and updating the User Components <user-components-start-update-methods.html>`_ section.
 
-.. warning::
-    
-    A common error when extending components is to load the script files in the |AssetPackEditor|_, using the **Script** file type. It can cause a "missing class" error at the execution of the game. The problem is that the scripts files are loaded and executed in any order. The solution is to add the scripts using the **Scripts** file type of the |AssetPackEditor|_. It allows setting the execution order of the scripts: the super class script ``EventComponent.js`` should be executed before the component script ``HorizontalMove.js``.
+    .. warning::
+        
+        A common error when extending components is to load the script files in the |AssetPackEditor|_, using the **Script** file type. It can cause a "missing class" error at the execution of the game. The problem is that the scripts files are loaded and executed in any order. The solution is to add the scripts using the **Scripts** file type of the |AssetPackEditor|_. It allows setting the execution order of the scripts: the super class script ``EventComponent.js`` should be executed before the component script ``HorizontalMove.js``.
 
-    `Learn more about the execution order of the scripts <../asset-pack-editor/import-scripts.html#execution-order-of-the-scripts>`_
+        `Learn more about the execution order of the scripts <../asset-pack-editor/import-scripts.html#execution-order-of-the-scripts>`_
 
 .. topic:: The constructor
     
