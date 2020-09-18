@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.6.0-next
+## v3.7.0 - Sep 19, 2020
 
 * The scripts file type.
 * Prefab variant warning on loading the scripts.
