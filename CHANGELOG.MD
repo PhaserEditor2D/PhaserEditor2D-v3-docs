@@ -3,7 +3,8 @@
 ## v3.6.0-next
 
 * The scripts file type.
-
+* Prefab variant warning on loading the scripts.
+* User components warning on loading the scripts.
 
 ## v3.6.0 - Sep 7, 2020
 
