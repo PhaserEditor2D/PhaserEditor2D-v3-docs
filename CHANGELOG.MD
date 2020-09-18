@@ -5,6 +5,7 @@
 * The scripts file type.
 * Prefab variant warning on loading the scripts.
 * User components warning on loading the scripts.
+* The Replace Type dialog in the Variable section.
 
 ## v3.6.0 - Sep 7, 2020
 
