@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.6.0-next
+
+* The scripts file type.
+
+
 ## v3.6.0 - Sep 7, 2020
 
 * Animations Editor chapter.
