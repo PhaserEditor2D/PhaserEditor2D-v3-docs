@@ -1,8 +1,16 @@
 # Change Log
 
+## v3.7.0 - Sep 19, 2020
+
+* The scripts file type.
+* Prefab variant warning on loading the scripts.
+* User components warning on loading the scripts.
+* The Replace Type dialog in the Variable section.
+
 ## v3.6.0 - Sep 7, 2020
 
 * Animations Editor chapter.
+* The new property types: Asset Key, Texture Config, Animation Key, Audio Key.
 
 ## v3.5.0 - Aug 19, 2020
 

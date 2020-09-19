@@ -15,7 +15,7 @@ The **Prefab Properties** section of the |InspectorView|_ shows a button to crea
 
 Click on the **Add Property** button to create a new property. The button shows a menu with the different type of properties:
 
-.. image:: ../images/prefab-user-props-add-property-06062020.webp
+.. image:: ../images/prefab-user-props-add-property-09102020.webp
     :alt: Add prefab user property.
 
 All type of properties requires some common parameters that you should provide:
@@ -28,107 +28,185 @@ All type of properties requires some common parameters that you should provide:
 .. image:: ../images/prefab-user-props-common-params-06062020.webp
     :alt: Common parameters of a property.
 
-In the title bar of the property, there is a menu with commands to delete the property or move it up/down. You can undo/redo all changes in the properties.
+In the title bar of the property, there is a menu with commands to: 
 
-.. image:: ../images/prefab-user-props-menu-06112020.webp
-    :alt: Property menu.
+    * Move the property down/up.
+    * Change the type of the property.
+    * Delete the property.
+    
+You can undo/redo all these changes.
 
-.. topic:: Simple property type
+.. image:: ../images/prefab-user-props-menu-09102020.webp
+    :alt: Property menu. 
 
-    The **Number** and **String** properties are the simplest. The |SceneCompiler|_ generates the fields like this:
+Simple property type
+''''''''''''''''''''
 
-    .. code::
+The **Number** and **String** properties are the simplest. The |SceneCompiler|_ generates the fields like this:
 
-        class Dragon extends Phaser.GameObjects.Sprite {
+.. code::
 
-            constructor(scene, x, y, texture, frame) {
-                super(...);
+    class Dragon extends Phaser.GameObjects.Sprite {
 
-                ...
+        constructor(scene, x, y, texture, frame) {
+            super(...);
 
-                /** @type {number} */
-                this.maxSpeed = 100;
-                /** @type {"fire"|"smoke"|"laser"} */
-                this.flameType = "fire";
-                /** @type {(obj:Dragon)=>void} */
-                this.onClickHandler = obj => {};
-            }            
+            ...
+
+            /** @type {number} */
+            this.maxSpeed = 100;
+            /** @type {"fire"|"smoke"|"laser"} */
+            this.flameType = "fire";
+            /** @type {(obj:Dragon)=>void} */
+            this.onClickHandler = obj => {};
+        }            
+    }
+
+Option property type
+''''''''''''''''''''
+
+The Option type allows the user to select one of the predefined string values. It is like traditional enum types. In addition to the common parameters, the Option properties have the **Options** parameter. You should write all the possible values with a valid JSON array syntax:
+
+.. image:: ../images/prefab-user-props-options-param-06062020.webp
+    :alt: The Options parameter of the Option property.
+
+Note the **Default** value should be one of the possible values. 
+
+The compiled property is like this:
+
+.. code::
+
+    class Dragon extends Phaser.GameObjects.Sprite {
+        
+        constructor(...) {
+            super(...);                
+            ...
+            /** @type {"fire"|"smoke"|"laser"} */
+            this.flameType = "fire";
+        }
+    }        
+
+Expression property type
+''''''''''''''''''''''''
+
+The Expression type is the way you have to create a property of any type. You can use any type for the values and any JavaScript expression for setting the values. For example, you can use it to create a property to reference an event handler (or callback function):
+
+.. image:: ../images/prefab-user-props-expression-param-06062020.webp
+    :alt: Expression property declaration.
+
+The |SceneCompiler|_ generates Expression properties like this:
+
+.. code::
+
+    class Dragon extends Phaser.GameObjects.Sprite {
+        
+        constructor(..) {
+            ...
+            /** @type {(obj:Dragon)=>void} */
+            this.onClickHandler = obj => {};
+        }
+    }
+
+Texture Config property type
+''''''''''''''''''''''''''''
+
+This type of property allows to select a texture between all the textures defined in the an |AssetPackFile|. When the texture is selected, the property gets as value the configuration of the texture. For example, if the selected texture is an image with key **background**, the property is set to:
+
+.. code:: 
+    
+    { "key": "background" } 
+
+If the selected texture is the frame **branch-01** of the atlas **atlas-props**, then the property is set to: 
+
+.. code::
+
+    { "key": "atlas-props", "frame": "branch-01" }
+
+.. image:: ../images/prefab-user-props-texture-config-param-09102020.webp
+    :alt: The Texture Config property.
+
+The |SceneCompiler|_ generates Texture Config properties like this:
+
+.. code::
+
+    class Dragon extends Phaser.GameObjects.Sprite {
+        
+        constructor(..) {
+            ...
+            /** @type {{key:string,frame?:string|number}} */
+            this.myTexture = {"key":"atlas-props","frame":"branch-01"};
+        }
+    }
+
+Asset Key property type
+'''''''''''''''''''''''
+
+The Asset Key property type is just like a simple String property type, but it allows to open a dialog with all the |AssetPackFile|_ keys defined in the project. Then, when you select a key in the dialog, it will be set as value to the property.
+
+.. image:: ../images/prefab-user-props-asset-key-param-09102020.webp
+    :alt: Select asset key value.
+
+The |SceneCompiler|_ generates Asset Key properties like this:
+
+.. code::
+
+    class Dragon extends Phaser.GameObjects.Sprite {
+        
+        constructor(..) {
+            ...
+            /** @type {string} */
+            this.myAssetKey = "acorn-3";
+        }
+    }
+
+Animation Key property type
+'''''''''''''''''''''''''''
+
+This type is just like the `Asset Key property type`_ but the dialog only shows the animations defined in the project:
+
+.. image:: ../images/prefab-user-props-animation-key-param-09102020.webp
+    :alt: The Animation Key property.
+
+Audio Key property type
+'''''''''''''''''''''''
+
+This type is like the `Asset Key property type`_ but the dialog only shows the audio assets:
+
+.. image:: ../images/prefab-user-props-audio-key-param-09102020.webp
+    :alt: Audio Key property type.
+
+Initializing other properties
+'''''''''''''''''''''''''''''
+
+Is possible you want to change other properties of the prefab instance, in dependence of the values of the user properties. For example, if the **flameType** property value is ``"fire"``, then you set the mass of the body to 50. Because the property values are not set in the constructor, you can listen to the scene update event and setup the body properties:
+
+.. code::
+
+    class Dragon extends Phaser.GameObjects.Sprite {
+        
+        constructor(scene,...) {
+            ...
+
+            /* START-USER-CTR-CODE */
+            scene.events.once(Phaser.Scenes.Events.UPDATE, this.start, this);
+            /* END-USER-CTR-CODE */
         }
 
-.. topic:: Option property type
+        /* START-USER-CODE */
 
-    The Option type allows the user to select one of the predefined string values. It is like traditional enum types. In addition to the common parameters, the Option properties have the **Options** parameter. You should write all the possible values with a valid JSON array syntax:
-
-    .. image:: ../images/prefab-user-props-options-param-06062020.webp
-        :alt: The Options parameter of the Option property.
-    
-    Note the **Default** value should be one of the possible values. 
-    
-    The compiled property is like this:
-
-    .. code::
-
-        class Dragon extends Phaser.GameObjects.Sprite {
+        start() {
             
-            constructor(...) {
-                super(...);                
-                ...
-                /** @type {"fire"|"smoke"|"laser"} */
-                this.flameType = "fire";
-            }
-        }        
+            // at this point, the instance was created and the user properties set with new values
 
-.. topic:: Expression property type
-
-    The Expression type is the way you have to create a property of any type. You can use any type for the values and any JavaScript expression for setting the values. For example, you can use it to create a property to reference an event handler (or callback function):
-
-    .. image:: ../images/prefab-user-props-expression-param-06062020.webp
-        :alt: Expression property declaration.
-    
-    The |SceneCompiler|_ generates Expression properties like this:
-
-    .. code::
-
-        class Dragon extends Phaser.GameObjects.Sprite {
-           
-            constructor(..) {
-                ...
-                /** @type {(obj:Dragon)=>void} */
-                this.onClickHandler = obj => {};
+            if (this.flameType === "fire") {
+                this.body.mass = 50;
             }
         }
 
-.. topic:: Initializing other properties
+        /* END-USER-CODE */
+    }
 
-    Is possible you want to change other properties of the prefab instance, in dependence of the values of the user properties. For example, if the **flameType** property value is ``"fire"``, then you set the mass of the body to 50. Because the property values are not set in the constructor, you can listen to the scene update event and setup the body properties:
-
-    .. code::
-
-        class Dragon extends Phaser.GameObjects.Sprite {
-            
-            constructor(scene,...) {
-                ...
-
-                /* START-USER-CTR-CODE */
-                scene.events.once(Phaser.Scenes.Events.UPDATE, this.start, this);
-                /* END-USER-CTR-CODE */
-            }
-
-            /* START-USER-CODE */
-
-            start() {
-                
-                // at this point, the instance was created and the user properties set with new values
-
-                if (this.flameType === "fire") {
-                    this.body.mass = 50;
-                }
-            }
-
-            /* END-USER-CODE */
-        }
-    
-    The **UPDATE** event is emitted by the scene at every tick, so we just need to register the listener to be called **once**.
+The **UPDATE** event is emitted by the scene at every tick, so we just need to register the listener to be called **once**.
 
 User properties in a prefab instance
 ````````````````````````````````````

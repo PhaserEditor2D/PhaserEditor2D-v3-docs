@@ -13,9 +13,9 @@ In the JavaScript development world, there are multiple ways to load the script 
 
 * ``this.load.sceneFile(...)`` `[docs] <https://photonstorm.github.io/phaser3-docs/Phaser.Loader.LoaderPlugin.html#sceneFile__anchor>`_: It loads the script files and execute them, but assume them create `Phaser.Scene <https://photonstorm.github.io/phaser3-docs/Phaser.Loader.LoaderPlugin.html#Phaser.Scene.html>`_ instances.
 
-So the same Phaser_ framework can be used as a JavaScript packing/loading tool, and it has some clear advantages:
+So the same Phaser_ framework can be used as a JavaScript packing/loading tool, and it has a few clear advantages:
 
-* You don't need a third-party tool to control the scripts loading.
+* You can load the scripts by demand. For example, when the game has lot of levels.
 
 * You can report loading progress of the script files just like you do with the other assets.
 
@@ -25,3 +25,14 @@ By the way, when you add a JavaScript file to an |AssetPackFile|_, and that scri
 
 .. image:: ../images/asset-pack-editor-import-script-files-04082020.webp
   :alt: Scene JavaScript files are displayed with a scene screenshot.
+
+Execution order of the scripts
+``````````````````````````````
+
+A missing class is a common error when you load the scripts using the |AssetPackEditor|_. It happens when a class ``B`` in a script ``B.js`` extends a class ``A`` in the script ``A.js``, but ``B.js`` is executed before ``A.js``. The solution is to use the `Scripts file type <https://photonstorm.github.io/phaser3-docs/Phaser.Loader.LoaderPlugin.html#scripts__anchor>`_. With this method, you can set execution order of the files:
+
+.. image:: ../images/asset-pack-editor-scripts-1-09172020.webp
+  :alt: Select to add a Scripts file type.
+
+.. image:: ../images/asset-pack-editor-scripts-2-09172020.webp
+  :alt: Select to add a Scripts file type.

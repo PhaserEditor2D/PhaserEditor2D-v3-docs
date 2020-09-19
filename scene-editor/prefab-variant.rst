@@ -8,7 +8,7 @@ A |PrefabVariant|_ is a prefab_ that extends other prefab_. This is a concept si
 
 A |PrefabVariant|_ inherits the properties and values of the base prefab_, however, you can unlock the properties and modify them.
 
-`Learn more about set unlock a prefab property <prefab-set-properties.html>`_.
+`Learn more about unlock a prefab property <prefab-set-properties.html>`_.
 
 You can create a |PrefabVariant|_ very easy, the only thing you need is to use a prefab_ as the `prefab object <prefab-object.html>`_ of the prefab_ file.
 
@@ -35,3 +35,9 @@ Let's say we want to create a purple-skinned |PrefabVariant|_ of the **Dragon** 
 
     .. image:: ../images/scene-editor-prefab-variant-4-04222020.webp
         :alt: The new scale is applied to both instances.
+
+.. warning::
+    
+    A common error when making a prefab variant is to load the script files in the |AssetPackEditor|_, using the **Script** file type. It can cause a "missing class" error at the execution of the game. The problem is that the scripts files are loaded and executed in any order. The solution is to add the scripts using the **Scripts** file type of the |AssetPackEditor|_. It allows to set the execution order of the scripts: the prefab script should be executed before the prefab variant script.
+
+    `Learn more about the execution order of the scripts <../asset-pack-editor/import-scripts.html#execution-order-of-the-scripts>`_
