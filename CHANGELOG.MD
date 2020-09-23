@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.7.1 - Sep 22, 2020
+
+Nothing
+
 ## v3.7.0 - Sep 19, 2020
 
 * The scripts file type.
