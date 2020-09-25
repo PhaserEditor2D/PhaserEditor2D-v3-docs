@@ -7,7 +7,7 @@ The `Phaser.GameObjects.BitmapText <https://photonstorm.github.io/phaser3-docs/P
 
 You can create a `Bitmap Text <bitmap-text-object.html>`_ object in two ways:
 
-* With the `Add Object dialog <add-object-dialog.html>`_.
+* Dragging a `BitmapText built-in block <blocks-view-integration.html>`_ and dropping it on the scene.
 
 * Dragging a `BitmapFontFile <https://photonstorm.github.io/phaser3-docs/Phaser.Loader.FileTypes.BitmapFontFile.html>`_ key from the |BlocksView|_ and dropping it in the scene. The `BitmapFontFile`_ should be present in an |AssetPackFile|_.
 

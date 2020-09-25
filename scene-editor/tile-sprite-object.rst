@@ -13,7 +13,12 @@ A `Tile Sprite`_ is created in code using the `tileSprite factory <https://photo
   // x = 0, y = 600, width = 600, height = 800, texture = "rocks_1"
   const rocks = this.add.tileSprite(0, 600, 800, 225, "rocks_1");
 
-To create a `Tile Sprite`_ object in the scene, you can use the `Add Object dialog <add-object-dialog.html>`_ or `convert an Image or Sprite into a Tile Sprite <replace-object-type.html>`_.
+To create a `Tile Sprite`_ object in the scene, you can drop a `TileSprite built-in block <blocks-view-integration.html>`_ on the scene. 
+
+.. image:: ../images/scene-editor-tile-sprite-block-09252020.webp
+  :alt: Create default TileSprite object.
+
+Or `convert an Image or Sprite into a Tile Sprite <replace-object-type.html>`_.
 
 Tile Sprite properties
 ~~~~~~~~~~~~~~~~~~~~~~

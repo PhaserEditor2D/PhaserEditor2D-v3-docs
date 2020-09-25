@@ -5,7 +5,7 @@ Image objects
 
 The `Image <image-object.html>`_ is a built-in Phaser_ object type: `Phaser.GameObjects.Image <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Image.html>`_.
 
-You can create an `Image`_ object using the `Add Object dialog <add-object-dialog.html>`_ or dropping a texture from the `Blocks view <blocks-view-integration.html>`_.
+You can create an `Image`_ object by dropping an Image built-in type or texture from the `Blocks view <blocks-view-integration.html>`_.
 
 .. image:: ../images/scene-editor-drop-image-04152020.webp
  :alt: Add image from Blocks view.
