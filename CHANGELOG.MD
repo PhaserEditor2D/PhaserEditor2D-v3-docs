@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.7.1-next
+
+* Scene Editor: removes the Add Object dialog.
+* Scene Editor: shows the built-in type blocks.
+
 ## v3.7.1 - Sep 22, 2020
 
 Nothing
