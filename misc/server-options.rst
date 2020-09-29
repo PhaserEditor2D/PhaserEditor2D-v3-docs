@@ -11,15 +11,11 @@ To get the full list of options of the |PhaserEditor|_ server you can use the ``
 
     $ PhaserEditor2D --help
     
-**-desktop**
+**-public**
 
-Use this option if you are working with a local server:
+By default, the editor starts as a local application. It allows you to execute third-party tools like |VSCode|_ or the file manager, and opens the default web browser automatically at the startup.
 
-* When you run the server, it automatically opens the default browser and the IDE.
-
-* It allows the IDE to interact with local resources, like the File manager. See more in the `Files view <../workbench/files-view.html#context-menu>`_ chapter.
-* It allows launching |VSCode|_ from the IDE.
-* It denies connections from external hosts.
+However, you may want to execute the server in a remote machine. To do this, you have to use the ``-public`` option. when it is set, the server allows remote connections and disables all the integration with the remote host applications.
 
 **-disable-gzip**
 
@@ -33,7 +29,7 @@ You can disable this function.
 
 **-disable-open-browser**
 
-If you don't want to open the default browser when running the server with the **-desktop** option.
+If you don't want to open the default browser at the server startup. Not needed if you run the server with the ``-public`` option.
 
 **-editor string**
 
@@ -43,9 +39,9 @@ In the installation folder of |PhaserEditor|_ there is the ``editor`` folder. It
 
 In the installation folder of |PhaserEditor|_ there is the ``templates`` folder. It contains the project templates used in the IDE. If you want to use other templates you can use the ``-templates /other/templates`` option.
 
-**-enable-advanced-js-editor**
+**-disable-advanced-js-editor**
 
-By default, the IDE provides a |JavaScriptEditor|_ with basic features. If you use this option, the IDE will load extra resources (like the Phaser_ TypeScript definition files) to provide a better coding experience. See the `Advanced JavaScript editing features <../code-editor/js-editor-advanced-features.html>`_ chapter.
+By default, the IDE provides a |JavaScriptEditor|_ with advanced features like code completion across multiple files. The auto-completion engine consumes "a lot" of resources in terms of network requests and CPU. For this reason, if you are using a third-party code editor like |VSCode|_ then you can disable the engine using this option.
 
 **-lickey string**
 

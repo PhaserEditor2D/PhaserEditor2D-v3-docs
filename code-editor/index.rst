@@ -20,6 +20,6 @@ However, we included code editors inside |PhaserEditor|_ for two reasons:
 
 * If you are working remotely, like is the case of the |PlayPhaserEditor|_ service, and you cannot use a local editor.
 
-The editors code editing are based on the |MonacoEditor|_. It is the same component used by |vscode|_.
+The code editing editors are based on the |MonacoEditor|_. It is the same component used by |vscode|_.
 
 The `JavaScript editor <js-editor.html>`_ has more features, allowing |PhaserAPI|_ auto-completion, cross-file auto-completion and more. 
