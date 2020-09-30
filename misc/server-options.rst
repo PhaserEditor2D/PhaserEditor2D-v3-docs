@@ -10,10 +10,12 @@ To get the full list of options of the |PhaserEditor|_ server you can use the ``
 .. code:: bash
 
     $ PhaserEditor2D --help
+
+Following, 
     
 **-public**
 
-By default, the editor starts as a local application. It allows you to execute third-party tools like |VSCode|_ or the file manager, and opens the default web browser automatically at the startup.
+By default, the editor starts as a local application. It allows you to execute third-party tools like |VSCode|_ or the File Manager and opens the default web browser automatically at the startup.
 
 However, you may want to execute the server in a remote machine. To do this, you have to use the ``-public`` option. when it is set, the server allows remote connections and disables all the integration with the remote host applications.
 
@@ -30,6 +32,22 @@ You can disable this function.
 **-disable-open-browser**
 
 If you don't want to open the default browser at the server startup. Not needed if you run the server with the ``-public`` option.
+
+**-browser-command**
+
+When the server starts it opens the default browser of the OS. If you want it to launch a different browser, you can use the **-browser-command** option:
+
+.. code::
+
+    $ PhaserEditor2D -browser-command "/path/to/firefox $URL"
+
+In the above command, the server will start firefox. Note the ``$URL`` variable is replaced by the URL of the editor.
+
+We recommend using Google Chrome. It has an application mode that runs the editor similar to a desktop application. Try running the editor like this:
+
+.. code::
+
+    $ PhaserEditor2D -browser-command '/path/to/google-chrome "--app=$URL"'
 
 **-editor string**
 
@@ -62,3 +80,43 @@ When you run this option, the server downloads and installs the latest version. 
 **-download**
 
 Use this option to download the latest version of Phaser Editor 2D. The download is a ZIP file with the binaries for your platform.
+
+Getting the options from a file
+===============================
+
+You may run the editor always with the same options, and it could be a waste of time typing each option every time.
+
+If it is the case, you can create a script (a batch) to run the editor with the desired options. Or, you can change the ``flags.txt`` file in the root of the editor installation.
+
+When the editor starts, it reads the ``flags.txt`` file and reads the options provided there. It is a way to configure the editor.
+
+The format of the ``flags.txt`` file is simple. Each line contains an argument. For example, if you always want to run the server like this:
+
+.. code::
+
+    $ PhaserEditor2D -public -port 80
+
+You can write this content in the ``flags.txt`` file:
+
+.. code:: guess
+
+    -public
+    -port
+    80
+
+Also, you can write blank lines and comments. Comments are lines that start with the ``#`` character:
+
+.. code::
+
+    -public
+    # -port
+    # 80
+
+If you have Google Chrome installed, let's say, in a Windows machine, you can write these lines in the file:
+
+.. code::
+
+    -browser-command
+    "C:\Program Files\Google\Chrome\Application\chrome.exe" "--app=$URL"
+
+It will open the editor in an instance of the Google Chrome browser but in application mode.

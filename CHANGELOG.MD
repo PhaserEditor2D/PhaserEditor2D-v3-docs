@@ -5,6 +5,7 @@
 * Scene Editor: removes the Add Object dialog.
 * Scene Editor: shows the built-in type blocks.
 * The new editor options (`-public` and `-disable-advanced-js-editor`).
+* The ``flags.txt`` file.
 
 ## v3.7.1 - Sep 22, 2020
 
