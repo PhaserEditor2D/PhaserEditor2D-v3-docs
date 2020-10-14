@@ -78,7 +78,7 @@ Other way to create the animations is packing them all in a single JSON file, an
 
 .. code::
 
-    this.load.animations("my-anims", "assets/animations.json");
+    this.load.animation("my-anims", "assets/animations.json");
 
 |PhaserEditor|_ provides the |AnimationsEditor|_, to create the animations JSON file. So, the workflow is very simple:
 
