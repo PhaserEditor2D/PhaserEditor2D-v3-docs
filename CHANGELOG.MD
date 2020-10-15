@@ -7,6 +7,7 @@
 * The new editor options (`-public` and `-disable-advanced-js-editor`).
 * The ``flags.txt`` file.
 * The Files view Open With option in the context menu.
+* The Tilemap section.
 
 ## v3.7.1 - Sep 22, 2020
 

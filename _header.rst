@@ -2,6 +2,8 @@
 
 .. _Colibri: https://github.com/PhaserEditor2D/PhaserEditor2D-v3/tree/master/source/editor/plugins/colibri
 
+.. _Tiled: https:://www.mapeditor.org
+
 .. |PhaserDevs| replace:: Phaser developers
 .. _PhaserDevs: https://www.photonstorm.com
 

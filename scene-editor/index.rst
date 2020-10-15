@@ -19,6 +19,8 @@ Scene Editor
     text-object
     bitmap-text-object
     container-object
+    tilemap-object
+    tilemap-layer-object
     object-list
     display-list
     prefabs
