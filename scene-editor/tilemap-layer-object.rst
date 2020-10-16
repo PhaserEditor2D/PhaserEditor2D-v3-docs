@@ -23,7 +23,7 @@ And that's all, the tilemap layer is displayed in the scene:
     :alt: The layer is created in the scene.
 
 
-When you save the scene, the |SceneCompiler|_ generate the code of the tilemap layer using the `createStaticLayer <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.Tilemap.html#createStaticLayer__anchor>`_ or `createDynamicLayer <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.Tilemap.html#createDynamicLayer__anchor>`_ methods.
+When you save the scene, the |SceneCompiler|_ generates the code of the tilemap layer using the `createStaticLayer <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.Tilemap.html#createStaticLayer__anchor>`_ or `createDynamicLayer <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.Tilemap.html#createDynamicLayer__anchor>`_ methods.
 
 In the next code, a new static layer is created, using the the ``World1`` layer data and the ``SuperMarioBros-World1-1`` tileset:
 
@@ -32,7 +32,7 @@ In the next code, a new static layer is created, using the the ``World1`` layer 
     // world1
     super_mario_1.createStaticLayer("World1", ["SuperMarioBros-World1-1"], 107, 110);
 
-It is possible that a layer uses only a subset of the tilesets defined in a tilemap. The compiler scans all the layer's tiles and uses as argument only the name of the tilesets referenced in the tiles.
+A layer may use only a subset of the tilesets defined in a tilemap. The compiler scans all the layer's tiles and uses as argument only the name of the tilesets referenced in the tiles.
 
 A tilemap layer has a lot of utility methods and properties, so probably you may want to assign it to a field by setting its `variable scope <variable-properties.html#scope-property>`_ to ``Class``.
 
