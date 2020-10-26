@@ -45,6 +45,9 @@ Then, the wizard shows the name of the tilesets, and you have to select the imag
 
 When all the tileset images are set, the **Finish** button is enabled. Click on it to finish the process. Or you can continue to the next page to select a Tilemap Layer. In that case, new Tilemap and Tilemap Layer are created.
 
+.. image:: ../images/scene-editor-add-tilemap-5-10152020.webp
+    :alt: Select the image for each tileset.
+
 Because a `Tilemap <tilemap-object.html>`_ is not a display object, it is not shown in the scene, else in the |OutlineView|_, together with the tilesets:
 
 .. image:: ../images/scene-editor-tilemap-outline-10152020.webp
