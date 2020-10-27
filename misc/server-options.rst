@@ -98,7 +98,7 @@ The format of the ``flags.txt`` file is simple. Each line contains an argument. 
 
 You can write this content in the ``flags.txt`` file:
 
-.. code:: guess
+.. code:: bash
 
     -public
     -port
@@ -106,7 +106,7 @@ You can write this content in the ``flags.txt`` file:
 
 Also, you can write blank lines and comments. Comments are lines that start with the ``#`` character:
 
-.. code::
+.. code:: bash
 
     -public
     # -port
@@ -114,7 +114,7 @@ Also, you can write blank lines and comments. Comments are lines that start with
 
 If you have Google Chrome installed, let's say, in a Windows machine, you can write these lines in the file:
 
-.. code::
+.. code:: bash
 
     -browser-command
     "C:\Program Files\Google\Chrome\Application\chrome.exe" "--app=$URL"
