@@ -5,7 +5,7 @@ Tilemap Layer objects
 
 A **Tilemap Layer** is a display object that shows a map based on tiles. There are two Phaser_ built-in types dedicated to this, the `StaticTilemapLayer <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.StaticTilemapLayer.html>`_ and the the `DynamicTilemapLayer <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.StaticTilemapLayer.html>`_.
 
-The main difference is that a static layer is read-only but faster, and the tiles of the dynamic layer can be modified.
+The main difference is that a static layer is read-only but faster, while you can modify the tiles of a dynamic layer.
 
 To create a tilemap layer, first, you have to `create a Tilemap object <tilemap-object.html>`_. Then, you can drag the **StaticTilemapLayer** or **DynamicTilemapLayer** from the `Blocks view <blocks-view-integration.html>`_ and drop it in the scene:
 

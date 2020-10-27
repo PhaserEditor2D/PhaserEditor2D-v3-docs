@@ -16,8 +16,6 @@ This is the workflow:
 
 To create a `Tilemap <tilemap-object.html>`_ object, you can drag the **Tilemap** element from the `Blocks view <blocks-view-integration.html>`_ and drop it into the scene:
 
-pepe
-
 .. image:: ../images/scene-editor-add-tilemap-1-10152020.webp
     :alt: Drop Tilemap type into the scene.
 
@@ -32,18 +30,15 @@ The first step is to select the **Tilemap Key**. It is the same key you used to 
 .. image:: ../images/scene-editor-add-tilemap-2-10152020.webp
     :alt: Select the tilemap key.
 
-Then, the wizard shows the name of the tilesets, and you have to select the image for each tileset. Select a tileset and click on the **Set Tileset Image** button. It opens a dialog with all the images (and sprite-sheets) defined in the Asset Pack files. Also, you can double lick on the tileset name to open the dialog:
+Then, the wizard shows the name of the tilesets, and you have to select the image for each tileset. Select a tileset and click on the **Set Tileset Image** button. It opens a dialog with all the images (and sprite-sheets) defined in the Asset Pack files. Also, you can double click on the tileset name to open the dialog:
 
 .. image:: ../images/scene-editor-add-tilemap-3-10152020.webp
     :alt: It shows the name of the tilesets.
 
-.. image:: ../images/scene-editor-add-tilemap-3.1-10152020.webp
-    :alt: Select the tileset image.
-
 .. image:: ../images/scene-editor-add-tilemap-4-10152020.webp
     :alt: Select the image for each tileset.
 
-When all the tileset images are set, the **Finish** button is enabled. Click on it to finish the process. Or you can continue to the next page to select a Tilemap Layer. In that case, new Tilemap and Tilemap Layer are created.
+When all the tileset images are set, the **Finish** button is enabled. Click on it to finish the process. Or you can continue to the next page to select a Tilemap Layer. In that case, a new Tilemap and `Tilemap Layer <tilemap-layer-object.html>`_ are created.
 
 .. image:: ../images/scene-editor-add-tilemap-5-10152020.webp
     :alt: Select the image for each tileset.
