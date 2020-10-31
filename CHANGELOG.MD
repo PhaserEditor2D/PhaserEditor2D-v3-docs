@@ -1,5 +1,14 @@
 # Change Log
 
+## v3.8.9 - Oct 30, 2020
+
+* Scene Editor: removes the Add Object dialog.
+* Scene Editor: shows the built-in type blocks.
+* The new editor options (`-public` and `-disable-advanced-js-editor`).
+* The ``flags.txt`` file.
+* The Files view Open With option in the context menu.
+* The Tilemap and Tileset sections.
+
 ## v3.7.1 - Sep 22, 2020
 
 Nothing

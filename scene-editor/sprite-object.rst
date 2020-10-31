@@ -11,9 +11,12 @@ A `Sprite`_ is created in code using the `sprite factory <https://photonstorm.gi
 
   const player = this.add.sprite(192, 512, "dragon-atlas", "idle-000");
 
-To create a `Sprite`_ object, you can use the `Add Object dialog <add-object-dialog.html>`_. Also, you can convert an `Image`_ or `TileSprite <tile-sprite-object.html>`_ into a `Sprite`_.
+To create a `Sprite`_ object, you can drop a `Sprite built-in block <blocks-view-integration.html>`_ on the scene. Or you can convert an `Image`_ or `TileSprite <tile-sprite-object.html>`_ into a `Sprite`_.
 
 `Learn more about type conversion <replace-object-type.html>`_
+
+.. image:: ../images/scene-editor-sprite-create-09252020.webp
+  :alt: Create an empty Sprite.
 
 The `Sprite`_ type has properties common to other object types:
 

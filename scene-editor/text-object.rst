@@ -6,7 +6,12 @@ Text objects
 
 The `Text type <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Text.html>`_ allows to create `Text objects`_ based on HTML fonts. It allows customizing the color of the text, the shadows, the stroke, etc... 
 
-You can create a `Text object <text-object.html>`_ using the `Add Object dialog <add-object-dialog.html>`_. Also, using the `type replacing dialog <replace-object-type.html>`_, you can convert a `Bitmap Text <bitmap-text-object.html>`_ (or any other object) into a `Text object`_.
+You can create a `Text object <text-object.html>`_ by dropping a `Text built-in block <blocks-view-integration.html>`_ on the scene.
+
+.. image:: ../images/scene-editor-text-object-create-block-09252020.webp
+    :alt: Create a default Text object.
+
+Also, using the `type replacing dialog <replace-object-type.html>`_, you can convert a `Bitmap Text <bitmap-text-object.html>`_ (or any other object) into a `Text object`_.
 
 .. image:: ../images/scene-editor-text-object-05242020.webp
     :alt: Text object.

@@ -3,7 +3,7 @@
 Automatic parenting of new objects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When a new object is created (by `dropping an asset <blocks-view-integration.html>`_, by using the `Add Object dialog <add-object-dialog.html>`_ or by pasting the object) a set of rules are evaluated to determine the parent of the new object:
+When a new object is created (by `dropping a block <blocks-view-integration.html>`_, or by pasting the object) a set of rules are evaluated to determine the parent of the new object:
 
 * If there is an object selected in the scene:
     

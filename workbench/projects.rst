@@ -13,7 +13,7 @@ You can change the location of the workspace when you start the server:
 
 .. code::
 
-    $ PhaserEditor2D -desktop -ws "path/to/my/workspace"
+    $ PhaserEditor2D -ws "path/to/my/workspace"
 
 `Learn more about the server options <../misc/server-options.html>`_
 

@@ -8,7 +8,7 @@ Often, you need to group objects with a common property or type, or with a commo
 
 For this purpose, the |SceneEditor|_ allows grouping the objects of the scene into a JavaScript array.
 
-You can create an `Object List`_ using the `Add Object dialog <add-object-dialog.html>`_.
+You can create an `Object List`_ using by dropping a `List built-in block <blocks-view-integration.html>`_ on the scene.
 
 .. image:: ../images/scene-editor-object-list-04192020.webp
     :alt: Object list.
