@@ -1,6 +1,10 @@
 # Change Log
 
-## v3.8.9 - Oct 30, 2020
+## v3.8.1-next
+
+* The new Resize tool.
+
+## v3.8.1 - Oct 30, 2020
 
 * Scene Editor: removes the Add Object dialog.
 * Scene Editor: shows the built-in type blocks.
