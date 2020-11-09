@@ -58,7 +58,7 @@ Here a list of all the available commands, grouped by category:
  "Scene Editor","Translate Tool","``T``","Translate the selected scene objects"
  "Scene Editor","Rotate Tool","``R``","Rotate the selected scene objects"
  "Scene Editor","Scale Tool","``S``","Scale the selected scene objects"
- "Scene Editor","Resize TileSprite Tool","``Z``","Resize selected TileSprite objects."
+ "Scene Editor","Resize Tool","``Z``","Resize selected TileSprite objects."
  "Scene Editor","Set Origin To Top/Left","``Shift+1``","Set the origin of the object to (0,1)"
  "Scene Editor","Set Origin To Top/Center","``Shift+2``","Set the origin of the object to (0.5,1)"
  "Scene Editor","Set Origin To Top/Right","``Shift+3``","Set the origin of the object to (1,1)"
