@@ -1,8 +1,10 @@
 # Change Log
 
-## v3.8.1-next
+## v3.9.0 - Nov 24, 2020 
 
 * The new Resize tool.
+* Electron-based distribution.
+* Unlock Editor dialog.
 
 ## v3.8.1 - Oct 30, 2020
 
