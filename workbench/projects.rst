@@ -17,6 +17,13 @@ You can change the location of the workspace when you start the server:
 
 `Learn more about the server options <../misc/server-options.html>`_
 
+If you are running the ElectronJS_-based distribution, then you can change the workspace directly in the `Projects dialog`_:
+
+.. image:: ../images/workbench-projects-change-workspace.webp
+  :alt: Change workspace.
+
+It opens a native File Dialog to select the new workspace folder.
+
 New Project dialog
 ------------------
 
@@ -49,7 +56,10 @@ The dialog displays all the projects in the workspace, you can select one and op
 .. image:: ../images/workbench-open-project-04072020.webp
  :alt: Open project dialog.
 
-Note the dialog also shows a **New Project** button, it opens the `New Project dialog`_.
+Note the dialog also shows a **New Project** button, it opens the `New Project dialog`_. If the editor is running inside ElectronJS_, it also shows the current workspace and a button to change it:
+
+.. image:: ../images/workbench-projects-change-workspace-2.webp
+  :alt: Change workspace folder.
 
 When a project is opened, the IDE restores the last state of the project. This state contains the open editors and the state of each editor.
 

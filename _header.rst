@@ -54,6 +54,8 @@
 .. |Unity| replace:: Unity Engine
 .. _Unity: https://unity.com
 
+.. _ElectronJS: https://www.electronjs.org
+
 .. |AnimationsEditor| replace:: Animations Editor
 .. _AnimationsEditor: ../animations-editor/index.html
 

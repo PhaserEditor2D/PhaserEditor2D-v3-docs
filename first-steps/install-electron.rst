@@ -5,7 +5,7 @@
 ElectronJS-based distribution
 =============================
 
-The ElectronJS-based distribution of the editor is simple. The Phaser Editor 2D server (that is part of the distribution) does most of the job. When you execute the ElectronJS application, the main-process starts the editor server in `application mode <./install-server/#application-mode>`_, and the renderer-process loads the editor's web page.
+The ElectronJS_-based distribution of the editor is simple. The Phaser Editor 2D server (that is part of the distribution) does most of the job. When you execute the ElectronJS_ application, the main-process starts the editor server in `application mode <./install-server/#application-mode>`_, and the renderer-process loads the editor's web page.
 
 Each platform has a different way to run and "install" the Electron-based Phaser Editor 2D. 
 
