@@ -1,6 +1,13 @@
 # Change Log
 
-## v3.8.9 - Oct 30, 2020
+## v3.9.0 - Nov 24, 2020 
+
+* The new Resize tool.
+* Electron-based distribution.
+* Unlock Editor dialog.
+* Change Workspace option available in ElectronJS.
+
+## v3.8.1 - Oct 30, 2020
 
 * Scene Editor: removes the Add Object dialog.
 * Scene Editor: shows the built-in type blocks.

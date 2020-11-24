@@ -21,6 +21,7 @@ Scene Editor
     container-object
     tilemap-object
     tilemap-layer-object
+    shape-object
     object-list
     display-list
     prefabs
