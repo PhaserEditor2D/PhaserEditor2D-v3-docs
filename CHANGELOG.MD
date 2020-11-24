@@ -5,6 +5,7 @@
 * The new Resize tool.
 * Electron-based distribution.
 * Unlock Editor dialog.
+* Change Workspace option available in ElectronJS.
 
 ## v3.8.1 - Oct 30, 2020
 
