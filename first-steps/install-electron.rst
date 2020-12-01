@@ -12,7 +12,7 @@ Each platform has a different way to run and "install" the Electron-based Phaser
 Windows installation
 ####################
 
-Download the file ``PhaserEditor2D-VERSION-electron-windows.zip``, unzip it, and run the file ``PhaserEditor2D.exe``. If you like, to can pin it in the taskbar, and the next time you can launch it by clicking on the taskbar icon.
+Download the file ``PhaserEditor2D-VERSION-electron-windows.zip``, unzip it, and run the file ``PhaserEditor2D.exe``. If you like, you can pin it in the taskbar, and the next time you can launch it by clicking on the taskbar icon.
 
 The ``resources\app\server`` folder contains the server binaries. You can run it alone if you wish.
 
