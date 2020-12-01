@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.0.1 - Nov 20, 2020
+
+* Resource filtering with skip patterns.
+
 ## v3.9.0 - Nov 24, 2020 
 
 * The new Resize tool.
