@@ -47,7 +47,7 @@ The `Text type`_ contains many of the `common object properties <common-object-p
 
 * `Lists properties <lists-properties.html>`_
 
-* `Parent Container properties <parent-container-properties.html>`_
+* `Parent properties <parent-container-properties.html>`_
 
 * `Transform properties <transform-properties.html>`_
 

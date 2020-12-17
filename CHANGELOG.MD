@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.10.0 - Dec 18, 2020
+
+* The Layer object.
+* The new **Working with parents** section.
+
 ## v3.0.1 - Nov 20, 2020
 
 * Resource filtering with skip patterns.
