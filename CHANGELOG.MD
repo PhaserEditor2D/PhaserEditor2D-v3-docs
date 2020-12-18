@@ -4,6 +4,7 @@
 
 * The Layer object.
 * The new **Working with parents** section.
+* The new key bindings of the Origin commands.
 
 ## v3.0.1 - Nov 20, 2020
 
