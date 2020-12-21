@@ -5,7 +5,7 @@ Tilemap objects
 
 The `Tilemap <tilemap-object.html>`_ is a built-in Phaser_ type: `Phaser.Tilemaps.Tilemap <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.Tilemap.html>`_. It is not a display object, it just stores the data of the maps. The display maps are added to the scene using `TilemapLayer objects <tilemap-layer-object.html>`_.
 
-The |SceneEditor|_ only supports maps created by Tiled_ (the popular third-party tool) with the `JSON format <https://doc.mapeditor.org/en/stable/manual/export/#json>`_.
+The |SceneEditor|_ only supports maps created by Tiled_ (the popular third-party tool) with the `JSON format <https://doc.mapeditor.org/en/stable/manual/export/#json>`_. Since Phaser v3.50, the following map orientations are supported: Orthogonal, Isometric, Hexagonal, and Staggered.
 
 This is the workflow:
 
