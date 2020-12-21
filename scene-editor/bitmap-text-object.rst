@@ -11,7 +11,7 @@ You can create a `Bitmap Text <bitmap-text-object.html>`_ object in two ways:
 
 * Dragging a `BitmapFontFile <https://photonstorm.github.io/phaser3-docs/Phaser.Loader.FileTypes.BitmapFontFile.html>`_ key from the |BlocksView|_ and dropping it in the scene. The `BitmapFontFile`_ should be present in an |AssetPackFile|_.
 
-  .. image:: ../images/scene-editor-bitmap-text-04162020.webp
+  .. image:: ../images/scene-editor-bitmap-text-12212020.webp
     :alt: Drop BitmapFont key to create a BitmapText object.
 
 `Bitmap Text`_ objects are created in code using the `bitmapText factory <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectFactory.html#bitmapText__anchor>`_:
@@ -46,7 +46,7 @@ It also contains the `Text property <text-property.html>`_, that is dedicated to
 
 * The `font <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.BitmapText.html#font__anchor>`_ property shows the key of the BitmapFont in the |AssetPackFile|_. To change the font, click on the button. It opens the **Select Bitmap Font** dialog.
 
-  .. image:: ../images/scene-editor-select-bitmap-font-dialog-04162020.webp
+  .. image:: ../images/scene-editor-select-bitmap-font-dialog-12212020.webp
     :alt: Select Bitmap Font dialog.
 
 * The `fontSize <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.BitmapText.html#fontSize__anchor>`_ property.
@@ -54,3 +54,5 @@ It also contains the `Text property <text-property.html>`_, that is dedicated to
 * The `align <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.BitmapText.html#align__anchor>`_ property.
 
 * The `letterSpacing <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.BitmapText.html#letterSpacing__anchor>`_ property.
+
+* The `dropShadow <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.BitmapText.html#setDropShadow__anchor>`_ related properties.
