@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.10.0 - Dec 18, 2020
+## v3.9.10 - Dec 22, 2020
 
 * The Layer object.
 * The new **Working with parents** section.
