@@ -18,10 +18,12 @@ Scene Editor
     tile-sprite-object
     text-object
     bitmap-text-object
-    container-object
     tilemap-object
     tilemap-layer-object
     shape-object
+    container-object
+    layer-object
+    working-with-parent-objects    
     object-list
     display-list
     prefabs

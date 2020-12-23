@@ -1,5 +1,12 @@
 # Change Log
 
+## v3.9.10 - Dec 22, 2020
+
+* The Layer object.
+* The new **Working with parents** section.
+* The new key bindings of the Origin commands.
+* BitmapText drop shadow.
+
 ## v3.0.1 - Nov 20, 2020
 
 * Resource filtering with skip patterns.

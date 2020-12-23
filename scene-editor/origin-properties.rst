@@ -11,7 +11,7 @@ The `origin properties <https://photonstorm.github.io/phaser3-docs/Phaser.GameOb
 
 There are commands to change the origin to a preset value. These commands are available in the scene context menu or by pressing a key shortcut:
 
-.. image:: ../images/scene-editor-origin-context-menu-04132020.webp
+.. image:: ../images/scene-editor-origin-context-menu-12182020.webp
  :alt: Origin commands.
 
 Also, you can change the origin of an object with the `origin manipulator tool <manipulation-tools.html#origin-tool>`_.
