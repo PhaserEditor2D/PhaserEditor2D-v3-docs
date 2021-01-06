@@ -3,37 +3,30 @@
 Pricing
 ~~~~~~~
 
-There are three different types of |PhaserEditor|_ license. The licenses are valid for all the versions (previous and future) of the IDE. The only limitation is the expiration date.
+Since January 7 of 2021, there are only two type of licenses: the **Lifetime License** and the **Membership License**.
 
-One Year license
-````````````````
-
-* Valid for **one year** after the purchase.
-
-* Phaser Editor 2D Team email support. Write to ``developers@phasereditor2d.com``.
-
-* The option to refund in the first month after the purchase.
-
-Two Years license
-`````````````````
-
-* Valid for **two years** after the purchase.
-
-* Phaser Editor 2D Team email support. Write to ``developers@phasereditor2d.com``.
-
-* The option to refund in the first month after the purchase.
+The IDE has a `Free mode <./free-mode.html>`_ that allows all features. Please, test it before purchase a license key.
 
 Lifetime license
 ````````````````
 
-* Valid for a lifetime.
+* Get it on `Phaser Editor 2D Lifetime License <https://gumroad.com/l/phasereditor>`_.
+
+* Pay once. Never expires.
 
 * Phaser Editor 2D Team email support. Write to ``developers@phasereditor2d.com``.
 
-* The option to refund in the first month after the purchase.
+* You can refund it the first month after the purchase.
 
-Purchase
-````````
-You can purchase a license on the `Gumroad page of Phaser Editor 2D <https://gumroad.com/l/phasereditor/>`_. `Gumroad <https://gumroad.com>`_ is a popular selling platform for creators. We invite you to read `A guide to buying on Gumroad <https://customers.gumroad.com/article/191-a-guide-to-buying-on-gumroad>`_.
+Membership License
+``````````````````
 
-The IDE has a `Free mode <free-mode.html>`_ that allows all features. Please, test it before purchase a license key.
+* Get it on the `Phaser Editor 2D Backers membership <https://gumroad.com/l/phasereditor-backers>`_.
+
+* Pay as you go. Expires when you cancel your membership.
+
+* You can subscribe to the **Defender Tier** if you whish to help us even more.
+
+* Phaser Editor 2D Team email support. Write to ``developers@phasereditor2d.com``.
+
+* You cannot refund it.

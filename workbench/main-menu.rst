@@ -5,7 +5,7 @@ Main menu
 
 The |MainMenu|_ lists common general commands. You can open it by pressing in the menu button at the right of the |MainToolbar|_:
 
-.. image:: ../images/workbench-main-menu-08032020.webp
+.. image:: ../images/workbench-main-menu-01062021.webp
  :alt: Main menu.
 
 * **Open Project**: launches the `Open Project dialog <projects.html#projects-dialog>`_.
@@ -19,6 +19,10 @@ The |MainMenu|_ lists common general commands. You can open it by pressing in th
 * **Select Color Theme**: opens the `Color Themes dialog <color-themes.html>`_.
 
 * **Command Palette**: opens the `Command Palette <command-palette.html>`_
+
+* **Unlock Phaser Editor 2D**: opens a dialog to `unlock the IDE <../pricing/index.html>`_.
+
+* **Check For Updates**: checks if there is a new version.
 
 * **Help**: opens this documentation in the browser.
 
