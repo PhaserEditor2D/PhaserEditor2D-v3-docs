@@ -56,7 +56,7 @@ author = u'Arian Fornaris'
 # built documents.
 #
 # The short X.Y version.
-version = u'3.10.0'
+version = u'3.10.1'
 # The full version, including alpha/beta/rc tags.
 release = u'3.10.1'
 
