@@ -1,6 +1,10 @@
 # Change Log
 
-## v3.9.10 - Dec 22, 2020
+## v3.10.1 - Jan 7, 2120
+
+* Update the new license.
+
+## v3.10.9 - Dec 22, 2020
 
 * The Layer object.
 * The new **Working with parents** section.
