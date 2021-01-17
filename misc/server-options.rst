@@ -49,6 +49,22 @@ We recommend using Google Chrome. It has an application mode that runs the edito
 
     $ PhaserEditor2D -browser-command '/path/to/google-chrome "--app=$URL"'
 
+**-external-editor-command**
+
+When the server runs in application mode, the IDE allows launching an external editor. By default, it is configured to run |VSCode|_ (the ``code`` command).
+
+However, you can change the command to launch a different external editor. For example, if instead of |VSCode|_ you want to launch the Atom editor, you can run the server with these options:
+
+.. code::
+
+    $ PhaserEditor2D -external-editor-command '/path/to/atom "$LOC"' -external-editor-name Atom
+
+Note the ``$LOC`` variable will be expanded to the location of the project.
+
+**-external-editor-name**
+
+The display name of the external editor. Used in the UI. By default it is **Visual Studio Code**.
+
 **-editor string**
 
 In the installation folder of |PhaserEditor|_ there is the ``editor`` folder. It contains the code of the IDE. If you want to load other implementation of the IDE, you can use the ``-editor /other/editor/implementation`` option. This is useful for testing or developing a different version of the IDE.
