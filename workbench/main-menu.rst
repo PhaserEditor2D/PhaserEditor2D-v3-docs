@@ -14,7 +14,7 @@ The |MainMenu|_ lists common general commands. You can open it by pressing in th
 
 * **Compile Project**: compiles all compilable files of the project. For example, the `scene <../scene-editor/scene-compiler.html>`_ and `component <../scene-editor/user-components-compiler.html>`_ files. This does not include TypeScript files or any other format with external compilers.
 
-* **Open Visual Studio Code**: opens the project in a local |VSCode|_ instance. This is available only if the |PhaserEditor|_ server is running in `desktop mode <../misc/server-options.html>`_.
+* **Open Visual Studio Code**: opens the project in a local |VSCode|_ instance. This is available only if the |PhaserEditor|_ server is running in `desktop mode <../misc/server-options.html>`_. You can configure a different external editor. Check the **-external-editor-command** `server option <../misc/server-options.html>`_.
 
 * **Select Color Theme**: opens the `Color Themes dialog <color-themes.html>`_.
 

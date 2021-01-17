@@ -63,7 +63,7 @@ Note the ``$LOC`` variable will be expanded to the location of the project.
 
 **-external-editor-name**
 
-The display name of the external editor. Used in the UI. By default it is Visual Studio Code.
+The display name of the external editor. Used in the UI. By default it is **Visual Studio Code**.
 
 **-editor string**
 
