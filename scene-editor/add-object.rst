@@ -6,6 +6,7 @@ Adding an object to the scene
 .. toctree::
 
     blocks-view-integration
+    add-object-context-menu
     add-object-automatic-container
 
 There are multiple ways to create new objects in the scene. `Dropping an asset or built-in type from the Blocks view <blocks-view-integration.html>`_. Or pasting an object (including those from other scenes). 
