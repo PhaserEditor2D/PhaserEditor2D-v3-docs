@@ -2,7 +2,9 @@
 
 ## dev
 
-
+* Add Object context menu.
+* Texture menu new options.
+* Update commands table.
 
 ## v3.10.2 - Jan 17, 2021
 
