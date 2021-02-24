@@ -15,7 +15,7 @@ The first items shown in the |BlocksView|_ are the primitive object types suppor
 
 In case of images, sprites or tile-sprites, the new instance does not contain a texture. If you want to set a texture to the object, you can select one in the `Texture section <texture-property.html>`_.
 
-.. image:: ../images/scene-editor-blocks-view--add-empty-image-09252020.webp
+.. image:: ../images/scene-editor-blocks-view--add-empty-image-02242021.webp
     :alt: Add an empty image to the scene.
 
 However, if you drop an image or texture frame into the scene, the editor creates a new `Image object <image-object.html>`_ and sets the dropped texture as the object's texture.
@@ -26,5 +26,5 @@ If you drop a **BitmapFont**, the editor creates a `Bitmap Text <bitmap-text-obj
 
 If you drop a Prefab_, the editor creates an instance of it.
 
-.. image:: ../images/scene-editor-blocks-view-04102020.webp
+.. image:: ../images/scene-editor-blocks-view-02242021.webp
  :alt: Blocks view.

@@ -26,7 +26,7 @@ The workflow is the following:
 
 #. Select one of the importing options listed in the **Import File** section of the  |InspectorView|_.
 
- .. image:: ../images/asset-pack-add-file-from-blocks-view-04082020.webp
+  .. image:: ../images/asset-pack-add-file-from-blocks-view-02242021.webp
    :alt: Import files from Blocks view.
 
 #. When the files are imported, edit the new configurations in the |InspectorView|_.

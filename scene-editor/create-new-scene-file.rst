@@ -32,3 +32,11 @@ These are the settings that are copied when creating a new scene file:
 * **compilerOutputLanguage**
 * **compilerInsertSpaces**
 * **compilerTabSize**
+
+Opening a scene file
+````````````````````
+
+All files are shown in the |FilesView|_, including the scenes. However, you can open the **Go To File** dialog (``Ctrl+P``), or even better, the **Open Scene File** dialog (``Ctrl+Alt+O``):
+
+.. image:: ../images/scene-editor-open-scene-file-02242021.webp
+    :alt: Open the scene file.
