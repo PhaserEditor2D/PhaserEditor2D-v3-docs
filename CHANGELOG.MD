@@ -5,6 +5,8 @@
 * Add Object context menu.
 * Texture menu new options.
 * Update commands table.
+* Update Pan tool with new method `Shift`+`MouseLeftButton`.
+* Update commands to edit the output file.
 
 ## v3.10.2 - Jan 17, 2021
 
