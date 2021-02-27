@@ -40,3 +40,8 @@ All files are shown in the |FilesView|_, including the scenes. However, you can 
 
 .. image:: ../images/scene-editor-open-scene-file-02242021.webp
     :alt: Open the scene file.
+
+You can group the scene files by type (prefab or scene) or by location. Open the context menu for selecting the grouping criteria:
+
+.. image:: ../images/scene-editor-open-scene-file-grouping-02272021.webp
+    :alt: Groping scenes.
