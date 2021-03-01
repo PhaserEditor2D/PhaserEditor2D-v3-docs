@@ -28,3 +28,13 @@ If you drop a Prefab_, the editor creates an instance of it.
 
 .. image:: ../images/scene-editor-blocks-view-02242021.webp
  :alt: Blocks view.
+
+The context menu shows different options for grouping the assets: by type, by Asset Pack file, and by file location:
+
+.. image:: ../images/scene-editor-blocks-view-grouping-02282021.webp
+    :alt: Grouping the assets.
+
+Also, the Blocks view's tab, shows "tab sections" which you can select for filtering the content:
+
+.. image:: ../images/scene-editor-blocks-view-tab-section-03012021.webp
+    :alt: Select different tab-sections for filtering content.
