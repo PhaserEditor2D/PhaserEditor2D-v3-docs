@@ -38,3 +38,11 @@ Also, the Blocks view's tab, shows "tab sections" which you can select for filte
 
 .. image:: ../images/scene-editor-blocks-view-tab-section-03012021.webp
     :alt: Select different tab-sections for filtering content.
+
+Look there are three options:
+
+**Built-in**: only the built-in types are shown in the view.
+
+**Prefabs**: only the prefab files are shown.
+
+**Assets**: only the assets defined in Asset Pack files are shown.
