@@ -1,5 +1,16 @@
 # Change Log
 
+## v3.11.0 - Mar 5, 2021
+
+* Add Object context menu.
+* Texture menu new options.
+* Update commands table.
+* Update Pan tool with new method `Shift`+`MouseLeftButton`.
+* Update commands to edit the output file.
+* Update dialogs to open a scene file.
+* Update images of integration of the Scene Editor with the Blocks view.
+* Update images of integration of the Scene Editor with the Blocks view.
+
 ## v3.10.2 - Jan 17, 2021
 
 * Update the external editor config.
