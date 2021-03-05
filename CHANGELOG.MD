@@ -1,6 +1,6 @@
 # Change Log
 
-## dev
+## v3.11.0 - Mar 5, 2021
 
 * Add Object context menu.
 * Texture menu new options.
