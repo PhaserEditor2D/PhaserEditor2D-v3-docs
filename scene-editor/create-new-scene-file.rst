@@ -36,9 +36,9 @@ These are the settings that are copied when creating a new scene file:
 Opening a scene file
 ````````````````````
 
-All files are shown in the |FilesView|_, including the scenes. However, you can open the **Go To File** dialog (``Ctrl+P``), or even better, the **Open Scene File** dialog (``Ctrl+Alt+O``):
+All files are shown in the |FilesView|_, including the scenes. However, you can open the **Go To File** dialog (``Ctrl+P``), or even better, the **Go To Scene** dialog (``Ctrl+Alt+O``):
 
-.. image:: ../images/scene-editor-open-scene-file-02242021.webp
+.. image:: ../images/scene-editor-open-scene-file-03122021.webp
     :alt: Open the scene file.
 
 You can group the scene files by type (prefab or scene) or by location. Open the context menu for selecting the grouping criteria:

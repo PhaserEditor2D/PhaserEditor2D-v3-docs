@@ -2,6 +2,9 @@
 
 ## v3.12.0 - Mar 12, 2021
 
+* Adds the Inspector view topic in the Scene Editor chapter.
+* Updates the Files view with the Design & Assets sub-tabs.
+
 ## v3.11.0 - Mar 5, 2021
 
 * Add Object context menu.

@@ -7,8 +7,25 @@ The |FilesView|_ shows the files of the project. The files are displayed in a tr
 
 Like the other `content viewers <../misc/content-viewers.html>`_ present in the IDE, the |FilesView| shows inline previews of a certain type of files. At the same time, you can zoom in/out them by pressing the ``Shift`` key and rolling the mouse wheel.
 
-.. image:: ../images/files-view-zoom-04052020.jpg
+.. image:: ../images/files-view-zoom-04052020.webp
  :alt: Files view zooming.
+
+The Design and Assets sub-tabs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The main activities you do with Phaser Editor 2D are to create the scenes and pack the assets. For this reason, we added two sub-tabs to the Files view: **Design** and **Assets**. It allows you (we hope) to filter the files and show in the view only the files related to a certain activity.
+
+When you select the **Design** tab, the view shows only the files you commonly edit with Phaser Editor 2D: the Scene files, the User Components files, the Animations files, the Asset Pack files.
+
+When you select the **Assets** tab, the view shows only the files used as assets by the different editor: images, atlas files, audio files, video files, Asset Pack files, etc...
+
+In both cases, empty folders are not shown. And all files are shown if no sub-tab is selected.
+
+There is another usual activity in the editor: coding. JavaScript and TypeScript files are excluded in both filters. We think coding is not the strong point in the editor and we encourage you to use |VSCode|_ if possible. In any case, you always have the option of showing all files.
+
+.. image:: ../images/files-view-tab-sections-03122021.webp
+    :alt: Tab sections.
+
 
 Context menu
 ~~~~~~~~~~~~
