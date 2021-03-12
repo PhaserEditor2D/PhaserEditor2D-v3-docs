@@ -1,5 +1,7 @@
 # Change Log
 
+## v3.12.0 - Mar 12, 2021
+
 ## v3.11.0 - Mar 5, 2021
 
 * Add Object context menu.

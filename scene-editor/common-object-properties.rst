@@ -18,6 +18,6 @@ Common object properties
     texture-property
     text-property
 
-The properties of the objects are listed and grouped in the |InspectorView|_. In this view, you can modify the properties of the selected objects.
+The properties of the objects are listed and grouped in the `Inspector view <./inspector-view.html>`_. In this view, you can modify the properties of the selected objects.
 
 In this chapter, we cover the properties that are common to different game objects.

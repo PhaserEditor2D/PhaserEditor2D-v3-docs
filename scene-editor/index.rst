@@ -11,6 +11,7 @@ Scene Editor
     create-new-scene-file
     add-object
     supported-types
+    inspector-view
     common-object-properties
     scene-properties
     image-object    
