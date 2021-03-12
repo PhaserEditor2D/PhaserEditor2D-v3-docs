@@ -4,6 +4,7 @@
 
 * Adds the Inspector view topic in the Scene Editor chapter.
 * Updates the Files view with the Design & Assets sub-tabs.
+* Updates Files view with the Design and Assets tab sections.
 
 ## v3.11.0 - Mar 5, 2021
 
