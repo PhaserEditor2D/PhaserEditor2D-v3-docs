@@ -2,7 +2,7 @@
 
 ## v3.13.0 - Apr 2, 2021
 
-
+* Asset Pack: configuring the `publicroot` folder.
 
 ## v3.12.0 - Mar 12, 2021
 
