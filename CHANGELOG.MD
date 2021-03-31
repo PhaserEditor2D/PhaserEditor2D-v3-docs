@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.13.0 - Apr 2, 2021
+
+
+
 ## v3.12.0 - Mar 12, 2021
 
 * Adds the Inspector view topic in the Scene Editor chapter.
