@@ -11,6 +11,8 @@ User Components
     user-components-editor
     user-components-compiler
     user-components-start-update-methods
+    user-components-super-class
+    user-components-awake-event
     user-components-instancing
 
 A Component is a `design pattern <https://gameprogrammingpatterns.com/component.html>`_ that you can use to create reusable code and extend the behavior and data of a game object, using `composition over inheritance <https://en.wikipedia.org/wiki/Composition_over_inheritance>`_.

@@ -1,8 +1,8 @@
 
 .. include:: ../_header.rst
 
-Starting and updating the User Components
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Implementing behaviors with the Phaser events
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Many |UserComponents|_ you will create will implement certain behavior of an object. This behavior should be initialized and later updated at every step of the game loop.
 
@@ -62,3 +62,7 @@ Now, you can override the **start**, **update**, and **destroy** methods in the 
             this.gameObject.x += this.deltaX;
         }
     }
+
+The ``EventComponent`` class is just an example of what you can do. It has a weak point: not all components need to listen to all the events. It is a waste of resources adding scene listeners in all the cases.
+
+Since v3.13.0, the editor can "write" for you a base class that could be a better solution. However,  you can change its code and adapt it to your specific domain. Check the next section for more details.
