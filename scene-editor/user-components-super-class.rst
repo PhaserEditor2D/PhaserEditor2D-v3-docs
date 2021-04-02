@@ -1,4 +1,3 @@
-
 .. include:: ../_header.rst
 
 A base class for your components
