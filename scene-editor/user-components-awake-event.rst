@@ -3,11 +3,11 @@
 The awake event
 ~~~~~~~~~~~~~~~
 
-We propose using Phaser_ events for implementing the User Components behaviors. However, the events provided in Phaser_ are not enough. When you create a component, all properties are set with the default values. Then, you set the values of each property. However, maybe you want to perform certain initialization routine after all properties are set.
+We propose using Phaser_ events for implementing the User Components behaviors. However, the events provided in Phaser_ are not enough. When you create a component, all properties are set with the default values. Then, you set the value of each property. However, maybe you want to perform a custom initialization routine after all properties are set.
 
-Looking into the Phaser_ events, you can do it in the first scene's update (or similar phase). It means, you can listen once for the UPDATE event, and run the initialization routine. It may works for many cases. But maybe, you want to run this routine just after all properties are set, and before the game start the update loop.
+Looking into the Phaser_ events, you can do it in the first scene's update. It means you can listen once for the UPDATE event and run the initialization routine. It may work for many cases. But maybe, you want to run this routine just after all properties are set, and before the game starts the update loop.
 
-For this reason, the |SceneCompiler|_ generates code for emitting a custom event, the **components-awake** event, just after generates the code that creates the component and set the properties. In Phaser_, every game object is an event emitter, and a component can register a listener to the **components-awake** event:
+For this reason, the |SceneCompiler|_ generates code for emitting a custom event, the **components-awake** event, just after generates the code that creates the component and sets the properties. In Phaser_, every game object is an event emitter, and a component can register a listener to the **components-awake** event:
 
 .. code::
 
@@ -17,7 +17,7 @@ For this reason, the |SceneCompiler|_ generates code for emitting a custom event
     
         // creates the game object
         const dino = this.add.image(400, 240, "FufuSuperDino");
-		
+        
         // creates the PushOnClick component
         const dinoPushOnClick = new PushOnClick(dino);
 
@@ -55,7 +55,7 @@ When you implement a component, you can register a listener on the **components-
         }
     }
 
-In section `A base class for your components <./user-components-super-class.html>`_), we explain how you can use a common super-class for all the components. It simplifies the listening of Phaser_ events, and it also includes the **components-awake** event. So you can rewrite the previous **PushOnClick** component in this way:
+In the section `A base class for your components <./user-components-super-class.html>`_), we explain how you can use a common super-class for all the components. It simplifies the listening of Phaser_ events, and it also includes the **components-awake** event. So you can rewrite the previous **PushOnClick** component in this way:
 
 .. code::
 
