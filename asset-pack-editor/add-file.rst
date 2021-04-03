@@ -8,7 +8,8 @@ Adding files to Asset Pack file
     add-file-with-add-button
     import-from-blocks-view
     import-from-files-view
-    import-scripts    
+    import-scripts
+    public-root    
 
 You can add new file configurations in different ways:
 

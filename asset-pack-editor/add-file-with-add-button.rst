@@ -26,7 +26,7 @@ These are the steps:
  .. image:: ../images/asset-pack-editor-add-file-2-04072020.webp
    :alt: Select the files to be added.
 
-4. Change the properties of the file configurations in the |InspectorView|_.
+4. Change the properties of the file configurations in the |InspectorView|_. Many of the values of the fields are set automatically. It is the case of the URL of the file, that is computed using the project's relative path of the file. Read the `Setting the root folder for the asset files <./public-root.html>`_ section to learn more about the URL of the asset files.
 
 
  .. image:: ../images/asset-pack-editor-edit-file-inspector-view-2-04072020.webp

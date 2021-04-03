@@ -1,5 +1,12 @@
 # Change Log
 
+## v3.13.0 - Apr 2, 2021
+
+* Asset Pack: configuring the `publicroot` folder.
+* The new UserComponent.js file generator and how to use it.
+* User components: the awake event section.
+* The Create Method parameter now is `editorCreate` by default.
+
 ## v3.12.0 - Mar 12, 2021
 
 * Adds the Inspector view topic in the Scene Editor chapter.

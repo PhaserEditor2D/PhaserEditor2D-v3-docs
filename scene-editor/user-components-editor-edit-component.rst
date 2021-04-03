@@ -9,8 +9,8 @@ A component is a class that adds state and behaviors to a game object, using com
 This is the component metadata you can edit:
 
 * The name of the component class.
-* The type of the game object (or entity).
-* The super-class of the component class. It is optional.
+* The type of the game object (or entity). Next to the field, you can open a menu with common possible options.
+* The super-class of the component class. It is optional. Next to the field, you can open a menu with common possible options and names used in other components.
 * The definition of the component's properties.
 
 .. image:: ../images/scene-editor-user-components-edit-props-07212020.webp
