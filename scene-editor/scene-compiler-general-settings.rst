@@ -6,7 +6,7 @@ Compiler settings
 
 The |SceneCompiler|_ uses two different sets of parameters to refine the code generation of a Phaser_ scene and a prefab file. However, there are general, or shared settings, used in both cases:
 
-.. image:: ../images/scene-compiler-general-settings-08122020.webp
+.. image:: ../images/scene-compiler-general-settings-04032021.webp
     :alt: General settings.
 
 The parameters:
@@ -14,6 +14,10 @@ The parameters:
 * **Generate Code**: un-check it if you don't want the compiler to compile the file. In the `Using a prefab as a black box <prefab-black-box.html>`_ section there is an example that uses a scene file without code generation.
 
 * **Output Language**: you can select if the scene is compiled into JavaScript or TypeScript. In case you select TypeScript, you need to compile yourself the TypeScript generated files, with the TypeScript compiler (``tsc``).
+
+* **Export Class (ES Module)**: includes the ``export default`` class modifiers.
+
+* **Auto Import (ES Module)**: adds "import" statements for importing the types used in different parts of the code generation. Code written by the user is not processed. If you use other types, you should import them manually.
 
 * **Super Class**: you can force the generated class (prefab or scene), to extends the given class. If empty, the compiler will detect the appropriate class.
 
