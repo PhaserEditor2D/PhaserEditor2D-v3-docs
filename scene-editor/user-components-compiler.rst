@@ -121,9 +121,13 @@ The generated class is very simple, next we explain it part by part:
 Compiler settings
 '''''''''''''''''
 
-The User Components compiler supports two JavaScript and TypeScript as output languages. You can select this language in the |InspectorView|_, when no component is selected. Also, you can select if insert spaces for indentation and the tab size:
+The User Components compiler supports two JavaScript and TypeScript as output languages. You can select this language in the |InspectorView|_, when no component is selected. Also, you can select if insert spaces for indentation, the tab size, or the auto export/import of ES modules:
 
-.. image:: ../images/scene-editor-user-components-compiler-setttings-08122020.webp
+.. image:: ../images/scene-editor-user-components-compiler-settings.webp
     :alt: Selecting compiler settings.
 
 The settings have default values, but if there are other scene files or user components files, the default values will be taken from the latest modified file (scene file if not components files are available).
+
+When the **Export Class (ES Module)** parameter is on, the compiler includes the ``export default`` class modifiers.
+
+When the **Auto Import (ES Module)** parameter is on, the compiler adds "import" statements for importing the types used in different parts of the code generation. Code written by the user is not processed. If you use other types, you should import them manually.
