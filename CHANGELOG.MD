@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.14.0 - May 29, 2021
+
+* Add User Component new dialog.
+
 ## v3.13.0 - Apr 2, 2021
 
 * Asset Pack: configuring the `publicroot` folder.
