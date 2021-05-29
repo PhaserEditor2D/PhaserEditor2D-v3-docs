@@ -25,9 +25,9 @@ However, the interesting is adding components to objects in the |SceneEditor|_.
 
 This is possible in the **User Components** section. It shows the **Add Component** button.
 
-When you click that button, it shows a menu with all the components defined in the project. Select the one you want to add:
+When you click that button, it shows a dialog with all the components defined in the project (grouped by the ``*.components`` files). Select the one you want to add:
 
-.. image:: ../images/scene-editor-user-components-obj-add-component-07302020.webp
+.. image:: ../images/scene-editor-user-components-obj-add-component-05292021.webp
     :alt: Add a component to the object.
 
 Then, the properties of the components are shown in the same **User Components** section, and are ready to be set with new values:
