@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Phaser Editor 2D'
-copyright = u'2016-2020, Arian Fornaris'
+copyright = u'2016-2021, Arian Fornaris'
 author = u'Arian Fornaris'
 
 # The version info for the project you're documenting, acts as replacement for
