@@ -13,7 +13,7 @@ Parent context menu
 
 The **Parent** sub-menu of the scene context menu shows the commands you can apply to containers and layers. Many of those commands are compatible with both types:
 
-.. image:: ../images/parent-context-menu-12172020.webp
+.. image:: ../images/parent-context-menu--07082021.webp
     :alt: The Parent context menu.
 
 
@@ -24,7 +24,7 @@ You can move an object to a new parent. The command **Move To Parent** opens the
 
 The command can be executed by pressing the ``Shift+P`` keys, selecting the **Move To Parent** option in the context menu, or pressing the **Parent button** in the `Parent section <parent-container-properties.html>`_ of the |InspectorView|_.
 
-.. image:: ../images/scene-editor-move-to-container-12172020.webp
+.. image:: ../images/scene-editor-move-to-container-07082021.webp
     :alt: Move object to parent.
 
 Breaking a parent
@@ -39,10 +39,15 @@ Selecting the parent of an object
 
 The **Select Parent** command selects the parent of an object. To execute the command press the ``P`` key or click on the **Select Parent** option of the `Parent context menu`_.
 
+Selecting the children of an object
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The **Select Children** command selects the children of a container or a layer. To execute this command, press the ``N`` key or click on the **Select Children** option in the `Parent context menu`_.
+
 Changing the rendering order of children
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can change the rendering order of an object. The context menu shows the **Depth** commands, to move the objects in different directions:
 
-.. image:: ../images/scene-editor-display-list-move-objects-12172020.webp
+.. image:: ../images/scene-editor-display-list-move-objects-07082021.webp
     :alt: Changing the rendering order of objects.
