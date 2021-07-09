@@ -16,7 +16,8 @@ The |SceneCompiler|_ generates Asset Key properties like this:
         
         constructor(..) {
             ...
-            /** @type {string} */
-            this.myAssetKey = "acorn-3";
         }
+
+        /** @type {string} */
+        myAssetKey = "acorn-3";
     }

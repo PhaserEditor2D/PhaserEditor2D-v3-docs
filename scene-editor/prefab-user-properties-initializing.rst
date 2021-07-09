@@ -1,7 +1,7 @@
 .. include:: ../_header.rst
 
 Initializing other properties
-'''''''''''''''''''''''''''''
+`````````````````````````````
 
 It's possible you want to change other properties of the prefab instance, in dependence of the values of the user properties. For example, if the **flameType** property value is ``"fire"``, then you set the mass of the body to 50. Because the property values are not set in the constructor, you can listen to the scene update event and setup the body properties:
 
@@ -16,6 +16,9 @@ It's possible you want to change other properties of the prefab instance, in dep
             scene.events.once(Phaser.Scenes.Events.UPDATE, this.start, this);
             /* END-USER-CTR-CODE */
         }
+
+        /** @type {"fire"|"smoke"|"laser"} */
+        flameType = "fire";
 
         /* START-USER-CODE */
 

@@ -16,7 +16,8 @@ The |SceneCompiler|_ generates Expression properties like this:
         
         constructor(..) {
             ...
-            /** @type {(obj:Dragon)=>void} */
-            this.onClickHandler = obj => {};
         }
+
+        /** @type {(obj:Dragon)=>void} */
+        onClickHandler = obj => {};
     }

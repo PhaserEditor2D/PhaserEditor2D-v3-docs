@@ -25,8 +25,9 @@ The |SceneCompiler|_ generates Texture Config properties like this:
     class Dragon extends Phaser.GameObjects.Sprite {
         
         constructor(..) {
-            ...
-            /** @type {{key:string,frame?:string|number}} */
-            this.myTexture = {"key":"atlas-props","frame":"branch-01"};
+            ...            
         }
+
+        /** @type {{key:string,frame?:string|number}} */
+        myTexture = {"key":"atlas-props","frame":"branch-01"};
     }

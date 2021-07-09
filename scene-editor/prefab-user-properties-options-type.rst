@@ -19,7 +19,8 @@ The compiled property is like this:
         constructor(...) {
             super(...);                
             ...
-            /** @type {"fire"|"smoke"|"laser"} */
-            this.flameType = "fire";
         }
+
+        /** @type {"fire"|"smoke"|"laser"} */
+        flameType = "fire";
     }        
