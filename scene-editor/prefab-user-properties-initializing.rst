@@ -66,3 +66,56 @@ As alternative to the ``prefab-awake`` event, you can listen the ``Phaser.Scenes
     scene.events.once("Phaser.Scenes.Events.UPDATE", this.start, this);
 
 A key difference of the  **UPDATE** event is that it is fired after all objects are created. You can use it when your prefab depends on other objects of the scene.
+
+
+Using properties with custom definition
+'''''''''''''''''''''''''''''''''''''''
+
+You can set a user property with a **Custom Definition**:
+
+.. image:: ../images/prefab-user-properties-initializing-custom-prop-07092021.webp
+    :alt: Set custom definition flag.
+
+This means, the |SceneCompiler|_ skips the definition of the property. For example, if you set the ``flameType`` as **Custom Definition**, the ``flameType`` property declaration isn't generated. Instead, a ``flameType`` property initialization is included in the constructor: 
+
+.. code::
+
+    class Dragon extends Phaser.GameObjects.Sprite {
+        
+        constructor(scene,...) {
+            ...
+
+            // the compiler adds this
+            this.flameType = "fire";
+        }
+
+        // the compiler skips this:
+        // flameType = "fire";
+    }
+
+Then, you can write a custom setter and initialize other fields of the prefab:
+
+.. code::
+
+    class Dragon extends Phaser.GameObjects.Sprite {
+        
+        constructor(scene,...) {
+            ...
+            this.flameType = "fire";
+        }
+
+        /* START-USER-CODE */
+
+        set flameType(flameType) {
+            
+            // update the body with the flameType
+
+            if (flameType === "fire") {
+                this.body.mass = 50;
+            }
+        }
+
+        /* END-USER-CODE */
+    }
+
+Look you don't need to listen the ``prefab-awake`` event anymore. Setting the ``flameType`` property will update the prefab state in the expected way. It's possible you also need to define a getter for the ``flameType``. If that's the case, you can store its value in a new field, or compute it.

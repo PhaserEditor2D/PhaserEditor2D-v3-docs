@@ -16,8 +16,9 @@ All type of properties requires some common parameters that you should provide:
 * The **Label**. It is a UI friendly version of the **Name**. For example, the label for the **maxSpeed** name could be **Maximum Speed**. In code, is generated a **maxSpeed** field, but the UI shows **Maximum Speed**.
 * The **Tooltip**. Used in the UI as documentation of the property.
 * The **Default** value. 
+* The **Custom Definition** flag. If enabled, the |SceneCompiler|_ skips the generation of the code with the property declaration. It allows you writing a custom implementation of the property. For example, using a custom getter and setter. Learn more about `using properties with custom definition <prefab-user-properties-initializing.html#using-properties-with-custom-definition>`_.
 
-.. image:: ../images/prefab-user-props-common-params-06062020.webp
+.. image:: ../images/prefab-user-props-common-params-07092021.webp
     :alt: Common parameters of a property.
 
 In the title bar of the property, there is a menu with commands to: 
