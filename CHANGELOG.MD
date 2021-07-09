@@ -3,6 +3,8 @@
 ## v3.15.0 - Jul 10, 2021
 
 * Scene Editor: layout tools.
+* Scene Editor: the `prefab-awake` event.
+* Scene Editor: the Custom Definition flag of a user property.
 
 ## v3.14.0 - May 29, 2021
 
