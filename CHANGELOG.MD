@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.15.0 - Jul 10, 2021
+
+* Scene Editor: layout tools.
+
 ## v3.14.0 - May 29, 2021
 
 * Add User Component new dialog.
