@@ -17,7 +17,7 @@ To build the documentation:
 To run the documentation server and incremental builder:
 
 ```
-./autobuild.sh
+./watch.sh
 ```
 
 The docs website is generated in the folder `_build/html/`.
