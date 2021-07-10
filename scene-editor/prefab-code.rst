@@ -51,7 +51,8 @@ When the |SceneCompiler|_ compiles a regular scene file, the |PrefabInstances|_ 
             this.add.existing(dragon);
             // modify the 'angle' property of the instance
             dragon.angle = -30;
-
+            // fires the prefab-awake event
+            dragon.emit("prefab-awake");
             ...
         }
     }

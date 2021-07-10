@@ -67,5 +67,8 @@ It also contains the `Text property <text-property.html>`_, that is dedicated to
 
 * The `TextPadding <https://photonstorm.github.io/phaser3-docs/Phaser.Types.GameObjects.Text.html#.TextPadding>`_ properties.
 
+* The `TextWordWrap <https://photonstorm.github.io/phaser3-docs/Phaser.Types.GameObjects.Text.html#.TextWordWrap>`_ properties.
+
+
 In the |InspectorView|_, hover the mouse in the label of each property to get a tooltip with the |PhaserAPI|_.
 
