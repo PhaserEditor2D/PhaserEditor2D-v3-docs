@@ -31,6 +31,7 @@ Scene Editor
     user-components
     replace-object-type
     manipulation-tools
+    layout-tools
     scene-compiler
     troubleshooting
 
