@@ -1,5 +1,7 @@
 # Change Log
 
+## v3.20.0 - Aug 19, 2021    
+
 ## v3.15.0 - Jul 10, 2021
 
 * Scene Editor: layout tools.
