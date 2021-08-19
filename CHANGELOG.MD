@@ -2,6 +2,8 @@
 
 ## v3.20.0 - Aug 19, 2021    
 
+* Nested prefabs chapter.
+
 ## v3.15.0 - Jul 10, 2021
 
 * Scene Editor: layout tools.
