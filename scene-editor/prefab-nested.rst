@@ -3,16 +3,16 @@
 Nested prefabs
 ~~~~~~~~~~~~~~
 
-The nested prefabs is a powerful concept. Like the overall prefab concept, it is inspired by |Unity|_. It's name describes its purpose: allow nesting prefabs.
+The nested prefab is a powerful concept. Like the overall prefab concept, it is inspired by |Unity|_. Its name describes its purpose: allow nesting prefabs.
 
-There are many cases where your prefab is a compound of objects, and you would like to modify them in prefab instances. For example, look this **AlienShip** prefab:
+There are many cases where your prefab is a compound of objects, and you would like to modify them in prefab instances. For example, look at this **AlienShip** prefab:
 
 .. image:: ../images/scene-editor-nested-prefab-alienship-08182021.webp
     :alt: AlienShip, a prefab with nested prefabs.
 
 It is a `container <container-object.html>`_, with an **alien** and a **ship** children.
 
-When you create an instance of the **AlienPrefab** (that is an instance of a `container`_), you can change it's position, it's scale. It's custom properties. But you cannot change the properties of the **ship** or the **alien** children.
+When you create an instance of the **AlienPrefab** (that is an instance of a `container`_), you can change its position, its scale. It's custom properties. But you cannot change the properties of the **ship** or the **alien** children.
 
 But if you declare the **alien** and **ship** objects as nested prefab, you can access them in the prefab instance.
 
@@ -21,7 +21,7 @@ For setting an object as nested prefab, you select the **Nested Prefab** option 
 .. image:: ../images/scene-editor-nested-prefab-scope-08182021.webp
     :alt: Setting the nested prefab scope.
 
-Variables with a **Nested Prefab** scopes are generated in code as public fields. It is like the **Public** scope, but allowing to modify the object in prefab instances.
+Variables with a **Nested Prefab** scopes are generated in code as public fields. It is like the **Public** scope but allowing to modify the object in prefab instances.
 
 Nested prefab instances
 ```````````````````````
@@ -31,7 +31,7 @@ When you create an instance of a prefab that contains nested prefabs, the `Outli
 .. image:: ../images/scene-editor-nested-prefab-instance-08192021.webp
     :alt: Prefab instance with nested prefabs.
 
-Note the nested prefab instance **ship** of the **AlienShip**'s prefab instance , has a different texture. Nested prefab instances work just like prefab instances: for changing a property, it first requires unlocking the property:
+Note the nested prefab instance **ship** of the **AlienShip**'s prefab instance, has a different texture. Nested prefab instances work just like prefab instances: for changing a property, it first requires unlocking the property:
 
 .. image:: ../images/scene-editor-nested-prefab-instance-change-texture-08192021.webp
     :alt: Changing the texture property of a nested prefab instance.
@@ -62,4 +62,4 @@ In practice, nested prefabs are like prefabs, with certain differences:
 
 * You cannot change the type of a nested prefab instance.
 
-A nested prefab is an object that is part of a prefab. It's type can be a built-in Phaser_ type or a prefab. You cannot define user properties for the nested prefab if it has a Phaser_ built-in type.But, if it has a prefab as a type, you can define user properties for that prefab. Saying it in other words. If you need adding custom properties to a nested prefab (**A**), then you can create a a separated prefab scene (**B**) with user properties, and use that prefab **B** as type creating the nested prefab **A**.
+A nested prefab is an object that is part of a prefab. Its type can be a built-in Phaser_ type or a prefab. You cannot define user properties for the nested prefab if it has a Phaser_ built-in type. But, if it has a prefab as a type, you can define user properties for that prefab. Saying it in other words. If you need to add custom properties to a nested prefab (**A**), then you can create a separated prefab scene (**B**) with user properties, and use that prefab **B** as type creating the nested prefab **A**.
