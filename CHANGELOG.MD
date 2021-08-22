@@ -4,6 +4,7 @@
 
 * Scene Editor: nested prefabs chapter.
 * Scene Editor: the `scene-awake` event.
+* Scene Editor: the Children properties.
 
 ## v3.15.0 - Jul 10, 2021
 
