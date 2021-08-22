@@ -3,7 +3,7 @@
 Initializing other properties
 `````````````````````````````
 
-It's possible you want to change other properties of the prefab instance, in dependence of the values of the user properties. For example, if the **flameType** property value is ``"fire"``, then you set the mass of the body to 50. Because the property values are not set in the constructor, you can listen to the ``prefab-awake`` event and setup the body properties:
+It's possible you want to change other properties of the prefab instance, in dependence of the values of the user properties. For example, if the **flameType** property value is ``"fire"``, then you set the mass of the body to ``50``. Because the property values are not set in the constructor, you can listen to the ``scene-awake`` event and setup the body properties:
 
 .. code::
 
@@ -13,7 +13,9 @@ It's possible you want to change other properties of the prefab instance, in dep
             ...
 
             /* START-USER-CTR-CODE */
-            scene.events.once("prefab-awake", this.awake, this);
+
+            scene.events.once("scene-awake", this.awake, this);
+            
             /* END-USER-CTR-CODE */
         }
 
@@ -24,7 +26,8 @@ It's possible you want to change other properties of the prefab instance, in dep
 
         awake() {
             
-            // at this point, the instance was created and the user properties set with new values
+            // at this point, all objects in the scene are created
+            // and the user properties are set with new values
 
             if (this.flameType === "fire") {
                 this.body.mass = 50;
@@ -34,13 +37,36 @@ It's possible you want to change other properties of the prefab instance, in dep
         /* END-USER-CODE */
     }
 
-The ``prefab-awake`` event is not part of the Phaser_ API. It's a custom event the |SceneEditor|_ uses as convention. When the |SceneCompiler|_ generates the code of a prefab instantiation, it also generates the code for emitting the ``prefab-awake`` event. This event is emitted just after all properties are set.
+If you enable the **Generate Awake Handler** flag in the **Compiler Prefab Settings**, the |SceneCompiler|_ will generate this code for you:
+
+.. image:: ../images/scene-editor-prefab-settings-08212021.webp
+    :alt: Generate awake event handler.
+
+.. code::
+
+    class Level extends Phaser.GameObjects.Image {
+
+        constructor(scene,...) {
+            
+            // awake handler
+            this.scene.events.once("scene-awake", () => this.awake());
+
+            ...
+        }
+    }
+
+It is your responsibility to write the ``awake`` method.
+
+The ``scene-awake`` event
+'''''''''''''''''''''''''
+
+The ``scene-awake`` event is not part of the Phaser_ API. It's a custom event the |SceneEditor|_ uses as convention. When the |SceneCompiler|_ generates the code of a scene, it also generates the code for emitting the ``scene-awake`` event. This event is emitted just after all objects are created:
 
 .. code::
 
     class Level extends Phaser.Scene {
     ...
-        create() {            
+        editorCreate() {            
             ...
             
             // dragon
@@ -52,21 +78,37 @@ The ``prefab-awake`` event is not part of the Phaser_ API. It's a custom event t
             // dragon (prefab fields)
             dragon.maxSpeed = 300;
             dragon.flameType = "smoke";
-            dragon.onClickHandler = obj => this.selectDragon(obj);
-            dragon.emit("prefab-awake");
+            dragon.onClickHandler = obj => this.selectDragon(obj);            
             ...
+
+            this.events.emit("scene-awake");
         }
     ...
     }
 
-As alternative to the ``prefab-awake`` event, you can listen the ``Phaser.Scenes.Events.UPDATE`` event. It is emitted by the scene at every tick, so you just need to register the listener to be called **once**:
+As we mentioned in the previous sections, prefabs_ and `user components <./user-components.html>`_ can listen to this event for reading the values set to the user properties.
+
+It is important that you keep in mind that if you create a dynamic prefab instance, and it requires the ``scene-awake`` event, then you should call it manually:
+
+.. code::
+
+    spawnDino(scene, x, y, flame) {
+
+        const dragon = new Dragon(scene, x, y);
+        dragon.flameType = flame;
+        // send the awake notification to the new object
+        scene.events.emit("scene-awake");
+    }
+
+Because the ``scene-awake`` event is listened once in prefabs_ and `user components`_, only the new objects will be notified.
+
+As alternative to the ``scene-awake`` event, you can listen the ``Phaser.Scenes.Events.UPDATE`` event. It is emitted by the scene at every tick, so you just need to register the listener to be called **once**:
 
 .. code::
 
     scene.events.once("Phaser.Scenes.Events.UPDATE", this.start, this);
 
-A key difference of the  **UPDATE** event is that it is fired after all objects are created. You can use it when your prefab depends on other objects of the scene.
-
+Note that if you need to "awake" prefab before the game starts updating, you should listen to the ``scene-awake`` event.
 
 Using properties with custom definition
 '''''''''''''''''''''''''''''''''''''''
