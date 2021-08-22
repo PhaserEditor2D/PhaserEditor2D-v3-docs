@@ -41,18 +41,26 @@ When you implement a component, you can register a listener on the **scene-awake
 
             gameObject.scene.events.once("scene-awake", () => {
 
-                // here I init the component
-
                 // I register a "pointerdown"
                 // event for "animating" the game object
                 // with a push effect
-                this.gameObject.setInteractive()
+    
+                // I set a pixel perfect handler
+                // with certain alpha-tolerance
+                const handler = this.scene.input
+                    .makePixelPerfect(this.alphaTolerance);
+
+
+                this.gameObject.setInteractive(handler)
                     .on("pointerdown", () => {
                         // animate the object with the push effect
                         this.gameObject.scene.add.tween(...);
                     });
             });
         }
+
+        /** @type {number} **/
+        alphaTolerance = 100;
     }
 
 In the section `A base class for your components <./user-components-super-class.html>`_), we explain how you can use a common super-class for all the components. It simplifies the listening of Phaser_ events, and it also includes the **scene-awake** event. So you can rewrite the previous **PushOnClick** component in this way:
@@ -67,23 +75,27 @@ In the section `A base class for your components <./user-components-super-class.
 
         awake() {
 
-            // Instead of registering an event listener
+            // Instead of registering a scene-awake event listener
             // you can override this method.
 
-            this.gameObject.setInteractive()
-                .on("pointerdown", () => {
-                    // animate the object with the push effect
-                    this.gameObject.scene.add.tween(...);
-                });
+            ...
+
+            this.gameObject.setInteractive(...)
+                    .on("pointerdown", ...);
+            ...
         }
+        ...
     }
 
 The ``scene-awake`` event is emitted in the ``editorCreate()`` method of a scene. So, if you create a new component and this component listens to the ``scene-awake`` event, then you should emit that event manually:
 
 .. code::
 
-    const myComp = new MyComponent(someSprite);
+    const comp = new PushOnClick(someSprite);
+    comp.alphaTolerance = 50;
     // emit the awake event so the component can be notified
     this.events.emit("scene-awake");
 
 Emitting the ``scene-awake`` event later in the game is safe because components and prefabs_ handle this event only once in their lifetime.
+
+The prefabs_ also listens to the ``scene-awake`` event. `Learn more about it <./prefab-user-properties-initializing.html#the-scene-awake-event>`_.

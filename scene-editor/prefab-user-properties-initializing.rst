@@ -110,6 +110,8 @@ As alternative to the ``scene-awake`` event, you can listen the ``Phaser.Scenes.
 
 Note that if you need to "awake" prefab before the game starts updating, you should listen to the ``scene-awake`` event.
 
+The ``scene-awake`` event is also used by components, `learn more about it <./user-components-awake-event.html>`_.
+
 Using properties with custom definition
 '''''''''''''''''''''''''''''''''''''''
 
