@@ -1,5 +1,12 @@
 # Change Log
 
+## v3.20.0 - Aug 23, 2021    
+
+* Scene Editor: nested prefabs chapter.
+* Scene Editor: the `scene-awake` event.
+* Scene Editor: the Children properties.
+* Scene Editor: add the Fields In Constructor parameter.
+
 ## v3.15.0 - Jul 10, 2021
 
 * Scene Editor: layout tools.

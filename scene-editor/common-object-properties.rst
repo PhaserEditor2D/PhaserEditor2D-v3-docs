@@ -9,6 +9,7 @@ Common object properties
     variable-properties
     lists-properties
     parent-container-properties
+    children-properties
     transform-properties
     origin-properties
     flip-properties
@@ -16,7 +17,7 @@ Common object properties
     alpha-properties
     tint-properties
     texture-property
-    text-property
+    text-property    
 
 The properties of the objects are listed and grouped in the `Inspector view <./inspector-view.html>`_. In this view, you can modify the properties of the selected objects.
 

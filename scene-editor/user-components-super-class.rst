@@ -70,7 +70,7 @@ It register the event listeners in the constructor:
         
         if (listenAwake) {
 
-            gameObject.once("components-awake", this.awake, this);
+            this.scene.events.once("scene-awake", this.awake, this);
         }
 
         if (listenStart) {

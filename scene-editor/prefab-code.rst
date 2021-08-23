@@ -15,12 +15,13 @@ This is the code generated after compile the **Dragon** prefab:
     class Dragon extends Phaser.GameObjects.Image {
         
         constructor(scene, x, y, texture, frame) {
-            super(scene, x, y, texture || "dragon-brown");
+            super(scene, x ?? 100, y ?? 100, texture || "dragon", frame ?? "dragon/flamming_00");
 
             this.scaleX = 0.7;
             this.scaleY = 0.7;        
         }       
     }
+    
     
 Note the prefab_ class extends the `Phaser.GameObjects.Image <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Image.html>`_ class, because the `prefab object <prefab-object.html>`_ is an `Image`_.
 
@@ -50,9 +51,7 @@ When the |SceneCompiler|_ compiles a regular scene file, the |PrefabInstances|_ 
             // add the instance to the display list
             this.add.existing(dragon);
             // modify the 'angle' property of the instance
-            dragon.angle = -30;
-            // fires the prefab-awake event
-            dragon.emit("prefab-awake");
+            dragon.angle = -30;            
             ...
         }
     }

@@ -44,6 +44,8 @@ The Layer type contains some of the `common object properties <common-object-pro
 
 * `Parent properties <parent-container-properties.html>`_
 
+* `Children properties <children-properties.html>`_
+
 * `Visible property <visible-property.html>`_
 
 * `Alpha property <alpha-properties.html>`_
