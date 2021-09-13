@@ -74,7 +74,6 @@
 .. |UserComponentsCompiler| replace:: User Components compiler
 .. _UserComponentsCompiler: ../scene-editor/user-components-compiler.html
 
-
 .. |JavaScriptEditor| replace:: JavaScript Editor
 .. _JavaScriptEditor: ../code-editor/js-editor.html
 
@@ -108,3 +107,14 @@
 .. |PrefabVariant| replace:: prefab variant
 
 .. _PrefabVariant: ../scene-editor/prefab-variant.html
+
+.. _Gitpod: https://gitpod.io
+
+.. |GithubCodespaces| replace:: GitHub Codespaces
+.. _GithubCodespaces: https://github.com/codespaces
+
+.. |Core| replace:: Phaser Editor 2D Core
+.. _Core: ../intro/core.html
+
+.. |allInOne| replace:: Phaser Editor 2D All-in-One
+.. _allInOne: ../intro/all-in-one.html

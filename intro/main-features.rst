@@ -94,12 +94,19 @@ We should write a Plugin Development Guide to target these concepts.
 Lightweight and cross-platform
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As we mentioned in the `Available for multiple platforms <multi-platform.html>`_ section, the IDE runs in the main Operating Systems: Windows, macOS, and Linux.
+The IDE is available in the main Operating Systems: Windows, macOS, and Linux.
 
-The big part (the client application) should run in any modern browser (tested on Google Chrome, Firefox, and Opera), and is served by a small (~9MB) native program, available for the mentioned platforms. The whole thing, client plus server, zip-compressed, is ~12MB of size.
+The big part (the client application) should run in any modern browser (tested on Google Chrome, Firefox, and Opera), and is served by a small native program, available for the mentioned platforms. 
 
-The server runs fast and has a pretty small memory footprint (~15MB).
-
-The client application is accelerated by the browser and all the I/O operations are asynchronous. It feels lightweight in terms of operability, but it may push the browser to consume an extra 150MB/300MB of memory.
+The client application is accelerated by the browser and all the I/O operations are asynchronous. It feels lightweight in terms of operability, but it may push the browser to consume an extra 150MB/300MB of memory. It depends the amount of images present in the project.
 
 On the desktop, it loads pretty fast. In a network, the fetching of all the resources may delay, it depends on your network speed.
+
+Ready for the desktop and the cloud
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The editor is distributed as two different products, the |Core|_ and the |allInOne|_.
+
+The |Core|_ can be integrated into a modern web development stack and cloud-based development environments (like Gitpod_ and |GithubCodespaces|_).
+
+The |allInOne|_ is a desktop application that provides a traditional IDE-like experience.
