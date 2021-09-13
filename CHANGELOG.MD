@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.30.0
+
+* Intro: All-in-One & Core chapters.
+
 ## v3.20.0 - Aug 23, 2021    
 
 * Scene Editor: nested prefabs chapter.
