@@ -5,15 +5,15 @@
 Phaser Editor 2D Core
 ~~~~~~~~~~~~~~~~~~~~~
 
-The |Core|_ distribution is a tiny, focused distribution of Phaser Editor 2D.
+The |core|_ distribution is a tiny, focused distribution of Phaser Editor 2D.
 
 It is tiny because it includes only the editor's server and client, and provides only the Phaser game development tools (especially, the Scene Editor plugin), delegating to third-party tools questions like code editing.
 
 Being tiny doesn't mean it is missing something, it means it is focused on the hard problem: design Phaser_ scenes. It allows integrating the editor in different scenarios, like developing in a local desktop or in a remote cloud-based environment (let's say Gitpod_ or |GithubCodespaces|_).
 
-You can add |Core|_ to a Docker file, or add it as a dependency to a Node package, or just download it and execute it in your OS.
+You can add |core|_ to a Docker file, or add it as a dependency to a Node package, or just download it and execute it in your OS.
 
-Actually, if you are going to make professional games, we recommend using |Core|_:
+Actually, if you are going to make professional games, we recommend using |core|_:
 
 * You can add it as development dependency to your NPM project:
 

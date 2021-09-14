@@ -1,3 +1,7 @@
+.. |br| raw:: html
+
+      <br>
+      
 .. _Phaser: https://phaser.io
 
 .. _Colibri: https://github.com/PhaserEditor2D/PhaserEditor2D-v3/tree/master/source/editor/plugins/colibri
@@ -113,8 +117,14 @@
 .. |GithubCodespaces| replace:: GitHub Codespaces
 .. _GithubCodespaces: https://github.com/codespaces
 
-.. |Core| replace:: Phaser Editor 2D Core
-.. _Core: ../intro/core.html
+.. |core| replace:: Phaser Editor 2D Core
+.. _core: ../intro/core.html
 
 .. |allInOne| replace:: Phaser Editor 2D All-in-One
 .. _allInOne: ../intro/all-in-one.html
+
+.. |npm| replace:: NPM
+.. _npm: https://www.npmjs.com
+
+.. |webpack| replace:: WebpackJS
+.. _webpack: https://webpack.js.org

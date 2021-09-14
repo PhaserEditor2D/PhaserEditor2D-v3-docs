@@ -5,9 +5,9 @@
 Phaser Editor 2D All-in-One
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The |allInOne|_ distribution wraps the |Core|_ distribution in an ElectronJS_ app, adding more features and integration with the Operating System.
+The |allInOne|_ distribution wraps the |core|_ distribution in an ElectronJS_ app, adding more features and integration with the Operating System.
 
-This is the distribution we recommend to you if you are not familiar with the web development tooling (TypeScript, NPM, Webpack).
+This is the distribution we recommend to you if you are not familiar with the web development tooling (TypeScript, |npm|_, |webpack|_).
 
 This distribution provides:
 

@@ -89,7 +89,6 @@ todo_include_todos = False
 #import sphinx_rtd_theme
 
 html_theme = "phaser-editor"
-
 # Uncomment for generate Eclipse Offline Help
 #html_theme = "eclipse-help"
 

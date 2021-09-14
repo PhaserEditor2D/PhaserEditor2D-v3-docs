@@ -105,8 +105,8 @@ On the desktop, it loads pretty fast. In a network, the fetching of all the reso
 Ready for the desktop and the cloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The editor is distributed as two different products, the |Core|_ and the |allInOne|_.
+The editor is distributed as two different products, the |core|_ and the |allInOne|_.
 
-The |Core|_ can be integrated into a modern web development stack and cloud-based development environments (like Gitpod_ and |GithubCodespaces|_).
+The |core|_ can be integrated into a modern web development stack and cloud-based development environments (like Gitpod_ and |GithubCodespaces|_).
 
 The |allInOne|_ is a desktop application that provides a traditional IDE-like experience.
