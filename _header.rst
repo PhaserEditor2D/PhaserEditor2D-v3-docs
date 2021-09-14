@@ -128,3 +128,6 @@
 
 .. |webpack| replace:: WebpackJS
 .. _webpack: https://webpack.js.org
+
+.. |codemirror| replace:: CodeMirror
+.. _codemirror: https://codemirror.net
