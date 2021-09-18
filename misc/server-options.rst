@@ -23,12 +23,6 @@ However, you may want to execute the server in a remote machine. To do this, you
 
 By default, the server gzip compresses the files sent over the network. It requires an extra usage of the CPU, so you may disable it if you want to use less CPU in the server machine.
 
-**-disable-check-for-updates**
-
-When the server starts it connects with the updates server and checks for the latest released version. If there is a new version it prints a message with the new version and a short description of the new changes.
-
-You can disable this function.
-
 **-disable-open-browser**
 
 If you don't want to open the default browser at the server startup. Not needed if you run the server with the ``-public`` option.
@@ -69,14 +63,6 @@ The display name of the external editor. Used in the UI. By default it is **Visu
 
 In the installation folder of |PhaserEditor|_ there is the ``editor`` folder. It contains the code of the IDE. If you want to load other implementation of the IDE, you can use the ``-editor /other/editor/implementation`` option. This is useful for testing or developing a different version of the IDE.
 
-**-templates string**
-
-In the installation folder of |PhaserEditor|_ there is the ``templates`` folder. It contains the project templates used in the IDE. If you want to use other templates you can use the ``-templates /other/templates`` option.
-
-**-disable-advanced-js-editor**
-
-By default, the IDE provides a |JavaScriptEditor|_ with advanced features like code completion across multiple files. The auto-completion engine consumes "a lot" of resources in terms of network requests and CPU. For this reason, if you are using a third-party code editor like |VSCode|_ then you can disable the engine using this option.
-
 **-lickey string**
 
 Use this option to unlock the editor: ``-lickey <valid-lic-key>``.
@@ -85,17 +71,13 @@ Use this option to unlock the editor: ``-lickey <valid-lic-key>``.
 
 By default, the server uses the ``1959`` port for HTTP networking. You can use this option to change it.
 
-**-ws string**
+**-project string**
 
-Use this option to change the workspace. By default, the server uses the ``<user-home>/PhaserEditor_Projects`` folder: ``-ws /path/to/my/workspace/``. See the `Projects <../workbench/projects.html>`_ chapter.
+This is a mandatory flag. Use it for setting the project path:
 
-**-update**
+.. code::
 
-When you run this option, the server downloads and installs the latest version. The old files are deleted and the new files are copied. It does not require any extra action.
-
-**-download**
-
-Use this option to download the latest version of Phaser Editor 2D. The download is a ZIP file with the binaries for your platform.
+    $ PhaserEditor2D -project /path/to/project
 
 Getting the options from a file
 ===============================
@@ -110,7 +92,7 @@ The format of the ``flags.txt`` file is simple. Each line contains an argument. 
 
 .. code::
 
-    $ PhaserEditor2D -public -port 80
+    $ PhaserEditor2D -public -port 80 -project /path/to/project
 
 You can write this content in the ``flags.txt`` file:
 
@@ -119,7 +101,7 @@ You can write this content in the ``flags.txt`` file:
     -public
     -port
     80
-
+    
 Also, you can write blank lines and comments. Comments are lines that start with the ``#`` character:
 
 .. code:: bash

@@ -5,9 +5,9 @@ Setting the root folder for the asset files
 
 When you add a new file to the Asset Pack, the editor uses, as the URL, the project's relative path to the file. For example, if you add an image file with full path ``<project root>/assets/background.png``, then the URL of the file configuration is set to ``assets/background.png``.
 
-That's fine for a lot of cases. However, if you use web bundlers, like Webpack or Parcel, it could be different. Maybe the relative path of the assets is not the same in the project and the website.
+That's fine for a lot of cases. However, if you use web bundlers, like |webpack|_ or Parcel, it could be different. Maybe the relative path of the assets is not the same in the project and the website.
 
-Let's see an example. The Webpack project template of |PhaserEditor|_ has this layout:
+Let's see an example. The |webpack|_ project template of |PhaserEditor|_ has this layout:
 
 .. image:: ../images/asset-pack-static-folder-webpack-03312021.webp
     :alt: Project layout of the Webpack template.

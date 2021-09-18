@@ -8,7 +8,8 @@ Introduction
 .. toctree::
    
    author
-   multi-platform
+   open-source-commercial
+   distributions
    main-features
    collaboration
    pricing

@@ -38,6 +38,6 @@ Let's say we want to create a purple-skinned |PrefabVariant|_ of the **Dragon** 
 
 .. warning::
     
-    A common error when making a prefab variant is to load the script files in the |AssetPackEditor|_, using the **Script** file type. It can cause a "missing class" error at the execution of the game. The problem is that the scripts files are loaded and executed in any order. The solution is to add the scripts using the **Scripts** file type of the |AssetPackEditor|_. It allows to set the execution order of the scripts: the prefab script should be executed before the prefab variant script. However, what we recommend for large projects is using building tools lie TypeScript or Webpack.
+    A common error when making a prefab variant is to load the script files in the |AssetPackEditor|_, using the **Script** file type. It can cause a "missing class" error at the execution of the game. The problem is that the scripts files are loaded and executed in any order. The solution is to add the scripts using the **Scripts** file type of the |AssetPackEditor|_. It allows to set the execution order of the scripts: the prefab script should be executed before the prefab variant script. However, what we recommend for large projects is using building tools lie TypeScript or |webpack|_.
 
     `Learn more about the execution order of the scripts <../asset-pack-editor/import-scripts.html#execution-order-of-the-scripts>`_
