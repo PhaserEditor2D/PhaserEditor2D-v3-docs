@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.30.0
+## v3.30.0 - Sep 18, 2021
 
 * Intro: All-in-One & Core chapters.
 
