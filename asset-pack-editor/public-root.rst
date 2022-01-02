@@ -12,7 +12,7 @@ Let's see an example. The |webpack|_ project template of |PhaserEditor|_ has thi
 .. image:: ../images/asset-pack-static-folder-webpack-03312021.webp
     :alt: Project layout of the Webpack template.
 
-Look that if you add the ``FufuSuperDino.png`` file to an asset pack, it sets the URL of the image to ``static/assets/FufuSuperDino.png``. However, the ``static`` folder is not present in the distribution build (in the website). It only copies its content to the distribution build folder. So, when you open the game in the browser, the path of the image file is ``assets/FufuSuperDino.png`` (without the ``static`` element).
+Notice that if you add the ``FufuSuperDino.png`` file to an asset pack, it sets the URL of the image to ``static/assets/FufuSuperDino.png``. However, the ``static`` folder is not present in the distribution build (in the website). It only copies its content to the distribution build folder. So, when you open the game in the browser, the path of the image file is ``assets/FufuSuperDino.png`` (without the ``static`` element).
 
 Now, |PhaserEditor|_ allows changing the root folder for the assets. If you add an empty ``publicroot`` file, in the ``static`` folder, then the editor will build the file URL with the relative path to the ``<project root>/static`` folder:
 

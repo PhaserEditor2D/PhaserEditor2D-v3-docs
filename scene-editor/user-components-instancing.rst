@@ -50,7 +50,7 @@ If the selected object is a prefab instance, then the components present in the 
 .. image:: ../images/scene-editor-user-components-obj-prefab-properties-07302020.webp
     :alt: Editing properties of a component of a prefab instance.
 
-Look at the prefab and the |UserComponent|_ names, both are shown as links. If you click on it, it will open the prefab or the |UserComponent| in its editor. Also, each |UserComponent|_ panel has a menu icon. Click on it to list other options, like select in the scene all the objects with the same |UserComponent|_:
+Look at the prefab and the |UserComponent|_ names: both are shown as links. If you click on it, it will open the prefab or the |UserComponent| in its editor. Also, each |UserComponent|_ panel has a menu icon. Click on it to list other options, like select in the scene all the objects with the same |UserComponent|_:
 
 .. image:: ../images/scene-editor-user-components-select-all-objects-07302020.webp
     :alt: Select all objects with the same User Component.
