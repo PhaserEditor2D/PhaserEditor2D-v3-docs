@@ -43,7 +43,7 @@ The `Object List`_ type is not part of the |PhaserAPI|_, it is something introdu
 .. image:: ../images/scene-editor-object-list-props-04192020.webp
  :alt: Object List properties.
 
-Look the **Remove From List** and **Select In Scene** buttons apply to the items selected in the viewer next to them.
+The **Remove From List** and **Select In Scene** buttons apply to the items selected in the viewer next to them.
 
 Object List vs Phaser Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

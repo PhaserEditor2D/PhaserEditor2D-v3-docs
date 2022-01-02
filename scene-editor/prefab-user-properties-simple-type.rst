@@ -3,7 +3,7 @@
 Simple property type
 ````````````````````
 
-The **Number**, **String**, and **Boolean** properties are the simplest. The |SceneCompiler|_ generates the properties as class fields. Look each property is set to the **Default** value:
+The **Number**, **String**, and **Boolean** properties are the simplest. The |SceneCompiler|_ generates the properties as class fields. Note that each property is set to the **Default** value:
 
 .. code::
 

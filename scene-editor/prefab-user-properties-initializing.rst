@@ -162,4 +162,4 @@ Then, you can write a custom setter and initialize other fields of the prefab:
         /* END-USER-CODE */
     }
 
-Look you don't need to listen the ``prefab-awake`` event anymore. Setting the ``flameType`` property will update the prefab state in the expected way. It's possible you also need to define a getter for the ``flameType``. If that's the case, you can store its value in a new field, or compute it.
+Note that you don't need to listen for the ``prefab-awake`` event anymore. Setting the ``flameType`` property will update the prefab state in the expected way. It's possible you also need to define a getter for the ``flameType``. If that's the case, you can store its value in a new field, or compute it.
