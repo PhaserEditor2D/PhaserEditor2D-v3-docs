@@ -22,8 +22,8 @@ Here a list of all the available commands, grouped by category:
  :header: "Category", "Command", "Keys", "Description"
  :widths: 1, 4, 1, 4
  
-    "General","Decrement Tab Size","``Ctrl+3``","Make bigger the editor tabs."
-    "General","Increment Tab Size","``Ctrl+4``","Make smaller the editor tabs."
+    "General","Decrement Tab Size","``Ctrl+Digit3``","Make bigger the editor tabs."
+    "General","Increment Tab Size","``Ctrl+Digit4``","Make smaller the editor tabs."
     "General","Close Editor","``Ctrl+Q``","Close active editor."
     "General","Close All Editors","``Ctrl+Shift+Q``","Close all editors."
     "General","Undo","``Ctrl+Z``","Undo operation"
