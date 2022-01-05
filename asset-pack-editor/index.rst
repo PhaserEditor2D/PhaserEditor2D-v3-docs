@@ -39,7 +39,7 @@ Or you can load the file by passing a single argument, a `SpriteSheetFileConfig 
  });
 
 
-Every file type can be loaded using its configuration object, that is just a JSON object. Following this logic, Phaser_ has an especial type of files that contains the configurations of other files, it is the |AssetPackFile|_.
+Every file type can be loaded using its configuration object, that is just a JSON object. Following this logic, Phaser_ has a special type of files that contains the configurations of other files, it is the |AssetPackFile|_.
 
 You can load an |AssetPackFile|_ using the ``pack(...)`` method of the loader:
 

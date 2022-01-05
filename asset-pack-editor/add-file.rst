@@ -19,6 +19,6 @@ You can add new file configurations in different ways:
 
 * Importing the files `from the Files view <import-from-files-view.html>`_.
 
-An especial section comments the advantages of import the scripts using the |AssetPackFile|_: `Importing JavaScript files <import-scripts.html>`_.
+A special section comments the advantages of import the scripts using the |AssetPackFile|_: `Importing JavaScript files <import-scripts.html>`_.
 
 You can delete content pressing the ``Delete`` key or using the context menu, inside the editor or the `Outline view <outline-view.html>`_.
