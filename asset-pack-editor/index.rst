@@ -10,7 +10,7 @@ Asset Pack Editor
     create-asset-pack-file
     asset-pack-file
     editor-content-layout
-    add-file
+    importing-files
     organizing-the-assets       
     outline-view
     inspector-view

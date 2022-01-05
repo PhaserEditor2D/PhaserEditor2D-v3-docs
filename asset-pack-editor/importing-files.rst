@@ -5,7 +5,7 @@ Importing files
 
 .. toctree::
 
-    add-file-with-add-button
+    import-from-main-toolbar
     import-from-blocks-view
     import-from-files-view
     import-scripts
@@ -13,7 +13,7 @@ Importing files
 
 Before you can use a file in your game, you must create a configuration entry for it in an |AssetPackFile|_.  This is called **importing** the file.
 
-You can import a file using the Asset Pack Editor's `Main toolbar <add-file-with-add-button.html>`_ or `Blocks view <import-from-blocks-view.html>`_, 
+You can import a file using the Asset Pack Editor's `Main toolbar <import-from-main-toolbar.html>`_ or `Blocks view <import-from-blocks-view.html>`_, 
 or using the `Files view <import-from-files-view.html>`_.  We'll discuss each of these in the following sections.
 
 A special section discusses the advantages of importing scripts using the |AssetPackFile|_: `Importing JavaScript files <import-scripts.html>`_.
