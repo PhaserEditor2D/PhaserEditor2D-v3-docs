@@ -14,7 +14,8 @@ To build the documentation:
 ./build.sh
 ```
 
-To run the documentation server and incremental builder:
+To run the documentation server and incremental builder (requires 
+[sphinx-autobuild](https://pypi.org/project/sphinx-autobuild/)):
 
 ```
 ./watch.sh
