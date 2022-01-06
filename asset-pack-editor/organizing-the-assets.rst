@@ -28,4 +28,4 @@ This could be the structure of your project:
 
 The |AssetPackEditor|_ searches for files inside the folder containing the |AssetPackFile|_, and you can make it more effective if the structure of the project is well organized.
 
-`Learn how to add entries to an Asset Pack file <importing-files.html>`_
+`Learn how to add entries to an Asset Pack file <add-file.html>`_
