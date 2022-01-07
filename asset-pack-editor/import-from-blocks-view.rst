@@ -38,5 +38,5 @@ Showing all files in the Blocks view
 
 As we mentioned before, the Blocks view only shows the files in the same folder (or sub-folder) as the |AssetPackFile|_. You can disable this restriction by checking the **Show All Files in Project** settings in the Inspector view:
 
-.. image:: ../images/asset-pack-show-all-files-in-blocks-01012022.webp
+.. image:: ../images/asset-pack-show-all-files-in-blocks-20210529.webp
   :alt: Show all files in the Blocks view.
