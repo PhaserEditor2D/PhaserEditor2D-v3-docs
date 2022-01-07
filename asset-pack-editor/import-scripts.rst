@@ -23,7 +23,7 @@ So the same Phaser_ framework can be used as a JavaScript packing/loading tool, 
 
 By the way, when you add an entry for a JavaScript file to an |AssetPackFile|_, and that script is associated with a |SceneEditor|_ file (``.scene``), the |AssetPackEditor|_ shows an inline preview of the scene, for easy identification.
 
-.. image:: ../images/asset-pack-editor-import-script-files-04082020.webp
+.. image:: ../images/asset-pack-editor-import-script-files-01012022.webp
   :alt: Scene JavaScript files are displayed with a scene screenshot.
 
 Execution order of the scripts
@@ -31,8 +31,8 @@ Execution order of the scripts
 
 A missing class is a common error when you load scripts using the |AssetPackEditor|_. It happens when a class ``B`` in a script ``B.js`` extends a class ``A`` in the script ``A.js``, but ``B.js`` is executed before ``A.js``. The solution is to use the `Scripts file type <https://photonstorm.github.io/phaser3-docs/Phaser.Loader.LoaderPlugin.html#scripts__anchor>`_. With this method, you can set execution order of the files:
 
-.. image:: ../images/asset-pack-editor-scripts-1-09172020.webp
+.. image:: ../images/asset-pack-editor-scripts-1-01012022.webp
   :alt: Select to add a Scripts file type.
 
-.. image:: ../images/asset-pack-editor-scripts-2-09172020.webp
+.. image:: ../images/asset-pack-editor-scripts-2-01012022.webp
   :alt: Select to add a Scripts file type.
