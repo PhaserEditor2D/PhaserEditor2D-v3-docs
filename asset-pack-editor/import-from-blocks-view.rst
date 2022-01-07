@@ -26,7 +26,7 @@ These are the steps:
 
 #. Select one of the importing options listed in the **Asset Pack Entry** section of the |InspectorView|_.
 
-  .. image:: ../images/asset-pack-add-file-from-blocks-view-02242021.webp
+  .. image:: ../images/asset-pack-add-file-from-blocks-view-01012022.webp
    :alt: Import files from Blocks view.
 
 #. When the files are imported, edit the new configurations in the |InspectorView|_.
@@ -38,5 +38,5 @@ Showing all files in the Blocks view
 
 As we mentioned before, the Blocks view only shows the files in the same folder (or sub-folder) as the |AssetPackFile|_. You can disable this restriction by checking the **Show All Files in Project** settings in the Inspector view:
 
-.. image:: ../images/asset-pack-show-all-files-in-blocks-20210529.webp
+.. image:: ../images/asset-pack-show-all-files-in-blocks-01012022.webp
   :alt: Show all files in the Blocks view.

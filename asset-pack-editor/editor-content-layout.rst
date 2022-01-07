@@ -9,5 +9,5 @@ The editor uses a `content viewer <../misc/content-viewers.html>`_, so it shows 
 
 In addition, the |OutlineView|_ provides a hierarchical presentation of the editor content.
 
-.. image:: ../images/asset-pack-editor-overview-04072020.webp
+.. image:: ../images/asset-pack-editor-overview-01012022.webp
   :alt: Asset Pack Editor.

@@ -50,7 +50,7 @@ You can load an |AssetPackFile|_ using the ``pack(...)`` method of the loader:
 
 The |AssetPackEditor| allows you to edit an |AssetPackFile|_, making it very easy to load the assets in your game. Instead of spending precious time writing the JSON file by hand, with the |AssetPackEditor|_ you can load your assets with a visual tool and smart operations.
 
-.. image:: ../images/asset-pack-editor-overview-04072020.webp
+.. image:: ../images/asset-pack-editor-overview-01012022.webp
   :alt: Asset Pack Editor.
 
 The |AssetPackFile|_ is relevant in the IDE for two main reasons:
