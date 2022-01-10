@@ -4,6 +4,9 @@
 
 * [#6](https://github.com/PhaserEditor2D/PhaserEditor-v3-docs/pull/6) Change "Add File" to "Import File" throughout. English improvements.
 * Adds the missing `prefab-user-properties-prefab-instance.rst` section.
+* Adds Editor Configuration chapter.
+* Adds Plugins chapter.
+* Removes deprecated commands from the Update chapter.
 
 
 ## v3.31.0 - Nov 29, 2021

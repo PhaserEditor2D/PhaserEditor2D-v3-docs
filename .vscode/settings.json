@@ -2,8 +2,8 @@
     "editor.fontSize": 18,
     "browser-preview.startUrl": "http://127.0.0.1:8000/",
     "browser-preview.format": "png",
-    "workbench.preferredDarkColorTheme": "Quiet Light",
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "workbench.colorTheme": "Dracula Soft",
     "cSpell.words": [
         "tilemap",
         "toolkits"
