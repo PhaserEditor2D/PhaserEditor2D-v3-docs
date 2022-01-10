@@ -7,6 +7,7 @@
 * Adds Editor Configuration chapter.
 * Adds Plugins chapter.
 * Removes deprecated commands from the Update chapter.
+* Resources filtering chapter: includes the `skip` setting of the project's config file.
 
 
 ## v3.31.0 - Nov 29, 2021
