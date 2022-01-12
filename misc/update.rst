@@ -1,30 +1,13 @@
 .. include:: ../_header.rst
 
 
-Automatic update
-----------------
+Updating the editor
+-------------------
 
 When you start the server, it connects with the updates site in Internet and checks if there is a new version. If there is a new version then it shows a message with the version number and some headlines of the release notes.
 
-.. image:: ../images/update-new-version-message-05292020.webp
-    :alt: New version message.
+Older versions of the editor provided an automatic update process via the ``-update`` flag, but it was removed since the introduction of |core|_ and |allInOne|_.
 
-If you wish to update the editor to the latest version (something that we recommend to do), press ``Ctrl+C`` to stop the server and execute:
+For |core|_, we recommend installing/updating the editor via the `phasereditor2d-launcher <https://www.npmjs.com/package/phasereditor2d-launcher>`_ NPM package.
 
-.. highlight:: bash
-
-.. code::
-    
-    $ PhaserEditor2D -update
-
-Then the server downloads the latest version and installs it. The old files will be replaced with the new files. If you have custom templates or plugins you should backup them in other place.
-
-Also you have the option of download the latest version:
-
-.. code::
-
-    $ PhaserEditor2D -download
-
-It downloads the same ZIP file that is available in the Phaser Editor 2D website. You can unzip it in other folder and execute the new version.
-
-
+The |allInOne|_ distribution shows a message when there is a new update, but you should download the new version manually.

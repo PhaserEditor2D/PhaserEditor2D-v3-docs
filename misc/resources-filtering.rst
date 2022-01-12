@@ -36,6 +36,16 @@ If the ``.skip`` file is empty, then the editor assumes it has a ``*`` pattern. 
 
 In addition to the ``.skip`` files you create in each project, you can edit the ``default-skip`` file that is placed in the Phaser Editor 2D install directory. The patterns defined in that file will be applied to all projects. By default, it includes the pattens to skip all files starting in a dor (``.``), all ``node_modules`` folders, and all ``__MACOSX`` files.
 
+Another way of filtering the files, is using the ``skip`` setting of the `project configuration file <../project-config.html>`_. You can set an array of "skipping rules", the same used in the ``.skip`` file:
+
+.. code::
+
+    // phasereditor2d.config.json
+    
+    {
+        "skip": ["my-private-secret.data", "**/*@2x.*"]
+    }
+
 Patterns
 ========
 

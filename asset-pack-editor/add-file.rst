@@ -1,7 +1,7 @@
 .. include:: ../_header.rst
 
-Adding files to Asset Pack file
--------------------------------
+Importing files
+---------------
 
 .. toctree::
 
@@ -11,14 +11,11 @@ Adding files to Asset Pack file
     import-scripts
     public-root    
 
-You can add new file configurations in different ways:
+Before you can use a file in your game, you must create a configuration entry for it in an |AssetPackFile|_.  This is called **importing** the file.
 
-* Using the `Add File <add-file-with-add-button.html>`_ command.
+You can import a file using the Asset Pack Editor's `Main toolbar <add-file-with-add-button.html>`_ or `Blocks view <import-from-blocks-view.html>`_, 
+or using the `Files view <import-from-files-view.html>`_.  We'll discuss each of these in the following sections.
 
-* Importing the files `from the Blocks view <import-from-blocks-view.html>`_.
+A special section discusses the advantages of importing scripts using the |AssetPackFile|_: `Importing JavaScript files <import-scripts.html>`_.
 
-* Importing the files `from the Files view <import-from-files-view.html>`_.
-
-An especial section comments the advantages of import the scripts using the |AssetPackFile|_: `Importing JavaScript files <import-scripts.html>`_.
-
-You can delete content pressing the ``Delete`` key or using the context menu, inside the editor or the `Outline view <outline-view.html>`_.
+You can un-import a file, removing its |AssetPackFile|_ entry, by pressing the ``Delete`` key in the |AssetPackEditor|_ or the `Outline view <outline-view.html>`_, or from their context menus.

@@ -131,3 +131,6 @@
 
 .. |codemirror| replace:: CodeMirror
 .. _codemirror: https://codemirror.net
+
+.. |marketplace| replace:: Phaser Editor 2D Marketplace
+.. _marketplace: https://marketplace.phasereditor2d.com
