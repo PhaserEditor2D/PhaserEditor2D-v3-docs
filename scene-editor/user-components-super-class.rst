@@ -102,7 +102,7 @@ It register the event listeners in the constructor:
         }
     }
 
-But let's go step by step. First, it checks what events to listen to. Look the methods **awake()**, **start()**, etc..., are empty. So, if the component instance doesn't provide a different implementation for one of these methods, then it means it can skip calling that method. Then the first thing is to know what methods to call:
+But let's go step by step. First, it checks what events to listen to. Notice that the methods **awake()**, **start()**, etc..., are empty. So, if the component instance doesn't provide a different implementation for one of these methods, then it means it can skip calling that method. Then the first thing is to know what methods to call:
 
 .. code::
 

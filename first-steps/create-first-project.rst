@@ -3,7 +3,7 @@
 Create your first project
 -------------------------
 
-We provide a couple of project templates that you can download from the `Phaser Editor 2D Start page <https://phasereditor2d.com/start>`_. Look each template card contains links for downloading a zip with the project, a link to the GitHub project, and a link for opening the project in Gitpod_ (a cloud-based development environment).
+We provide a couple of project templates that you can download from the `Phaser Editor 2D Start page <https://phasereditor2d.com/start>`_. You'll see that each template card contains links for downloading a zip with the project, a link to the GitHub project, and a link for opening the project in Gitpod_ (a cloud-based development environment).
 
 .. image:: ../images/first-steps-online-start-page-09132021.webp
   :alt: Download project templates online

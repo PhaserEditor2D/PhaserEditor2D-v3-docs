@@ -18,7 +18,7 @@ Of course, Phaser_ provides API to interact with some widely used, third-party f
 
 For the |SceneEditor|_, we use a custom scene-file format, but instead of creating a custom library to parse and create the Phaser_ scenes on the fly, we created a compiler.
 
-The |SceneCompiler|_ takes as input the custom scene files (based on JSON) and generates a well written Phaser_ code. Look it like if the |SceneCompiler|_ writes the Phaser_ code for you.
+The |SceneCompiler|_ takes as input the custom scene files (based on JSON) and generates well-written Phaser_ code. In other words, the |SceneCompiler|_ writes the Phaser_ code for you.
 
 This has some advantages:
 
