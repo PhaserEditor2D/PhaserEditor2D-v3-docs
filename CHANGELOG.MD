@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.32.1 - Feb 27, 2022
+
+* Adds the documentation of the "user imports" section of the scene compiler.
+
 ## v3.32.0 - Jan 12, 2022
 
 * [#6](https://github.com/PhaserEditor2D/PhaserEditor-v3-docs/pull/6) Change "Add File" to "Import File" throughout. English improvements.
