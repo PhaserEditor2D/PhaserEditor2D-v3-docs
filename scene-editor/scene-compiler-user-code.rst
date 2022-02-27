@@ -26,11 +26,17 @@ The |SceneCompiler|_ uses different comments to delimit the user code:
 
 * From the end of the ``/* END OF COMPILED CODE */`` comment to the end of the file.
 
+* From the end of the ``/* START-USER-IMPORT */`` comment to the start of the ``/* END-USER-IMPORT-CODE */`` comment.
+
+
+* From the end of the ``/* START-USER-CTR-CODE */`` comment to the start of the ``/* END-USER-CTR-CODE */`` comment.
+
+
 * From the end of the ``/* START-USER-CODE */`` comment to the start of the ``/* END-USER-CODE */`` comment.
 
-The next image is an example. Note that you can write an ``update()`` method with the game logic:
+The next image is an example. Look that you can import a ``MyUtils`` class and use it in the ``create()`` method:
 
-.. image:: ../images/scene-compiler-user-code-04272020.webp
+.. image:: ../images/scene-compiler-user-code-27022022.webp
     :alt: User code.
 
 Editing the generated code
