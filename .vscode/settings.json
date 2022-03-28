@@ -11,5 +11,6 @@
     "restructuredtext.confPath": "${workspaceFolder}",
     "restructuredtext.linter.run": "onSave",
     "restructuredtext.languageServer.disabled": false,
-    "editor.wordWrap": "wordWrapColumn"
+    "editor.wordWrap": "wordWrapColumn",
+    "esbonio.sphinx.confDir": "${workspaceFolder}"
 }

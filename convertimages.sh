@@ -1,4 +1,3 @@
-#!/bin/bash
 
 for name in `ls images/*.png`; do
 

@@ -1,5 +1,9 @@
 # Change Log
 
+## dev
+
+* Scene Editor: adds the new **GO Name** parameter in the Variable section.
+
 ## v3.32.1 - Feb 27, 2022
 
 * Adds the documentation of the "user imports" section of the scene compiler.
