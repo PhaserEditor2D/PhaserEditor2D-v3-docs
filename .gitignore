@@ -1,2 +1,3 @@
 _build
 .backup-images
+.DS_Store
