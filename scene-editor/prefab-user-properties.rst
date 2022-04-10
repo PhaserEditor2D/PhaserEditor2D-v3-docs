@@ -9,10 +9,12 @@ Prefab user properties
     prefab-user-properties-simple-type
     prefab-user-properties-options-type
     prefab-user-properties-expression-type
+    prefab-user-properties-object-variable-type
     prefab-user-properties-texture-type
     prefab-user-properties-asset-key-type
     prefab-user-properties-animation-key-type
     prefab-user-properties-audio-key-type
+    prefab-user-properties-scene-key-type
     prefab-user-properties-initializing
     prefab-user-properties-prefab-instance
 
