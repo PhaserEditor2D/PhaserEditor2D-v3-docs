@@ -8,6 +8,7 @@ Prefab user properties
     prefab-user-properties-create
     prefab-user-properties-simple-type
     prefab-user-properties-options-type
+    prefab-user-properties-color-type
     prefab-user-properties-expression-type
     prefab-user-properties-object-variable-type
     prefab-user-properties-texture-type

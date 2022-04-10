@@ -5,7 +5,8 @@
 * Scene Editor: adds the new **GO Name** parameter in the Variable section.
 * Scene Editor: removes the Details documentation from the Inspector view topic.
 * Scene Editor: the new Scene Key user property type.
-* Scene Editor: the new Object Variable user property.
+* Scene Editor: the new Object Variable user property type.
+* Scene Editor: the new Color user property type.
 
 ## v3.32.1 - Feb 27, 2022
 
