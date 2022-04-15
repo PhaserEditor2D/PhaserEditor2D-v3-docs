@@ -88,17 +88,13 @@ todo_include_todos = False
 #
 import sphinx_rtd_theme
 
-#html_theme = "phaser-editor"
 html_theme = "sphinx_rtd_theme"
-# Uncomment for generate Eclipse Offline Help
-#html_theme = "eclipse-help"
 
-#html_theme_path = ["_themes"]
 html_show_sourcelink = False
-html_show_sphinx = False
+html_show_sphinx = True
 html_favicon = "_static/icon.png"
 html_logo = "_static/logo.png"
-html_title = "Phaser Editor Help"
+html_title = "Phaser Editor 2D Help"
 html_show_copyright = True
 
 #html_theme = 'classic'
@@ -108,6 +104,7 @@ highlight_language = 'javascript'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
+
 html_theme_options = {
     'analytics_id': 'UA-67206336-2',  #  Provided by Google in your dashboard
     'analytics_anonymize_ip': False,
@@ -116,7 +113,7 @@ html_theme_options = {
     #'prev_next_buttons_location': 'bottom',
     #'style_external_links': False,
     #'vcs_pageview_mode': '',
-    # 'style_nav_header_background': '#4F2B6F',
+    'style_nav_header_background': '#343131',
     # Toc options
     #'collapse_navigation': True,
     #'sticky_navigation': True,

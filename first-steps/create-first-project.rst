@@ -16,9 +16,11 @@ You can take a look to the **Example Games** for learning Phaser Editor 2D by lo
 
 Each project template has a README file (in the GitHub repository) with the instructions for installing all required dependencies.
 
+More templates are available in the `Phaser Editor 2D Marketplace <https://marketplace.phasereditor2d.com>`_.
+
 This method for stating a new project is great for the |core|_ distribution or for starting a new project in the cloud.
 
-The |allInOne|_ distribution has the option of creating a new project. It contains the `Phaser Editor 2D Start page`_ templates, and it does not require Internet connection.
+The |allInOne|_ distribution has the option of creating a new project. It contains some built-in templates (available offline), and also connects to the marketplace for getting more.
 
 Follow these steps:
 
@@ -31,6 +33,9 @@ Follow these steps:
 
   .. image:: ../images/first-steps-allInOne-new-project-2-20220415.webp
     :alt: Select project template
+
+  .. image:: ../images/first-steps-allInOne-new-project-marketplace-20220415.webp
+  :alt: Select project template from the marketplace.
 
 * When you select a project template, the IDE opens the OS file explorer. Select a directory where the project content will be copied:
 
