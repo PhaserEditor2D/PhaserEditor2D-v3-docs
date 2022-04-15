@@ -6,15 +6,12 @@
 Distributions
 -------------
 
+|PhaserEditor|_ is distributed as two different products:
+
 .. toctree::
    
    core
    all-in-one
-
-|PhaserEditor|_ is distributed as two different products:
-
-* Phaser Editor 2D Core
-* Phaser Editor 2D All-in-One
 
 Both products are available for Linux, Windows, and macOS.
 

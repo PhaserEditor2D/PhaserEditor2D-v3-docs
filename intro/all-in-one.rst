@@ -19,7 +19,7 @@ This distribution provides:
 
 Start page, project list:
 
-.. image:: ../images/intro-allInOne-start-page-09132021.webp
+.. image:: ../images/intro-allInOne-start-page-20220415.webp
 
 Start page, project templates:
 
