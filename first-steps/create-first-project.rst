@@ -35,7 +35,9 @@ Follow these steps:
     :alt: Select project template
 
   .. image:: ../images/first-steps-allInOne-new-project-marketplace-20220415.webp
-  :alt: Select project template from the marketplace.
+    :alt: Select project template from the marketplace.
+
+  Projects in the marketplace are created by the Phaser Editor 2D team but also by the community.
 
 * When you select a project template, the IDE opens the OS file explorer. Select a directory where the project content will be copied:
 

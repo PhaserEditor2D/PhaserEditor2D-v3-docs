@@ -20,7 +20,12 @@ This distribution provides:
 Start page, project list:
 
 .. image:: ../images/intro-allInOne-start-page-20220415.webp
+    :alt: Recent projects.
 
 Start page, project templates:
 
-.. image:: ../images/intro-allInOne-new-project-page-09132021.webp
+.. image:: ../images/first-steps-allInOne-new-project-2-20220415.webp
+    :alt: Select project template
+
+.. image:: ../images/first-steps-allInOne-new-project-marketplace-20220415.webp
+    :alt: Select project template from the marketplace.
