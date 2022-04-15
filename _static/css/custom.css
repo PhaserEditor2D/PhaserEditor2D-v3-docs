@@ -1,0 +1,14 @@
+ section img {
+    margin-top: 1em !important;
+    margin-bottom: 2em !important;
+    border-radius: 5px !important;
+    box-shadow: rgba(100, 100, 111, 1) 0px 7px 19px 0px !important;
+}
+
+.wy-side-nav-search input[type=text] {
+    border-radius: 0px !important;
+}
+
+.logo {
+    width: 94px !important;
+}

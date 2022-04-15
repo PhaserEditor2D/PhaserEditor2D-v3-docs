@@ -9,8 +9,6 @@ This user property type is dedicated for referencing objects in the scene. It pr
 .. image:: ../images/prefab-user-props-object-variable-20220409.webp
   :alt: The object reference editor.
 
-|br|
-
 This property type if a subset of the `Expression property type <./prefab-user-properties-expression-type.html>`_. You can define the type of the property. By default, it is ``Phaser.GameObjects.Game``, but you can write any other type.
 
 .. code::

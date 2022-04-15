@@ -8,8 +8,6 @@ This user property type allows any string values, but provides a dialog for sele
 .. image:: ../images/prefab-user-props-scene-key-20220409.webp
   :alt: The scene key editor.
 
-|br|
-
 The |SceneCompiler|_ generates Scene Key properties like this:
 
 .. code::

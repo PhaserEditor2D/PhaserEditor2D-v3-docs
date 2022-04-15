@@ -86,22 +86,20 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#import sphinx_rtd_theme
+import sphinx_rtd_theme
 
-html_theme = "phaser-editor"
+#html_theme = "phaser-editor"
+html_theme = "sphinx_rtd_theme"
 # Uncomment for generate Eclipse Offline Help
 #html_theme = "eclipse-help"
 
-html_theme_path = ["_themes"]
+#html_theme_path = ["_themes"]
 html_show_sourcelink = False
 html_show_sphinx = False
-html_favicon = "logo.png"
+html_favicon = "_static/icon.png"
+html_logo = "_static/logo.png"
 html_title = "Phaser Editor Help"
 html_show_copyright = True
-
-
-print(html_theme_path)
-
 
 #html_theme = 'classic'
 highlight_language = 'javascript'
@@ -110,59 +108,26 @@ highlight_language = 'javascript'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'analytics_id': 'UA-67206336-2',  #  Provided by Google in your dashboard
+    'analytics_anonymize_ip': False,
+    #'logo_only': False,
+    #'display_version': True,
+    #'prev_next_buttons_location': 'bottom',
+    #'style_external_links': False,
+    #'vcs_pageview_mode': '',
+    # 'style_nav_header_background': '#4F2B6F',
+    # Toc options
+    #'collapse_navigation': True,
+    #'sticky_navigation': True,
+    #'navigation_depth': 4,
+    #'includehidden': True,
+    #'titles_only': False
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-
-# -- Options for HTMLHelp output ------------------------------------------
-
-# Output file base name for HTML help builder.
-htmlhelp_basename = 'PhaserEditordoc'
-
-
-# -- Options for LaTeX output ---------------------------------------------
-
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    'papersize': 'letterpaper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    #
-    'preamble': '',
-
-    # Latex figure (float) alignment
-    #
-    'figure_align': 'htbp',
-}
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'PhaserEditor2D.tex', u'Phaser Editor 2D Documentation',
-     u'Arian Fornaris', 'manual'),
-]
-
-
-# -- Options for Texinfo output -------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'PhaserEditor2D', u'Phaser Editor 2D Documentation',
-     author, 'Arian', 'A friendly HTML5 game IDE.',
-     'Miscellaneous'),
-]
-
-
+html_css_files = ['css/custom.css']
 

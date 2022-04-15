@@ -8,8 +8,6 @@ The Asset Key property type is just like a simple String property type, but it a
 .. image:: ../images/prefab-user-props-asset-key-param-09102020.webp
     :alt: Select asset key value.
 
-|br|
-
 The |SceneCompiler|_ generates Asset Key properties like this:
 
 .. code::

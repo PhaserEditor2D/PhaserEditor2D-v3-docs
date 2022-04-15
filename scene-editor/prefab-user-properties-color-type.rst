@@ -8,8 +8,6 @@ The color property type accepts string values with the format of colors. It prov
 .. image:: ../images/prefab-user-props-color-type-20220409.webp
   :alt: The color property editor.
 
-|br|
-
 The |SceneCompiler|_ generates the code for defining a Color property like this:
 
 .. code::
