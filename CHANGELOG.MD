@@ -8,6 +8,7 @@
 * Scene Editor: the new Object Variable user property type.
 * Scene Editor: the new Color user property type.
 * Updates the first steps & introduction with the new marketplace templates.
+* Scene Editor: the new "Paste in place" command. 
 
 ## v3.32.1 - Feb 27, 2022
 
