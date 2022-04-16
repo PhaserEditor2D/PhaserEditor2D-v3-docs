@@ -41,6 +41,7 @@ Here a list of all the available commands, grouped by category:
     "Edit","Copy","``Ctrl+C``","Copy selected objects."
     "Edit","Cut","``Ctrl+X``","Cut selected objects."
     "Edit","Paste","``Ctrl+V``","Paste clipboard content."
+    "Edit","Paste in Place","``Ctrl+Shift+V``","Paste clipboard content at the original position."
     "Edit","Update Current Editor","``Ctrl+Alt+U``","Refresh the current editor's content."
     "Files","New File","``Ctrl+Alt+N``","Create new content."
     "Files","Go To File","``Ctrl+P``","Search for a file and open it in the default editor"
