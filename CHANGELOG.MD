@@ -1,6 +1,6 @@
 # Change Log
 
-## dev
+## v3.33.0 - Apr 18, 2022
 
 * Scene Editor: adds the new **GO Name** parameter in the Variable section.
 * Scene Editor: removes the Details documentation from the Inspector view topic.
