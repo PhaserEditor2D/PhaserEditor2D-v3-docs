@@ -1,5 +1,9 @@
 # Change Log
 
+## dev
+
+* The new Object Constructor user property type.
+
 ## v3.33.0 - Apr 18, 2022
 
 * Scene Editor: adds the new **GO Name** parameter in the Variable section.

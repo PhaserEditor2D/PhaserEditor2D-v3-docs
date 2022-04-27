@@ -15,10 +15,10 @@ This property type if a subset of the `Expression property type <./prefab-user-p
     
     class Eagle extends Phaser.GameObjects.Sprite {
     
-        ...
+      ...
 
-        /** @type {Phaser.GameObjects.GameObject} */
-	    attackTarget;
+      /** @type {Phaser.GameObjects.GameObject} */
+      attackTarget;
     }
 
 The value set to this property is is verbatim-copied to the generated code:
