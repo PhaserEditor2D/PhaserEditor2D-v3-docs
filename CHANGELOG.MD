@@ -1,5 +1,10 @@
 # Change Log
 
+
+## v3.33.2 - May 13, 2022
+
+* Updates version.
+
 ## v3.33.1 - May 10, 2022
 
 * The new Object Constructor user property type.
