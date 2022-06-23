@@ -71,7 +71,7 @@ This tool allows for changing the size of some objects like `TileSprite <tile-sp
 Polygon tool
 ~~~~~~~~~~~~
 
-The Polygon tool (that you can activate with the `Y` key) shows the polygon's points in the scene. It allows you:
+The Polygon tool (that you can activate with the ``Y`` key) shows the polygon's points in the scene. It allows you:
 
 * Change the position of a point: drag the point with the mouse cursor.
 * Delete a point: move the mouse cursor over the point and press the `Delete` key. When the cursor is over the point, it is painted in red color.
