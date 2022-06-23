@@ -1,5 +1,9 @@
 # Change Log
 
+## dev
+
+* Adds the polygon chapter.
+
 ## v3.33.2 - May 13, 2022
 
 * Updates version.
