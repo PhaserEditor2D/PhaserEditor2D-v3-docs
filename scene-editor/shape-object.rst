@@ -8,6 +8,7 @@ Shape objects
     shape-rectangle-object
     shape-ellipse-object
     shape-triangle-object
+    shape-polygon-object
 
 
 The Shape objects are geometric-based display objects. You can add them to a Scene, a Container or a Group.
