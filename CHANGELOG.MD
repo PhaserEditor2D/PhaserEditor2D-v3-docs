@@ -1,6 +1,6 @@
 # Change Log
 
-## dev
+## v3.34.0 - Aug 12, 2022
 
 * Adds the polygon chapter.
 * Adds the origin layout tools section.
