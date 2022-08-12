@@ -3,6 +3,7 @@
 ## dev
 
 * Adds the polygon chapter.
+* Adds the origin layout tools section.
 
 ## v3.33.2 - May 13, 2022
 
