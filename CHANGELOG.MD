@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.35.0
+
+* Updates the Code Editor section.
+
 ## v3.34.0 - Aug 12, 2022
 
 * Adds the polygon chapter.
