@@ -4,7 +4,7 @@
 Visual Studio Code compatibility
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The |vscode|_ editor is prefect to write the code of the |PhaserEditor|_ games. First, because it is an awesome editor. Second, because the projects created by |PhaserEditor|_ contains the files needed by |vscode|_ to provide a good coding experience with Phaser_.
+The |vscode|_ editor is prefect for writing the code of the |PhaserEditor|_ games. First, t is extremely popular and powerful. Second, cause the projects created by |PhaserEditor|_ contains the files needed by |vscode|_ to provide a good coding experience with Phaser_.
 
 Project structure
 `````````````````
@@ -12,7 +12,7 @@ Project structure
 The JavaScript project templates include these files:
 
 .. image:: ../images/code-editor-vscode-js-05012020.webp
-    :alt: JavaScript project.
+ :alt: JavaScript project.
 
 #. The file ``lib/phaser.js``. It is the Phaser_ runtime.
 
@@ -26,3 +26,5 @@ Code Server
 ```````````
 
 If you are using a remote instance of |PhaserEditor|_, you can try `Code Server <https://github.com/cdr/code-server/>`_. It allows to run VS Code in the same |PhaserEditor|_ server and edit the game code in your local browser.
+
+Also, you can use cloud services like GitHub Code Spaces or Gitpod. In both cases you can install Phaser Editor 2D Core as a project dependency and run it alongside with VS Code.
