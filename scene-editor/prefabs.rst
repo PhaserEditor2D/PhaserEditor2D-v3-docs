@@ -14,6 +14,7 @@ Prefabs
     prefab-set-properties
     prefab-variant
     prefab-nested
+    prefab-instance-children
     prefab-black-box    
 
 A prefab_ is a key concept in the |SceneEditor|_. It allows for creating reusable, customized objects. It borrows some concepts from the |Unity|_ prefabs.
