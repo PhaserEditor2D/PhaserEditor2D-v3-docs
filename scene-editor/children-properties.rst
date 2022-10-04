@@ -11,7 +11,8 @@ The **Allow Picking Children In Scene** property allows picking a child in the s
 
 The **Show Children In Outline** parameter is similar. It allows showing the container or layer children in the |OutlineView|_.
 
-.. image:: ../images/scene-editor-children-properties-08212021.webp
+.. image:: ../images/scene-editor-children-properties-20221004.webp
     :alt: The Children properties.
 
 
+The **Allow Append Children** parameter indicates this Layer or Container allows adding new children in prefab instances. This parameter has sense only if the object has a nested prefab scope. `Learn more about adding children to a prefab instance <./prefab-instance-children.html>`_.

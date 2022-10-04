@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.35.0
+## v3.35.0 - beta.0
 
 * Updates the "Code Editor" section.
 * Adds the new "Adding children to a prefab instance" section.
