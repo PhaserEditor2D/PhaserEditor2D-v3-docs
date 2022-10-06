@@ -24,6 +24,7 @@ Scene Editor
     shape-object
     container-object
     layer-object
+    arcade-physics
     working-with-parent-objects    
     object-list
     display-list

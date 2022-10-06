@@ -4,6 +4,8 @@
 Manipulation tools
 ------------------
 
+.. contents::
+
 The manipulator tools are in-scene tools that allow changing properties of the objects.
 
 Each tool has a command to activate/deactivate it. You can execute the command using a key, the context menu, or the |MainToolbar|_.
@@ -82,6 +84,21 @@ The Polygon tool (that you can activate with the ``Y`` key) shows the polygon's 
   :alt: Add new point.
 .. image:: ../images/scene-editor-polygon-add-point-2-20220623.webp
   :alt: Add new point.
+
+Arcade Physics Body tool
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+This tool allows changing the size and offset of an Arcade physics body. You can activate the tool in the scene context menu of by pressing the ``B`` key.
+
+There are two type of bodies: circular and rectangular bodies. When you are editing a circular body, the tool shows the body's circle, the center (offset), and the radius handlers:
+
+.. image:: ../images/arcade-physics-body-circle-tool-20221005.webp
+  :alt: Editing the circular body.
+
+If the object has a rectangular body, then the tool shows the offset and size handlers:
+
+.. image:: ../images/arcade-physics-tool-rect-body-20221006.webp
+  :alt: Editing the rectangular body.
 
 Select Region tool
 ~~~~~~~~~~~~~~~~~~
