@@ -5,6 +5,7 @@
 * Updates the "Code Editor" section.
 * Adds the new "Adding children to a prefab instance" section.
 * Update Children properties section.
+* Add the Arcade physics sections.
 
 ## v3.34.0 - Aug 12, 2022
 
