@@ -33,3 +33,45 @@ Also, in the scene context menu, in the **Arcade Physics**, there are the option
   :alt: Arcade Physics Body Geometry section's menu.
 
 The **Center Arcade Body** commands places the body at the center of the object. The **Resize Body To Object Size** command centers the body and resizes it to fill the whole object. If the body is circular, it changes the radius to fill the object's width.
+
+
+Arcade Physics Body Movement section
+````````````````````````````````````
+
+This sections contains all body's properties related to the movement:
+
+* `Move <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#moves>`_
+* `Velocity <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#velocity>`_
+* `Max Velocity <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#maxVelocity>`_
+* `Max Speed <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#maxSpeed>`_
+* `Allow Gravity <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#allowGravity>`_
+* `Gravity <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#gravity>`_
+* `Acceleration <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#acceleration>`_
+* `Use Damping <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#useDamping>`_
+* `Allow Drag <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#allowDrag>`_
+* `Drag <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#drag>`_
+* `Allow Rotation <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#allowRotation>`_
+* `Angular Velocity <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#angularVelocity>`_
+* `Angular Acceleration <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#angularAcceleration>`_
+* `Angular Drag <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#angularDrag>`_
+* `Max Angular <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#maxAngular>`_
+
+.. image:: ../images/arcade-physics-body-movement-properties-20221006.webp
+  :alt: Arcade Physics Body Movement section.
+
+Arcade Physics Body Collision section
+`````````````````````````````````````
+
+This section contains the body's properties related to collision:
+
+* `Pushable <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#pushable>`_
+* `Immovable <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#immovable>`_
+* `Collide World Bounds <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#collideWorldBounds>`_
+* `Mass <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#mass>`_
+* `Bounce <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#bounce>`_
+* `Friction <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#friction>`_
+* `Overlap <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#overlapX>`_
+* `OverlapR <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#overlapR>`_
+
+.. image:: ../images/arcade-physics-body-collision-properties-20221006.webp
+  :alt: Arcade Physics Body Collision properties.
