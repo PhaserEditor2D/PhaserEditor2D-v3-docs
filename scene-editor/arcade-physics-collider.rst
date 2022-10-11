@@ -48,3 +48,4 @@ Or, if the **Overlap Only** parameter is selected:
 
  const collider_stone = this.physics.add.overlap(gorilla, stone, this.onCollideGorillaWithStone, undefined, this);
 
+In addition to the Collider properties, it contains the `Variable properties <./variable-properties.html>`_.
