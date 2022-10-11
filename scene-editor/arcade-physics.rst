@@ -9,6 +9,7 @@ Arcade physics
  arcade-physics-add-object
  arcade-physics-add-body
  arcade-physics-properties
+ arcade-physics-collider
 
 Arcade is a physics system very popular in Phaser_. |PhaserEditor|_ provides visual tools for creating and configuring Arcade physics objects.
 
