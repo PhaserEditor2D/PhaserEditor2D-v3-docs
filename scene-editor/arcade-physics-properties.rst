@@ -66,12 +66,14 @@ This section contains the body's properties related to collision:
 
 * `Pushable <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#pushable>`_
 * `Immovable <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#immovable>`_
-* `Collide World Bounds <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#collideWorldBounds>`_
 * `Mass <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#mass>`_
 * `Bounce <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#bounce>`_
 * `Friction <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#friction>`_
 * `Overlap <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#overlapX>`_
 * `OverlapR <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#overlapR>`_
+* `Collide World Bounds <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#collideWorldBounds>`_
+* `Check Collision <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#checkCollision>`_
+  
 
 .. image:: ../images/arcade-physics-body-collision-properties-20221006.webp
   :alt: Arcade Physics Body Collision properties.
