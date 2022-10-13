@@ -8,7 +8,6 @@ Code Editor
 .. toctree::
 
     vscode-compatibility
-    js-editor
 
 |PhaserEditor|_ is focused mainly on provide design tools. You can code your game using advanced third-party editors. 
 

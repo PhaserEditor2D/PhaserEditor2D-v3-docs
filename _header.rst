@@ -78,9 +78,6 @@
 .. |UserComponentsCompiler| replace:: User Components compiler
 .. _UserComponentsCompiler: ../scene-editor/user-components-compiler.html
 
-.. |JavaScriptEditor| replace:: JavaScript Editor
-.. _JavaScriptEditor: ../code-editor/js-editor.html
-
 .. |CodeEditor| replace:: Code Editor
 .. _CodeEditor: ../code-editor/index.html
 

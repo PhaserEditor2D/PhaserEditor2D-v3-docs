@@ -6,7 +6,7 @@ Importing from the Blocks view
 
 The |BlocksView|_ is a general-purpose view that connects with the active editor and provides the "blocks" needed to build the objects of the editor.
 
-When the |AssetPackEditor|_ is active, the `Blocks view`_ shows the files that are candidates to be imported. A file is a candidate to be imported if:
+When the |AssetPackEditor|_ is active, the |BlocksView|_ shows the files that are candidates to be imported. A file is a candidate to be imported if:
 
 * The file belongs to the folder, or sub-folder, of the |AssetPackFile|_ that is the input of the editor (unless you disable this restriction, as discussed at the end of this section).
 
