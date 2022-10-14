@@ -1,5 +1,13 @@
 # Change Log
 
+## v3.35.0 - Oct 14, 2022
+
+* Updates the "Code Editor" section.
+* Adds the new "Adding children to a prefab instance" section.
+* Update Children properties section.
+* Add the Arcade physics sections.
+* Group the game object sections in a general "Game Object types" section.
+
 ## v3.34.0 - Aug 12, 2022
 
 * Adds the polygon chapter.

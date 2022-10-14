@@ -22,7 +22,7 @@ The editor's built-in plugins are included in the installation of the editor. Th
     $ PhaserEditor2D -project "/path/to/project" -editor "path/to/another/editor"
 
 Global plugins
-=============
+==============
 
 You can install plugins globally for all installations of the editor. Just place the plugins in the ``<user-home>/.phasereditor2d/plugins`` folder.
 

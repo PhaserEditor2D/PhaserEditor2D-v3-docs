@@ -10,26 +10,15 @@ Scene Editor
 
     create-new-scene-file
     add-object
-    supported-types
     inspector-view
-    common-object-properties
+    game-objects
     scene-properties
-    image-object    
-    sprite-object
-    tile-sprite-object
-    text-object
-    bitmap-text-object
-    tilemap-object
-    tilemap-layer-object
-    shape-object
-    container-object
-    layer-object
+    arcade-physics
     working-with-parent-objects    
     object-list
     display-list
     prefabs
     user-components
-    replace-object-type
     manipulation-tools
     layout-tools
     scene-compiler
