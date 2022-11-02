@@ -27,13 +27,23 @@ This is possible in the **User Components** section. It shows the **Add Componen
 
 When you click that button, it shows a dialog with all the components defined in the project (grouped by the ``*.components`` files). Select the one you want to add:
 
-.. image:: ../images/scene-editor-user-components-obj-add-component-05292021.webp
+.. image:: ../images/scene-editor-user-components-obj-add-component-20221102.webp
     :alt: Add a component to the object.
 
-Then, the properties of the components are shown in the same **User Components** section, and are ready to be set with new values:
+Then, the **HorizontalMove** component is shown as an object's child in the |OutlineView|_ and the User Components section shows a link to the component:
 
-.. image:: ../images/scene-editor-user-components-obj-edit-component-07302020.webp
+.. image:: ../images/scene-editor-user-components-show-components-20221102.webp
+  :alt: Showing the user components of an object.
+
+So, when you select the **HorizontalMove** component, the |InspectorView|_ shows the properties of the component:
+
+.. image:: ../images/scene-editor-user-components-obj-edit-component-20221102.webp
     :alt: Edit the user component instance properties.
+
+The **Select Parent Game Object** button is a shortcut for selecting the object containing the component.
+
+Generating the code for a component in an object
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `user components compiler <user-components-compiler.html>`_ will generate the code to create the component, just like if you write it by hand:
 
@@ -45,12 +55,21 @@ The `user components compiler <user-components-compiler.html>`_ will generate th
     bridge2HorizontalMove.minX = 10;
     bridge2HorizontalMove.maxX = 400;
 
-If the selected object is a prefab instance, then the components present in the prefab are shown too, and you can lock/unlock its properties:
+Actions for a component
+^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: ../images/scene-editor-user-components-obj-prefab-properties-07302020.webp
-    :alt: Editing properties of a component of a prefab instance.
+These are the actions associated to the user component of an object:
 
-Look at the prefab and the |UserComponent|_ names: both are shown as links. If you click on it, it will open the prefab or the |UserComponent| in its editor. Also, each |UserComponent|_ panel has a menu icon. Click on it to list other options, like select in the scene all the objects with the same |UserComponent|_:
+.. image:: ../images/scene-editor-user-components-component-menu-link-20221102.webp
+  :alt: Actions for a user component in an object.
 
-.. image:: ../images/scene-editor-user-components-select-all-objects-07302020.webp
-    :alt: Select all objects with the same User Component.
+.. image:: ../images/scene-editor-user-components-component-menu-20221102.webp
+  :alt: Actions for a user component in an object.
+
+* **Select Objects With HorizontalMove**: selects in the scene all objects containing the **HorizontalMove** component.
+* **Open Definition Of HorizontalMove**: opens the definition of the component in the `User Components Editor <./user-components-editor.html>`_.
+* **Move Up**, **Move Down**: changes the order of the component.
+* **Delete**: deletes the component from the object.
+
+
+
