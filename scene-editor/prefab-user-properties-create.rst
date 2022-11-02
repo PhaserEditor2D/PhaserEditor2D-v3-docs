@@ -3,12 +3,20 @@
 Creating a prefab user property
 ```````````````````````````````
 
-The **Prefab Properties** section of the |InspectorView|_ shows a button to create a new user property. This section is shown when you select the scene (click on a blank space of the scene).
+The **Prefab Properties** section of the |InspectorView|_ shows a button to create a new user property. This section is shown when you select the scene (click on a blank space of the scene), or when you select the **Prefab Properties** element in the |OutlineView|_:
+
+.. image:: ../images/prefab-user-props-node-outline-view-20221102.webp
+  :alt: The Prefabs Properties in the Outline view.
 
 Click on the **Add Property** button to create a new property. The button shows a menu with the different type of properties:
 
-.. image:: ../images/prefab-user-props-add-property-09102020.webp
+.. image:: ../images/prefab-user-props-add-property-20221102.webp
     :alt: Add prefab user property.
+
+The properties are shown as children of the **Prefab Properties** element. Click a property for editing it in the |InspectorView|_:
+
+.. image:: ../images/prefab-user-props-as-children-outline-20221102.webp
+  :alt: Display all properties of a prefab.
 
 All type of properties requires some common parameters that you should provide:
 
@@ -18,10 +26,10 @@ All type of properties requires some common parameters that you should provide:
 * The **Default** value. 
 * The **Custom Definition** flag. If enabled, the |SceneCompiler|_ skips the generation of the code with the property declaration. It allows you writing a custom implementation of the property. For example, using a custom getter and setter. Learn more about `using properties with custom definition <prefab-user-properties-initializing.html#using-properties-with-custom-definition>`_.
 
-.. image:: ../images/prefab-user-props-common-params-07092021.webp
+.. image:: ../images/prefab-user-props-common-params-20221102.webp
     :alt: Common parameters of a property.
 
-In the title bar of the property, there is a menu with commands to: 
+The menu of the property section shows the following actions:
 
     * Move the property down/up.
     * Change the type of the property.
@@ -29,5 +37,5 @@ In the title bar of the property, there is a menu with commands to:
     
 You can undo/redo all these changes.
 
-.. image:: ../images/prefab-user-props-menu-09102020.webp
+.. image:: ../images/prefab-user-props-menu-20221102.webp
     :alt: Property menu.
