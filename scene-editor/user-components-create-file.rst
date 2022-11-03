@@ -16,8 +16,8 @@ These are the steps to create a new |UserComponents|_ file:
 
 #. Press the **Create** button. The file will be created and opened in the |UserComponentsEditor|_.
 
-.. image:: ../images/scene-editor-user-components-new-file-07202020.webp
- :alt: New User Components file.
+.. image:: ../images/scene-editor-user-components-new-file-20221101.webp
+  :alt: New User Components file.
 
 
 .. warning::

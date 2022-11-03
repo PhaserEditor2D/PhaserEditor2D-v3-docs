@@ -10,8 +10,29 @@ Following, look at how an **HorizontalMove** component is compiled into JavaScri
 
 The component information:
 
-.. image:: ../images/scene-editor-user-components-demo-info-f_09172020.webp
-    :alt: Component metadata.    
+.. image:: ../images/scene-editor-user-components-editor-info-20221101.webp
+    :alt: Component metadata.
+
+The properties of the component:
+
+.. image:: ../images/scene-editor-user-components-props-20221101.webp
+  :alt: The properties
+
+**Horizontal Velocity**
+
+.. image:: ../images/scene-editor-user-components-prop-1-20221101.webp
+  :alt: Horizaontal move property.
+
+**Min X**
+
+.. image:: ../images/scene-editor-user-components-prop-2-20221101.webp
+  :alt: Min position X
+
+**Max X**
+
+.. image:: ../images/scene-editor-user-components-prop-3-20221101.webp
+  :alt: Max position Y.
+
 
 The generated code:
 

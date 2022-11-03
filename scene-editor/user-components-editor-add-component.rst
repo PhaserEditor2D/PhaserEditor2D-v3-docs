@@ -6,7 +6,8 @@ Add new component
 
 To add a new |UserComponent|_ you can: press the ``A`` key, click in the **Add Component** button in the |MainToolbar|_ or select the **Add Component** option in the context menu.
 
-.. image:: ../images/scene-editor-user-components-add-component-07212020.webp
+.. image:: ../images/scene-editor-user-components-add-component-20221101.webp
+  :alt: Add new user component.
 
 The newly created component has a default name, so probably you would like to change it, in the |InspectorView|_.
 

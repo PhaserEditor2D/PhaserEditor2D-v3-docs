@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.35.1 - Nov 1, 2022
+
+* Updates the user components docs with the new structure.
+* Updates the prefab properties new structure.
+
 ## v3.35.0 - Oct 14, 2022
 
 * Updates the "Code Editor" section.
