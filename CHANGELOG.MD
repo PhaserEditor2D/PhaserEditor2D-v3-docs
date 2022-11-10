@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.35.2 - Nov 10, 2022
+
+Update version.
+
 ## v3.35.1 - Nov 1, 2022
 
 * Updates the user components docs with the new structure.
