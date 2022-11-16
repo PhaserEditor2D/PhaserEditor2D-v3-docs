@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.36.0 - Nov 15, 2022
+
+* Animations Editor: allows compiling the animation constans.
+* The Keyboard Key section.
+
 ## v3.35.2 - Nov 10, 2022
 
 Update version.

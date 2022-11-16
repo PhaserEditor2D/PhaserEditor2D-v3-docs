@@ -17,6 +17,7 @@ Scene Editor
     working-with-parent-objects    
     object-list
     display-list
+    input
     prefabs
     user-components
     manipulation-tools
