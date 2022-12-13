@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.36.1 - Dec 12, 2022
+
+* The limit of files for free is rised to 200.
+
 ## v3.36.0 - Nov 15, 2022
 
 * Animations Editor: allows compiling the animation constans.

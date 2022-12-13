@@ -4,7 +4,7 @@
 Unlock the IDE
 --------------
 
-By default, the IDE runs in a Free mode. This mode includes all the IDE features, but limits the number of files per project to 70. If you need to create bigger projects, you have to unlock the IDE.
+By default, the IDE runs in a Free mode. This mode includes all the IDE features, but limits the number of files per project to 200. If you need to create bigger projects, you have to unlock the IDE.
 
 To unlock the IDE:
 
