@@ -3,7 +3,7 @@
     "browser-preview.startUrl": "http://127.0.0.1:8000/",
     "browser-preview.format": "png",
     "workbench.preferredDarkColorTheme": "Default Light+",
-    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.colorTheme": "Default Light+ Experimental",
     "cSpell.words": [
         "tilemap",
         "toolkits"

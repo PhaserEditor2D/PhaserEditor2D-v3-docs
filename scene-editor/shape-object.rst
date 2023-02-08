@@ -25,6 +25,8 @@ All Shape objects extends the `Phaser.GameObjects.Shape <https://photonstorm.git
 
 * `Origin properties <origin-properties.html>`_
 
+* `Size properties <size-properties.html>`_
+
 * `Visible property <visible-property.html>`_
 
 * `Alpha properties <alpha-properties.html>`_

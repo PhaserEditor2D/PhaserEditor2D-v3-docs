@@ -12,6 +12,7 @@ Game Object types
     image-object    
     sprite-object
     tile-sprite-object
+    nine-slice-object
     text-object
     bitmap-text-object
     tilemap-object
