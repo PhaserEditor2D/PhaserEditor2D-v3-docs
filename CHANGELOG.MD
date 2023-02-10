@@ -4,6 +4,7 @@
 
 * Adds the Nine Slice game object chapter.
 * Creates the Size properties chapter.
+* Adds section about pixelArt rendering command.
 
 ## v3.36.1 - Dec 12, 2022
 
