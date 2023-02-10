@@ -47,3 +47,8 @@ We recommend to use the **Fix Duplicated Scenes ID** command, but you can modify
     }
 
 The |SceneEditor|_ uses the ``Phaser.Utils.String.UUID()`` function to generate a new identifier. You can do the same.
+
+Disable Pixel Art rendering
+```````````````````````````
+
+By default, the |SceneEditor|_ creates a game with the `pixelArt` rendering flag enabled. You can change this configuration by executing the **Scene Editor: Disable Pixel Art Rendering** command and refreshing the page.

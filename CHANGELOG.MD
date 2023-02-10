@@ -1,5 +1,9 @@
 # Change Log
 
+## dev
+
+* Adds section about pixelArt rendering command.
+
 ## v3.36.1 - Dec 12, 2022
 
 * The limit of files for free is rised to 200.
