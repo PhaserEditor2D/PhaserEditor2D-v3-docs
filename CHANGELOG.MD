@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.60.0-beta - In development
+## v3.60.0-beta - Feb 10, 2023
 
 * Adds the Nine Slice game object chapter.
 * Creates the Size properties chapter.
