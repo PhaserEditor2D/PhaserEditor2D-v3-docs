@@ -20,7 +20,7 @@ The **Parent** sub-menu of the scene context menu shows the commands you can app
 Moving an object to a parent
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can move an object to a new parent. The command **Move To Parent** opens the **Parent** dialog. This dialog shows all the available parents for the object (including the `Display List <./display-list.html>`_) and you can select the new parent.
+You can move an object to a new parent. The command **Move To Parent** opens the **Parent** dialog. This dialog shows all the available parents for the object (including the scene) and you can select the new parent.
 
 The command can be executed by pressing the ``Shift+P`` keys, selecting the **Move To Parent** option in the context menu, or pressing the **Parent button** in the `Parent section <parent-container-properties.html>`_ of the |InspectorView|_.
 

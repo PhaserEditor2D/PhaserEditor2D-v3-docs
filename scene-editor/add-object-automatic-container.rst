@@ -13,7 +13,7 @@ When a new object is created (by `dropping a block <blocks-view-integration.html
 
 * If the scene is a prefab scene:
 
-    * If the scene is empty, the new object is added to the `Display List <display-list.html>`_.
+    * If the scene is empty, the new object is added to the scene.
 
     * If the `root object <prefab-object.html>`_ is a container, then the new object will be added to it. 
     

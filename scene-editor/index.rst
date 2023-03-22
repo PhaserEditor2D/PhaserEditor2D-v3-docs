@@ -16,9 +16,9 @@ Scene Editor
     arcade-physics
     working-with-parent-objects    
     object-list
-    display-list
     input
     prefabs
+    script-node
     user-components
     manipulation-tools
     layout-tools

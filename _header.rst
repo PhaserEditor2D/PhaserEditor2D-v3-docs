@@ -75,6 +75,12 @@
 .. |UserComponent| replace:: user component
 .. _UserComponent: ../scene-editor/user-components.html
 
+.. |ScriptNode| replace:: ScriptNode
+.. _ScriptNode: ../scene-editor/script-node.html
+
+.. |ScriptNodes| replace:: script nodes
+.. _ScriptNodes: ../scene-editor/script-node.html
+
 .. |UserComponentsCompiler| replace:: User Components compiler
 .. _UserComponentsCompiler: ../scene-editor/user-components-compiler.html
 

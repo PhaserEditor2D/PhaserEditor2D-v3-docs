@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.60.0-beta.2
+
+* ScriptsNode section.
+* Removes the Display List section. 
+
 ## v3.60.0-beta - Feb 10, 2023
 
 * Adds the Nine Slice game object chapter.

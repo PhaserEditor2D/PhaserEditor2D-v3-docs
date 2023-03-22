@@ -4,7 +4,7 @@
 Parent properties
 -----------------
 
-The Parent property shows the parent's (a `Container <./container-object.html>`_, a `Layer <./layer-object.html>`_, or the `Display List <display-list.html>`_) of the selected object.
+The Parent property shows the parent's (a `Container <./container-object.html>`_, a `Layer <./layer-object.html>`_, or the scene) of the selected object.
 
 You can click on the button to move the object to new parent.
 
