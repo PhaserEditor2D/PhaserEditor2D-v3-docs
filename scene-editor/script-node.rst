@@ -8,6 +8,7 @@ Script Nodes
 
     script-node-create
     script-node-class
+    script-node-basic-scripts-project
     script-node-prefab
 
 A |ScriptNode|_ is a new type of object. It isn't a display object, else a logical object you can use with different purposes, especially, for expressing simple and complex behaviors.
