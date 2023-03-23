@@ -4,6 +4,12 @@
 Script Nodes
 ------------
 
+.. toctree::
+
+    script-node-create
+    script-node-class
+    script-node-prefab
+
 A |ScriptNode|_ is a new type of object. It isn't a display object, else a logical object you can use with different purposes, especially, for expressing simple and complex behaviors.
 
 Until now, |UserComponents|_ were the way you had to add extra funcitonality to a game object. The |ScriptNode|_ is a more powerful and general tool, that you can use with the same purpose. 
