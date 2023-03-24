@@ -19,8 +19,6 @@ All Shape objects extends the `Phaser.GameObjects.Shape <https://photonstorm.git
 
 * `Lists properties <lists-properties.html>`_
 
-* `Parent properties <parent-container-properties.html>`_
-
 * `Transform properties <transform-properties.html>`_
 
 * `Origin properties <origin-properties.html>`_

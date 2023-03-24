@@ -45,8 +45,6 @@ The `Nine Slice`_ type shares properties with other object types:
 
 * `Lists properties <lists-properties.html>`_
 
-* `Parent properties <parent-container-properties.html>`_
-
 * `Transform properties <transform-properties.html>`_
 
 * `Origin properties <origin-properties.html>`_
