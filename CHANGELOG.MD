@@ -3,7 +3,8 @@
 ## v3.60.0-beta.2
 
 * ScriptsNode section.
-* Removes the Display List section. 
+* Shows Scene instead of Display List. 
+* Removes the Parent property section.
 
 ## v3.60.0-beta - Feb 10, 2023
 
