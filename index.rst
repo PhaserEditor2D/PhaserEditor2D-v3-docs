@@ -11,8 +11,11 @@ Table of Contents
 
 Last update: |date|
 
+.. image:: ./images/welcome-20230324.webp
+  :alt: Welcome Phaser Editor 2D
+
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    intro/index
    first-steps/index
