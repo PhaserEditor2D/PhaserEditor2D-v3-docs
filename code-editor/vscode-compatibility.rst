@@ -27,4 +27,4 @@ Code Server
 
 If you are using a remote instance of |PhaserEditor|_, you can try `Code Server <https://github.com/cdr/code-server/>`_. It allows to run VS Code in the same |PhaserEditor|_ server and edit the game code in your local browser.
 
-Also, you can use cloud services like GitHub Code Spaces or Gitpod. In both cases you can install Phaser Editor 2D Core as a project dependency and run it alongside with VS Code.
+Also, you can use cloud services like GitHub Codespace or Gitpod. In both cases you can install Phaser Editor 2D Core as a project dependency and run it alongside with VS Code.
