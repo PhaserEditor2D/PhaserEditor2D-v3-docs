@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.60.0-beta.2
+## v3.60.0-beta.2, Mar 25, 2023
 
 * ScriptsNode section.
 * Shows Scene instead of Display List. 
