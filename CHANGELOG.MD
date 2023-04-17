@@ -1,13 +1,10 @@
 # Change Log
 
-## v3.60.0-beta.2, Mar 25, 2023
+## v3.60.0 - Apr 16
 
 * ScriptsNode section.
 * Shows Scene instead of Display List. 
 * Removes the Parent property section.
-
-## v3.60.0-beta - Feb 10, 2023
-
 * Adds the Nine Slice game object chapter.
 * Creates the Size properties chapter.
 * Adds section about pixelArt rendering command.
