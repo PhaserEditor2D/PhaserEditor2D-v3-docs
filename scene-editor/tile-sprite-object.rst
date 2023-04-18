@@ -29,11 +29,11 @@ The `Tile Sprite`_ type shares properties with other object types:
 
 * `Lists properties <lists-properties.html>`_
 
-* `Parent properties <parent-container-properties.html>`_
-
 * `Transform properties <transform-properties.html>`_
 
 * `Origin properties <origin-properties.html>`_
+
+* `Size properties <size-properties.html>`_
 
 * `Flip properties <flip-properties.html>`_
 
@@ -48,7 +48,7 @@ But also it has particular properties:
 .. image:: ../images/scene-editor-tile-sprite-props-04152020.webp
  :alt: Tile sprite object.
 
-* The `width <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.TileSprite.html#width__anchor>`_ and `height <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.TileSprite.html#height__anchor>`_ size properties. If the size of the object is bigger than the original texture, then the object is rendered repeating the texture. You can change these properties in the |InspectorView|_ or using the `Resize Tile Sprite manipulator tool <manipulation-tools.html#resize-tile-sprite-tool>`_: press the ``Z`` key or select **Tools** |-| **Resize Tool** in the context menu.
+* The `width <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.TileSprite.html#width__anchor>`_ and `height <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.TileSprite.html#height__anchor>`_ size properties. If the size of the object is bigger than the original texture, then the object is rendered repeating the texture. You can change these properties in the |InspectorView|_ or using the `Resize manipulator tool <manipulation-tools.html#resize-tool>`_: press the ``Z`` key or select **Tools** |-| **Resize Tool** in the context menu.
 
 * The `tilePositionX <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.TileSprite.html#tilePositionX__anchor>`_ and `tilePositionY <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.TileSprite.html#tilePositionY__anchor>`_ properties. It changes the offset of the original texture rendering. You can modify it in the |InspectorView|_.
 

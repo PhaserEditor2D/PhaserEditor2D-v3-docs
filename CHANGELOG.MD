@@ -1,5 +1,14 @@
 # Change Log
 
+## v3.60.0 - Apr 16
+
+* ScriptsNode section.
+* Shows Scene instead of Display List. 
+* Removes the Parent property section.
+* Adds the Nine Slice game object chapter.
+* Creates the Size properties chapter.
+* Adds section about pixelArt rendering command.
+
 ## v3.36.1 - Dec 12, 2022
 
 * The limit of files for free is rised to 200.

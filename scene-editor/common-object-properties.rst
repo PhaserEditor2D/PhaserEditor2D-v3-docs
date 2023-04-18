@@ -12,9 +12,11 @@ Common object properties
     children-properties
     transform-properties
     origin-properties
+    size-properties
     flip-properties
     visible-property
     alpha-properties
+    alpha-single-property
     tint-properties
     texture-property
     text-property    

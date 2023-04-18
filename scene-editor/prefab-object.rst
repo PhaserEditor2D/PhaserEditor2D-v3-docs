@@ -4,7 +4,7 @@
 The prefab object
 ~~~~~~~~~~~~~~~~~
 
-The `prefab object <prefab-object.html>`_ is the object at the top of the prefab_ file. You can add many objects to the `display list <display-list.html>`_ of the prefab_, but only the one at the top will be considered as the real prefab_, the other objects will be ignored.
+The `prefab object <prefab-object.html>`_ is the object at the top of the prefab_ file. You can add many objects to the scene, but only the one at the top will be considered as the real prefab_, the other objects will be ignored.
 
 We did it this way for simplicity, but it also allows us to create different versions of the `prefab object`_ and move them to the top of the list in case we want to promote a different object as the `prefab object`_.
 
@@ -13,7 +13,7 @@ Look in the next image, it shows the **Dragon** prefab. There are three objects 
 .. image:: ../images/scene-editor-prefab-object-1-06272020.webp
     :alt: Prefab object
 
-If later you decided to use a different dragon for your prefab_, then you can move it to the top of the `display list`_ and that's all:
+If later you decided to use a different dragon for your prefab_, then you can move it to the top of the scene and that's all:
 
 .. image:: ../images/scene-editor-prefab-object-2-06272020.webp
     :alt: Another prefab object
