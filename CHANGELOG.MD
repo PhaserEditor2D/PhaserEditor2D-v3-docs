@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.60.1 - Apr 21
+
+* Get latest version.
+
 ## v3.60.0 - Apr 16
 
 * ScriptsNode section.
