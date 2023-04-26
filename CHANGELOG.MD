@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.60.2 - Apr 26
+
+* Adds a new chapter: Scene Editor - Miscellaneous.
+
 ## v3.60.1 - Apr 21
 
 * Get latest version.
