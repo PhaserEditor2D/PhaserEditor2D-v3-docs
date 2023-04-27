@@ -3,6 +3,7 @@
 ## v3.60.2 - Apr 26
 
 * Adds a new chapter: Scene Editor - Miscellaneous.
+* Adds chapter for integrating Visual Studio Code with Phaser Editor 2D.
 
 ## v3.60.1 - Apr 21
 

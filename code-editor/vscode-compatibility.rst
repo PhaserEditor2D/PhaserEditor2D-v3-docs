@@ -28,3 +28,12 @@ Code Server
 If you are using a remote instance of |PhaserEditor|_, you can try `Code Server <https://github.com/cdr/code-server/>`_. It allows to run VS Code in the same |PhaserEditor|_ server and edit the game code in your local browser.
 
 Also, you can use cloud services like GitHub Codespace or Gitpod. In both cases you can install Phaser Editor 2D Core as a project dependency and run it alongside with VS Code.
+
+Visual Studio Code & Phaser Editor 2D integration
+`````````````````````````````````````````````````
+
+|PhaserEditor|_ provides a few features for providing a better integration is |vscode|_:
+
+* The **Open Visual Studio Code** command ``(Ctrl+Alt+U)`` opens the project's folder in |vscode|_.
+* The **Open Output File in Visual Studio Code** ``(Ctrl+Alt+E)`` command is available in the context of a |SceneEditor|_, and opens the output scene's source file (JavaScript or TypeScript) in |vscode|_.
+* The **Enable/Disable Open Code File In External Editor** commands enable or disable the external editor (Visual Studio Code by default) as the default option for opening code files (JavaScript, TypeScript, CSS, HTML).
