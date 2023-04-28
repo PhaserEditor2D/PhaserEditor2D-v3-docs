@@ -23,6 +23,7 @@ Scene Editor
     manipulation-tools
     layout-tools
     scene-compiler
+    misc
     troubleshooting
 
 The |SceneEditor|_ is the most important editor of the IDE, it provides the visual tools to create scenes (or levels).
