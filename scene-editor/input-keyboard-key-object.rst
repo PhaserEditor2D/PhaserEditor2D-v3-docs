@@ -21,7 +21,7 @@ Select a key for editing its properties in the |InspectorView|_:
 The **Variable** properties:
 
 * **Name**: The name of the variable for the Key object.
-* **Scope**: The scope of the variable. It may be ``Method``, ``Class``, or ``Public``. If the scope is ``Method``, the variable is local to the "create" method. If the scope is ``Class``, the variable is asigned to a private field of the class. If the scope is ```Public```, the variable is asigned to a public field of the class.
+* **Scope**: The scope of the variable. It may be ``LOCAL``, ``METHOD``, ``CLASS``, or ``PUBLIC``. By default it is ``PUBLIC``. You can `learn more about the variable scopes <./variable-properties.html#scope-property>`_.
 
 The **Keyboard Key** properties:
 
