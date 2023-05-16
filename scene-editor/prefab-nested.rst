@@ -16,12 +16,12 @@ When you create an instance of the **AlienPrefab** (that is an instance of a `co
 
 But if you declare the **alien** and **ship** objects as nested prefab, you can access them in the prefab instance.
 
-For setting an object as nested prefab, you select the **Nested Prefab** option in the **Scope** parameter of the **Variable** section:
+For setting an object as nested prefab, you select the **NESTED_PREFAB** option in the **Scope** parameter of the **Variable** section:
 
-.. image:: ../images/scene-editor-nested-prefab-scope-08182021.webp
+.. image:: ../images/scene-editor-nested-prefab-scope-20230516.webp
     :alt: Setting the nested prefab scope.
 
-Variables with a **Nested Prefab** scopes are generated in code as public fields. It is like the **Public** scope but allowing to modify the object in prefab instances.
+Variables with a **NESTED_PREFAB** scopes are generated in code as public fields. It is like the **PUBLIC** scope but allowing to modify the object in prefab instances.
 
 Nested prefab instances
 ```````````````````````

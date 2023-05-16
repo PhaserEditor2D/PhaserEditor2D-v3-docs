@@ -3,6 +3,7 @@
 ## v3.61.0 - May 16, 2022
 
 * Updates the Object List chapter.
+* Updates nested prefab section with new LOCAL scope.
 
 ## v3.60.3 - Apr 27
 
