@@ -13,6 +13,7 @@ Scene Editor
     inspector-view
     game-objects
     scene-properties
+    hit-area
     arcade-physics
     working-with-parent-objects    
     object-list
