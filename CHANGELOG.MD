@@ -5,6 +5,7 @@
 * Updates the Object List chapter.
 * Updates nested prefab section with new LOCAL scope.
 * Updates Variable section chapter witn new LOCAL scope.
+* Adds the hit area chapter.
 
 ## v3.60.3 - Apr 27
 
