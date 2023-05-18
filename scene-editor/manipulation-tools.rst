@@ -25,8 +25,8 @@ Each tool has a command to activate/deactivate it. You can execute the command u
 
 You can activate one tool or the time. Or deactivate the tool.
 
-.. image:: ../images/scene-editor-tools-05242020.webp
-    :alt: Manipulators.
+.. image:: ../images/scene-editor-tools-20230518.webp
+  :alt: Manipulators.
 
 Coordinates
 ~~~~~~~~~~~
