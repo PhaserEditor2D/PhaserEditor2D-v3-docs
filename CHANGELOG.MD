@@ -6,6 +6,7 @@
 * Updates nested prefab section with new LOCAL scope.
 * Updates Variable section chapter witn new LOCAL scope.
 * Adds the hit area chapter.
+* Moves manipulation tools for separated files.
 
 ## v3.60.3 - Apr 27
 
