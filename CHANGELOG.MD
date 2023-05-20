@@ -1,5 +1,14 @@
 # Change Log
 
+## v3.61.0 - May 18, 2022
+
+* Updates the Object List chapter.
+* Updates nested prefab section with new LOCAL scope.
+* Updates Variable section chapter witn new LOCAL scope.
+* Adds the hit area chapter.
+* Moves manipulation tools for separated files.
+* Update scripts chapter: now the Blocks view doesn't show the script node prefabs.
+
 ## v3.60.3 - Apr 27
 
 * Get latest version.

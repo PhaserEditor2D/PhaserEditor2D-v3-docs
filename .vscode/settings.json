@@ -3,7 +3,7 @@
     "browser-preview.startUrl": "http://127.0.0.1:8000/",
     "browser-preview.format": "png",
     "workbench.preferredDarkColorTheme": "Default Light+",
-    "workbench.colorTheme": "Default Light+ Experimental",
+    "workbench.colorTheme": "Solarized Dark",
     "cSpell.words": [
         "tilemap",
         "toolkits"
@@ -11,7 +11,7 @@
     "restructuredtext.confPath": "${workspaceFolder}",
     "restructuredtext.linter.run": "onSave",
     "restructuredtext.languageServer.disabled": false,
-    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrap": "bounded",
     "esbonio.sphinx.confDir": "${workspaceFolder}",
     "restructuredtext.pythonRecommendation.disabled": true
 }
