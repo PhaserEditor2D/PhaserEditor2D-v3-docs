@@ -12,6 +12,7 @@ Prefab user properties
     prefab-user-properties-expression-type
     prefab-user-properties-object-variable-type
     prefab-user-properties-object-constructor-type
+    prefab-user-properties-event-type
     prefab-user-properties-texture-type
     prefab-user-properties-asset-key-type
     prefab-user-properties-animation-key-type
