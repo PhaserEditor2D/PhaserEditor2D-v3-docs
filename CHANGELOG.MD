@@ -4,6 +4,7 @@
 
 * Adds the Event property chapter.
 * Updates the Add Property button and dialog.
+* Updates commands palette.
 
 ## v3.61.0 - May 18, 2022
 
