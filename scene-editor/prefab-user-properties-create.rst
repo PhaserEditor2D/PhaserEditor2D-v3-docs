@@ -8,10 +8,13 @@ The **Prefab Properties** section of the |InspectorView|_ shows a button to crea
 .. image:: ../images/prefab-user-props-node-outline-view-20221102.webp
   :alt: The Prefabs Properties in the Outline view.
 
-Click on the **Add Property** button to create a new property. The button shows a menu with the different type of properties:
+Click on the **Add Property** button to create a new property. It opens a dialog with the different type of properties:
 
-.. image:: ../images/prefab-user-props-add-property-20221102.webp
-    :alt: Add prefab user property.
+.. image:: ../images/prefab-user-props-add-property-dialog-20230626.webp
+  :alt: Property types dialog.
+
+.. image:: ../images/prefab-user-props-add-property-button-20230626.webp
+  :alt: Add Property button.
 
 The properties are shown as children of the **Prefab Properties** element. Click a property for editing it in the |InspectorView|_:
 

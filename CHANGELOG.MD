@@ -3,6 +3,7 @@
 ## v3.60.0
 
 * Adds the Event property chapter.
+* Updates the Add Property button and dialog.
 
 ## v3.61.0 - May 18, 2022
 
