@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.60.0
+
+* Adds the Event property chapter.
+
 ## v3.61.0 - May 18, 2022
 
 * Updates the Object List chapter.
