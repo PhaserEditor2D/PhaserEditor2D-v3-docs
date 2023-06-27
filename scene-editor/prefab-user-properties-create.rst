@@ -34,11 +34,12 @@ All type of properties requires some common parameters that you should provide:
 
 The menu of the property section shows the following actions:
 
-    * Move the property down/up.
     * Change the type of the property.
     * Delete the property.
+
+To change the order of the properties, go with the context menu's **Edit** |-| **Move** commands.
     
 You can undo/redo all these changes.
 
-.. image:: ../images/prefab-user-props-menu-20221102.webp
+.. image:: ../images/prefab-user-props-menu-20230627.webp
     :alt: Property menu.
