@@ -6,23 +6,18 @@ Adding User Components to a Prefab
 
 In the previous section we shown how you can add a user component to an object. But, what does happen if you add a user component to a prefab? It is practically the same, but this component will be present in all the prefab instances too.
 
-Let's see this example of a moving platform prefab. It contains the **PlatformPhysics** and **HorizontalMove** components, but let's focus on the **HorizontalMove** one:
+Let's see this example of a moving platform prefab. It contains the **HorizontalMove** component:
 
-.. image:: ../images/scene-editor-user-components-add-prefab-object-20221102.webp
+.. image:: ../images/scene-editor-user-components-add-prefab-object-20230627.webp
   :alt: The user components of a prefab.
 
-.. image:: ../images/scene-editor-user-components-add-prefab-object-props-20221102.webp
-  :alt: The user component properties.
+When you select an instance of this **MovingPlatform1** prefab, it also shows the **HorizontalMove** component, but highlighting that it belongs to the **MovingPlatform1** prefab.
 
-When you select an instance of this **MovingPlatform1** prefab, it also shows the **HorizontalMove** component, but highlighting that it belongs to the **MovingPlatform1** prefab:
+The section's title contains the component's name and the name of the prefab it belongs to. The section's body shows the component's properties and look you can lock/unlock them:
 
-.. image:: ../images/scene-editor-user-components-prefab-instance-components.webp
+
+.. image:: ../images/scene-editor-user-components-prefab-instance-components-20230627.webp
   :alt: Components of a prefab instance.
-
-The component's link contains the component's name and the name of the prefab it belongs to. If you click the prefab name, it opens the prefab file in a new editor, and selects the component. If you click on the component link, it selects the component and shows its properties in the |InspectorView|_. Look you can lock/unlock the properties:
-
-.. image:: ../images/scene-editor-user-components-obj-prefab-properties-20221102.webp
-    :alt: Editing properties of a component of a prefab instance.
 
 Generating the code for a component in a prefab instance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -45,7 +40,7 @@ Hiding a component to the prefab instances
 
 Maybe you don't want to show the component of a prefab in the prefab instances. Because it is a component with local properties and behaviors and it could be perfectly hidden to the prefab instances. For doing this, you can uncheck the **Export** parameter of the component in the prefab:
 
-.. image:: ../images/scene-editor-user-components-export-parameter-20221102.webp
+.. image:: ../images/scene-editor-user-components-export-parameter-20230627.webp
   :alt: Export parameter.
 
 Actions for a component in a prefab instance
@@ -53,7 +48,7 @@ Actions for a component in a prefab instance
 
 These are the actions associated to the user component of a prefab instance:
 
-.. image:: ../images/scene-editor-user-components-instance-menu-20221102.webp
+.. image:: ../images/scene-editor-user-components-instance-menu-20230627.webp
   :alt: Actions for a user component instance.
 
 * **Select Objects With HorizontalMove**: selects in the scene all objects containing the **HorizontalMove** component.

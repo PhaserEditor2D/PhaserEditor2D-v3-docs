@@ -8,6 +8,7 @@
 * Updates commands palette.
 * Updates Depth commands.
 * Updates prefab instance dynamic sections.
+* Updates chapters with new user component dynamic sections.
 
 ## v3.61.0 - May 18, 2022
 
