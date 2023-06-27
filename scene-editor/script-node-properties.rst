@@ -18,5 +18,5 @@ A script node also can be added to an `Object List <./object-list.html>`_:
 
 And because it could be created as a prefab instance, it shows the `Prefab Instance properties <./prefab-user-properties-prefab-instance.html>`_:
 
-.. image:: ../images/script-node-prefab-instance-properties-20230323.webp
+.. image:: ../images/script-node-object-list-section-20230627.webp
   :alt: Prefab instance properties.

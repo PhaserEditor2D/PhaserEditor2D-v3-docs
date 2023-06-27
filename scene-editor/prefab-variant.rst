@@ -14,7 +14,7 @@ You can create a |PrefabVariant|_ very easy, the only thing you need is to use a
 
 Let's say we want to create a purple-skinned |PrefabVariant|_ of the **Dragon** prefab_. These are the steps:
 
-#. Create a new prefab_ file, named **PurpleDragon**. Learn `how to create a prefab file <prefab-new-file.html>`_.
+#. Create a new prefab_ file, name it **PurpleDragon**. Learn `how to create a prefab file <prefab-new-file.html>`_.
 
 #. Drop the **Dragon** prefab_ on the scene. This creates a |PrefabInstance|_ that is the `prefab object <prefab-object.html>`_ of the file.
 

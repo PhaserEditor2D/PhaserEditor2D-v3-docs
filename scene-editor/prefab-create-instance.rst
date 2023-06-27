@@ -16,7 +16,7 @@ You can open the prefab_ file of a |PrefabInstance|_ with the **Open Prefab** co
 .. image:: ../images/scene-editor-prefab-open-prefab-file-06082020.webp
     :alt: Open prefab file of instance.
 
-Also, in the `Prefab Instance properties section <prefab-user-properties.html#user-properties-in-a-prefab-instance>`_ of the |InspectorView|_, you can click in the prefab_ name to open the prefab_ file.
+The |InspectorView|_ shows a section for each prefab (and prefab variant) of the selected objects. In the menu of the section, you can click the **Open Prefab** option:
 
-.. image:: ../images/scene-editor-prefab-open-prefab-file-from-inspector-06082020.webp
+.. image:: ../images/scene-editor-prefab-open-prefab-file-from-inspector-20230627.webp
     :alt: Open prefab file by clicking on prefab name in the Inspector.
