@@ -3,6 +3,7 @@
 ## v3.60.0
 
 * Adds the Event property chapter.
+* Adds the KeyCode property chapter.
 * Updates the Add Property button and dialog.
 * Updates commands palette.
 * Updates Depth commands.
