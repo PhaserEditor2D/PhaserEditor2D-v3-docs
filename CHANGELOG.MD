@@ -9,6 +9,7 @@
 * Updates Depth commands.
 * Updates prefab instance dynamic sections.
 * Updates chapters with new user component dynamic sections.
+* New chapter Script Nodes vs User Components.
 
 ## v3.61.0 - May 18, 2022
 
