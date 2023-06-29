@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.60.0
+## v3.60.0, Jun 20, 2023
 
 * Adds the Event property chapter.
 * Adds the KeyCode property chapter.
