@@ -36,7 +36,7 @@ Let's add an image to the ``Level.scene`` file created by the **Basic JavaScript
   .. image:: ../images/first-steps-add-image-2-04042020.jpg
     :alt: Add image.
 
-6. Drag the image from the |BlocksView|_ and drop it in the middle of the scene. Press the ``End`` key to move the image to the bottom of the scene. Or right click in the image and select the **Depth** |-| **Move Objects To Bottom** option.
+6. Drag the image from the |BlocksView|_ and drop it in the middle of the scene. Press the ``End`` key to move the image to the bottom of the scene. Or right click in the image and select the **Edit** |-| **Move Bottom** option.
 
   Save the editor and play the project (``F12``).
 

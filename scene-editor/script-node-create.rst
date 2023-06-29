@@ -11,9 +11,9 @@ A |ScriptNode|_ object shares a lot with the game objects, you can add it to the
 
 That action creates an instance of the `ScriptNode class <./script-node-class.html>`_ and adds it to the object selected in the scene. If no object is selected, then it adds the script node to the scene.
 
-In addition to an instance of the `ScriptNode class`_, you can add an instance of a `ScriptNode prefab <./script-node-prefab.html>`_: select the **Add Script** option in the **Script** context menu or press the **Add Script** command (``U``).
+In addition to an instance of the `ScriptNode class`_, you can add an instance of a `ScriptNode prefab <./script-node-prefab.html>`_: select the **Add Script** option in the **Scripting** context menu or press the **Add Script** command (``U``).
 
-.. image:: ../images/script-node-add-script-command.webp
+.. image:: ../images/script-node-add-script-dialog-20230627.webp
  :alt: Add Script command.
 
 It opens the **Add Script** dialog. There you can select the script you want to add:
@@ -28,7 +28,7 @@ The |ScriptNodes|_ are displayed in the |OutlineView|_, below the parent object,
 .. image:: ../images/script-node-outline-20230322.webp
  :alt: Script nodes in the outline view.
 
-Also, you can browse the scripts of an object by pressing the command ``Shift+U``. The command is also available in the **Script** section of the context menu. That command opens the **Browse Scripts** dialog:
+Also, you can browse the scripts of an object by pressing the command ``Shift+U``. The command is also available in the **Scripting** section of the context menu. That command opens the **Browse Scripts** dialog:
 
 .. image:: ../images/script-node-browse-scripts-20230322.webp
  :alt: Browsing the script nodes.

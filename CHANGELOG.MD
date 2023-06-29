@@ -1,5 +1,16 @@
 # Change Log
 
+## v3.60.0, Jun 20, 2023
+
+* Adds the Event property chapter.
+* Adds the KeyCode property chapter.
+* Updates the Add Property button and dialog.
+* Updates commands palette.
+* Updates Depth commands.
+* Updates prefab instance dynamic sections.
+* Updates chapters with new user component dynamic sections.
+* New chapter Script Nodes vs User Components.
+
 ## v3.61.0 - May 18, 2022
 
 * Updates the Object List chapter.

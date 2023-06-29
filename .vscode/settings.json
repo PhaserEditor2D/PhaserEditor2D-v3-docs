@@ -6,6 +6,7 @@
     "workbench.colorTheme": "Solarized Dark",
     "cSpell.words": [
         "tilemap",
+        "toctree",
         "toolkits"
     ],
     "restructuredtext.confPath": "${workspaceFolder}",

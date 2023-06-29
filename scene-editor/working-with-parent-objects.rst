@@ -47,7 +47,7 @@ The **Select Children** command selects the children of a container or a layer. 
 Changing the rendering order of children
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can change the rendering order of an object. The context menu shows the **Depth** commands, to move the objects in different directions:
+You can change the rendering order of an object. The context menu shows the **Edit** |-| **Move** commands, to move the objects in different depth directions:
 
-.. image:: ../images/scene-editor-display-list-move-objects-07082021.webp
+.. image:: ../images/scene-editor-display-list-move-objects-20230627.webp
     :alt: Changing the rendering order of objects.

@@ -33,9 +33,9 @@ The |OutlineView|_ shows the Object Lists of your scene, in the **Lists** catego
 
 You can remove items from a list by selecting them in the outline and pressing the **Delete** command (``Del``).
 
-Also, you can sort the items in the list with the order commands, just like you order the game objects in the scene:
+Also, you can sort the items in the list with the Move commands, just like you order the game objects in the scene:
 
-.. image:: ../images/scene-editor-object-list-order-commands-20230516.webp
+.. image:: ../images/scene-editor-object-list-order-commands-20230627.webp
   :alt: Sorting commands.
 
 You can locate the a list item in the scene. Select the list item, and in the **List Item** section of the |InspectorView|_, click on the **Select Game Object** button:
@@ -75,7 +75,6 @@ Note that the |SceneCompiler|_ infers the type of the array elements: a union of
     private parallax: Phaser.GameObjects.Image[];
 
 This detailed type declaration of the arrays allows that code editors like |VSCode|_ can provide a smarter coding experience.
-
 
 Object List vs Phaser Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
