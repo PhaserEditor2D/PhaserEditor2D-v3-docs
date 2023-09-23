@@ -3,49 +3,13 @@
 SpineGameObject
 ---------------
 
-TODO
+`Spine <https://esotericsoftware.com>`_ is a popular and powerful editor for making 2D skeletal animations. It provides an `official runtime <https://esotericsoftware.com/spine-phaser>`_ for Phaser_.
 
-Skeleton and atlas assets
-~~~~~~~~~~~~~~~~~~~~~~~~~
+The `SpineGameObject <spine-game-object.html>`_ is a Phaser_ game object for display and control Spine_ animations.
 
-TODO
+The Spine_ Phaser runtime provides a rich set of features for loading, controlling and customizing the Spine_ animations in a Phaser_ game. All these features are available to you via the runtime API. In |PhaserEditor|_, as a plus, we are including the basic and most important features into the visual tools. This is a gradual process, but the current set of Spine_ features supported by |PhaserEditor|_ will help you to integrate the Spine_ animations in your games and boost your productivity.
 
-Creating a SpineGameObject
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Because this is a large topic, it has a `dedicated chapter <spine-animations.html>`_ in this documentation:
 
-TODO
+`Learn more about Spine animations in Phaser Editor 2D <spine-animations.html>`_.
 
-SpineGameObject properties
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Bounds provider
-```````````````
-TODO
-
-Skin
-`````
-TODO
-
-Animations mix
-```````````````
-TODO
-
-Preview animations
-``````````````````
-
-TODO
-
-Events
-``````
-
-TODO
-
-Spine Skin Name user property
-`````````````````````````````
-
-TODO
-
-Spine Animation Name user property
-``````````````````````````````````
-
-TODO

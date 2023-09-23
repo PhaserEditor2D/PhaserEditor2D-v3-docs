@@ -8,6 +8,12 @@
 
 .. _Tiled: https:://www.mapeditor.org
 
+.. _Spine: https://esotericsoftware.com
+
+.. _SpinePhaserRuntime: https://esotericsoftware.com/spine-phaser
+
+.. |SpinePhaserRuntime| replace:: Spine Phaser runtime
+
 .. |PhaserDevs| replace:: Phaser developers
 .. _PhaserDevs: https://www.photonstorm.com
 
