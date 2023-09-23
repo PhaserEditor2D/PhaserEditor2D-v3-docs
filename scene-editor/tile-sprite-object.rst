@@ -1,8 +1,8 @@
 
 .. include:: ../_header.rst
 
-Tile Sprite objects
--------------------
+TileSprite
+----------
 
 The `Tile Sprite <tile-sprite-object.html>`_ is a built-in Phaser_ object type: `Phaser.GameObjects.TileSprite <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.TileSprite.html>`_. This type allows creating objects with repeating textures, like background elements.
 

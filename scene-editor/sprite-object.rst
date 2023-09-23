@@ -1,7 +1,7 @@
 .. include:: ../_header.rst
 
-Sprite objects
---------------
+Sprite
+------
 
 The `Sprite <sprite-object.html>`_ is a built-in Phaser_ object type: `Phaser.GameObjects.Sprite <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Sprite.html>`_. It is like the `Image <image-object.html>`_ type, but also it can play `sprite animations <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Sprite.html#play__anchor>`_. This means, that you may use a `Sprite`_ object only if it will be animated in the game, otherwise, the better is to use an `Image`_.
 

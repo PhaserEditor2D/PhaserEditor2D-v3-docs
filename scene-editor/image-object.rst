@@ -1,7 +1,7 @@
 .. include:: ../_header.rst
 
-Image objects
--------------
+Image
+-----
 
 The `Image <image-object.html>`_ is a built-in Phaser_ object type: `Phaser.GameObjects.Image <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Image.html>`_.
 

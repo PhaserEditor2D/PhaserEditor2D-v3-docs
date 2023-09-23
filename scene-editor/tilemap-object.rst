@@ -1,7 +1,7 @@
 .. include:: ../_header.rst
 
-Tilemap objects
----------------
+Tilemap
+-------
 
 The `Tilemap <tilemap-object.html>`_ is a built-in Phaser_ type: `Phaser.Tilemaps.Tilemap <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.Tilemap.html>`_. It is not a display object, it just stores the data of the maps. The display maps are added to the scene using `TilemapLayer objects <tilemap-layer-object.html>`_.
 

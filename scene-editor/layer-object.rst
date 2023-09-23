@@ -1,8 +1,8 @@
 
 .. include:: ../_header.rst
 
-Layer objects
------------------
+Layer
+-----
 
 The `Phaser.GameObjects.Layer <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Layer.html>`_ object type allows grouping objects. Unlike the `Container <./container-object.html>`_ objects, a layer cannot be transformed. It doesn't have position, angle or scale. Its only purpose is to sort the objects for rendering, quickly.
 

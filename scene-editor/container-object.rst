@@ -1,8 +1,8 @@
 
 .. include:: ../_header.rst
 
-Container objects
------------------
+Container
+---------
 
 In Phaser_ 3, the only game object types that have children are the Container (`Phaser.GameObjects.Container <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Container.html>`_) and the `Layer <./layer-object.html>`_ objects. But only the Container can be used to transform the children (in position, angle and scale).
 
