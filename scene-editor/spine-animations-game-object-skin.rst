@@ -1,6 +1,6 @@
 .. include:: ../_header.rst
 
-The SpineGameObject skin
-~~~~~~~~~~~~~~~~~~~~~~~~
+Skin
+~~~~
 
 TODO

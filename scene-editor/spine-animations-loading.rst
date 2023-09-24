@@ -69,7 +69,10 @@ If everything is well, you will find both the data file and the atlas file in th
 .. image:: ../images/spine-animations-asset-preview-dialog-20230923.webp
   :alt: Preview dialog.
 
-**Important!** The |SpinePhaserRuntime|_ allows using different atlas for the same skeleton. For previewing a skeleton, the editor looks for an atlas asset with the same key but with the ``-atlas`` suffix. In the above example, the skeleton data has the ``spineboy`` key, and the atlas asset the ``spineboy-atlas`` key:
+Spine assets default naming rules
+`````````````````````````````````
+
+**Important** The |SpinePhaserRuntime|_ allows using different atlas for the same skeleton. For previewing a skeleton, the editor looks for an atlas asset with the same key but with the ``-atlas`` suffix. In the above example, the skeleton data has the ``spineboy`` key, and the atlas asset the ``spineboy-atlas`` key:
 
 .. image:: ../images/spine-animations-data-and-atlas-assets-20230923.webp
   :alt: Spine data and atlas assets.
