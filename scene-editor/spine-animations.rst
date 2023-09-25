@@ -7,10 +7,9 @@ Spine animations
     :maxdepth: 1
 
     spine-animations-loading
+    spine-animations-assets-preview
     spine-animations-game-object
-    spine-animations-game-object-bounds
-    spine-animations-game-object-skin
-    spine-animations-game-object-animations-mix
+    spine-animations-game-object-properties
 
 `Spine <https://esotericsoftware.com>`_ is a popular and powerful editor for making 2D skeletal animations. It provides an `official runtime <https://esotericsoftware.com/spine-phaser>`_ for Phaser_.
 

@@ -1,7 +1,7 @@
 .. include:: ../_header.rst
 
-The SpineGameObject
-~~~~~~~~~~~~~~~~~~~
+Creating a SpineGameObject
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The `SpineGameObject <https://esotericsoftware.com/spine-phaser#SpineGameObject>`_ is the Phaser_ game object implementation to display, control, and customize Spine_ animations.
 
