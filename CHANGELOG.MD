@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.63.0
+
+* Adds Spine chapter.
+
 ## v3.62.1, Jun 30, 2023
 
 * Updates version.
