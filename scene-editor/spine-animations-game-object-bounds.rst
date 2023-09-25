@@ -3,7 +3,7 @@
 Bounds provider properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The bounds provider is the responsible of computing the size of the `SpineGameObject <spine-animations-game-object.html>`_. By default, it uses the setup pose bounding box. There are two built-in implementations of the bounding box: the **SetupPoseBoundsProvider** (default) and the **SkinsAndAnimationBoundsProvider**.
+The bounds provider is responsible for computing the size of the `SpineGameObject <spine-animations-game-object.html>`_. By default, it uses the setup pose bounding box. There are two built-in implementations of the bounding box: the **SetupPoseBoundsProvider** (default) and the **SkinsAndAnimationBoundsProvider**.
 
 The **Spine Bounds Provider** section in the |InspectorView|_ contains the parameters for setting the bounding box to the game object:
 

@@ -35,9 +35,9 @@ The **Spine Preview** section displays the skins defined in the skeleton data:
 Preview Spine animations
 ````````````````````````
 
-Notice the **Spine Skeleton** sections contains a **Preview Animations** button. It opens the **Spine Preview** dialog.
+Notice the **Spine Skeleton** section contains a **Preview Animations** button. It opens the **Spine Preview** dialog.
 
-In this dialog you can play the skeleton animations and change other properties like the skin.
+In this dialog, you can play the skeleton animations and change other properties like the skin.
 
 .. image:: ../images/spine-animations-skeleton-preview-dialog-20230924.webp
   :alt: Skeleton preview dialog
@@ -57,7 +57,7 @@ Animation and Track
 
 With Spine_ you can play simultaneous animations on different tracks. With the **Track** button you can select the track ID for playing the animation you select in the **Animation** button.
 
-In the next image you can see it is playing the **idle** animation in **Track 0**, and the **shoot** animation in the **Track 1**.
+In the next image, you can see it is playing the **idle** animation in **Track 0**, and the **shoot** animation in **Track 1**.
 
 .. image:: ../images/spine-animations-assets-preview-dialog-track-20230924.webp
   :alt: Tracks
@@ -75,6 +75,6 @@ If the **Events** parameter is checked, then the canvas shows the name of the ev
 .. image:: ../images/spine-animations-preview-dialog-events-20230924.webp
   :alt: Events.
 
-Also, you can set the **Default Mix** and **Time Scale** of the animation. The **Default Mix** is applied when you change from one animation to other.
+Also, you can set the **Default Mix** and **Time Scale** of the animation. The **Default Mix** is applied when you change from one animation to another.
 
 `Learn more about applying animations in the Spine Phaser runtime <http://esotericsoftware.com/spine-phaser#Applying-Animations>`_
