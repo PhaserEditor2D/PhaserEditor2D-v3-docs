@@ -8,7 +8,7 @@ You can preview a `SpineGameObject <spine-animations-game-object.html>`_ by pres
 This dialog is similar to the `Spine Preview dialog <spine-animations-assets-preview.html#preview-spine-animations>`_, but it also allows edit some properties of the game object, like the default mix, the animation mix, and the time scale:
 
 .. image:: ../images/spine-animations-object-preview-dialog-20230925.webp
-  :alt: Spine game object preview dialog
+  :alt: Spine game object preview dialog.
 
 The dialog has two sections: **Preview** and **Settings**. The Preview section has the **Preview Track**, **Preview Animation**, **Preview Loop**, and **Preview Events** parameters. It works just like in the `Spine Preview dialog`_, and it don't affect the object state.
 

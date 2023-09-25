@@ -6,6 +6,7 @@ Spine animations
 .. toctree::
     :maxdepth: 1
 
+    spine-animations-install
     spine-animations-loading
     spine-animations-assets-preview
     spine-animations-game-object
