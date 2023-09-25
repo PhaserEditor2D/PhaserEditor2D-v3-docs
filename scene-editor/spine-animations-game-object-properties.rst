@@ -8,8 +8,7 @@ SpineGameObject properties
 
     spine-animations-game-object-properties-preview
     spine-animations-game-object-bounds
-    spine-animations-game-object-skin
-    spine-animations-game-object-animations-mix
+    spine-animations-game-object-animations
 
 The |InspectorView|_ shows the properties of the `SpineGameObject <spine-animations-game-object.html>`_ instance you select in the scene.
 
@@ -24,3 +23,5 @@ That's the only way of changing the skeleton and atlas of an object, but you can
 
 .. image:: ../images/spine-animations-game-object-skin-property-20230924.webp
   :alt: Skin property
+
+Below there **Configure** button, there is the **Preview** button. It opens the `Spine Game Object preview <spine-animations-game-object-properties-preview.html>`_ dialog.
