@@ -10,4 +10,4 @@ For a better implementation of behaviors related to Spine_ game objects, we prov
 * `Spine Skin Name property type <prefab-user-properties-spine-skin-name.html>`_
 * `Spine Animation Name property type <prefab-user-properties-spine-animation-name.html>`_
 
-
+In addition, the Event property type allows `Spine events <prefab-user-properties-event-type.html#dynamic-spine-events>`_.
