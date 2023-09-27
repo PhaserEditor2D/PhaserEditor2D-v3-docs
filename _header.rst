@@ -102,6 +102,9 @@
 .. |AssetPackFile| replace:: Asset Pack file
 .. _AssetPackFile: ../asset-pack-editor/asset-pack-file.html
 
+.. |AssetPackFiles| replace:: Asset Pack files
+.. _AssetPackFiles: ../asset-pack-editor/asset-pack-file.html
+
 .. |CommandPalette| replace:: Command Palette
 .. _CommandPalette: ../workbench/command-palette.html
 
