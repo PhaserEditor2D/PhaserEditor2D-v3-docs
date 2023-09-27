@@ -1,8 +1,8 @@
 
 .. include:: ../_header.rst
 
-Nine Slice objects
-------------------
+NineSlice
+---------
 
 The `Nine Slice <nine-slice-object.html>`_ is a built-in Phaser_ object type: `Phaser.GameObjects.NineSlice <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.NineSlice.html>`_. This type allows you to display a texture-based object that can be stretched both horizontally and vertically, but that retains fixed-sized corners.
 

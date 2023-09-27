@@ -20,8 +20,11 @@ Prefab user properties
     prefab-user-properties-animation-key-type
     prefab-user-properties-audio-key-type
     prefab-user-properties-scene-key-type
+    prefab-user-properties-spine-skin-name
+    prefab-user-properties-spine-animation-name
     prefab-user-properties-initializing
     prefab-user-properties-prefab-instance
+
 
 As we mentioned in previous sections, a prefab_ extends a Phaser_ built-in type or another prefab_. This means a prefab_ inherits the properties defined in the Phaser_ built-in types. However, you have the option to define new properties.
 

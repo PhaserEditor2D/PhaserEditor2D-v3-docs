@@ -1,7 +1,7 @@
 .. include:: ../_header.rst
 
-Bitmap Text objects
--------------------
+BitmapText
+----------
 
 The `Phaser.GameObjects.BitmapText <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.BitmapText.html>`_ is widely used in Phaser_ game development, to display texts.  
 

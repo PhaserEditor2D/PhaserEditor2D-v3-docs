@@ -1,7 +1,7 @@
 .. include:: ../_header.rst
 
-Tilemap Layer objects
----------------------
+TilemapLayer
+------------
 
 A **Tilemap Layer** is a display object that shows a map based on tiles. There are two Phaser_ built-in types dedicated to this, the `StaticTilemapLayer <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.StaticTilemapLayer.html>`_ and the the `DynamicTilemapLayer <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.StaticTilemapLayer.html>`_.
 

@@ -1,7 +1,7 @@
 .. include:: ../_header.rst
 
-Shape objects
--------------
+Shape
+-----
 
 .. toctree::
 

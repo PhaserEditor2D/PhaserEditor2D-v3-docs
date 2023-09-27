@@ -8,6 +8,12 @@
 
 .. _Tiled: https:://www.mapeditor.org
 
+.. _Spine: https://esotericsoftware.com
+
+.. _SpinePhaserRuntime: https://esotericsoftware.com/spine-phaser
+
+.. |SpinePhaserRuntime| replace:: Spine Phaser runtime
+
 .. |PhaserDevs| replace:: Phaser developers
 .. _PhaserDevs: https://www.photonstorm.com
 
@@ -95,6 +101,9 @@
 
 .. |AssetPackFile| replace:: Asset Pack file
 .. _AssetPackFile: ../asset-pack-editor/asset-pack-file.html
+
+.. |AssetPackFiles| replace:: Asset Pack files
+.. _AssetPackFiles: ../asset-pack-editor/asset-pack-file.html
 
 .. |CommandPalette| replace:: Command Palette
 .. _CommandPalette: ../workbench/command-palette.html

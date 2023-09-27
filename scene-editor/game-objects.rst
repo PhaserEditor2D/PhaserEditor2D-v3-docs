@@ -20,6 +20,7 @@ Game Object types
     shape-object
     container-object
     layer-object
+    spine-game-object
     replace-object-type
 
 The |SceneEditor|_ is in active development and only supports a very basic set of game object types. Eventually, we should add more types and more properties. 

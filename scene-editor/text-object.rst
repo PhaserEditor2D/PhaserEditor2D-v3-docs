@@ -1,8 +1,8 @@
 
 .. include:: ../_header.rst
 
-Text objects
-------------
+Text
+----
 
 The `Text type <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Text.html>`_ allows to create `Text objects`_ based on HTML fonts. It allows customizing the color of the text, the shadows, the stroke, etc... 
 

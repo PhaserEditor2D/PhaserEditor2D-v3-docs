@@ -29,7 +29,7 @@ The Event property dialog shows all combinations of ``keydown-`` and ``keyup-`` 
 	:alt: Keyboard events.
 
 Dynamic animation events
-'''''''''''''''''''''''''
+''''''''''''''''''''''''
 
 From the Phaser_ documentation:
 
@@ -48,6 +48,16 @@ The Event property dialog collects all the animations available in the `animatio
 
 .. image:: ../images/prefab-user-props-dynamic-animation-events-20230626.webp
  :alt: Dynamic animation events.
+
+Dynamic Spine events
+''''''''''''''''''''
+
+Spine_ skeletons contain user events that are fired at a certain moment of an animation. The Event property dialog shows all the events defined in all the Spine_ skeleton assets present in the |AssetPackFiles|_:
+
+.. image:: ../images/prefab-user-props-spine-events-20230927.webp
+  :alt: Spine events.
+
+`Learn more about the Spine events <https://esotericsoftware.com/spine-events>`_
 
 Custom events
 '''''''''''''
