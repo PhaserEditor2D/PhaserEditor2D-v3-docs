@@ -44,3 +44,13 @@ Next, add the Spine scene plugin to your Phaser game configuration:
   new Phaser.Game(config);
 
 `Learn more about installing Phaser Spine in your game <https://esotericsoftware.com/spine-phaser#Installation>`_
+
+Spine starter template
+``````````````````````
+Installing the |SpinePhaserRuntime|_ is not complex, however, we provide a starter template with a basic configuration. If you are going to start a new project, then we recommend you use this project template.
+
+It is available in the `Phaser Editor 2D Marketplace <http://marketplace.phasereditor2d.com/starters/spine/>`_ and in the **Phaser Editor 2D All in One** marketplace page:
+
+.. image:: ../images/spine-animations-project-template-20230928.webp
+  :alt: Spine project template.
+
