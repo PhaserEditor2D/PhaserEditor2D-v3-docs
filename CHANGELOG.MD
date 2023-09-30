@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.63.0 - Sep 27, 2023
+## v3.63.0 - Sep 30, 2023
 
 * Adds Spine chapter.
 * Adds the Spine events to the Event property type.
