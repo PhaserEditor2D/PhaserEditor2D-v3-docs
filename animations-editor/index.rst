@@ -69,7 +69,7 @@ Or multiple animations:
         ]
     );
 
-in the practice, you create all the animations once in the game, probably in the preloader scene. Then, you can play an animation on a sprite object passing the animation key to the `play(..) <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Sprite.html#play__anchor>`_ method:
+in the practice, you create all the animations once in the game, probably in the preloader scene. Then, you can play an animation on a sprite object passing the animation key to the `play() <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Sprite.html#play__anchor>`_ method:
 
 .. code::
 
@@ -88,5 +88,5 @@ Other way to create the animations is packing them all in a single JSON file, an
 
 * Import the animations JSON file into an **Asset Pack** file with the |AssetPackEditor|_.
 
-* Play the animations in your code, with the `play(..)`_ method.
+* Play the animations in your code, with the `play()`_ method.
 

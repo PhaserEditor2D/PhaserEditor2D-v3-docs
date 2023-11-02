@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.64.0
+
+* Adds sprite animation chapters.
+
 ## v3.63.0 - Sep 30, 2023
 
 * Adds Spine chapter.

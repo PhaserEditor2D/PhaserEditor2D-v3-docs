@@ -11,12 +11,23 @@ A `Sprite`_ is created in code using the `sprite factory <https://photonstorm.gi
 
   const player = this.add.sprite(192, 512, "dragon-atlas", "idle-000");
 
-To create a `Sprite`_ object, you can drop a `Sprite built-in block <blocks-view-integration.html>`_ on the scene. Or you can convert an `Image`_ or `TileSprite <tile-sprite-object.html>`_ into a `Sprite`_.
+To create a `Sprite`_ object, you can:
+
+* Drop a `Sprite built-in block <blocks-view-integration.html>`_ on the scene:
+  
+  .. image:: ../images/scene-editor-sprite-create-20231023.webp
+    :alt: Create an empty Sprite.
+
+* Drop an `animation block <sprite-animations.html>`_ on the scene:
+  
+  .. image:: ../images/scene-editor-sprite-create-from-animation-block-20231023.webp
+    :alt: Create a Sprite object from an animation block.
+
+* Or you can convert an `Image`_ or `TileSprite <tile-sprite-object.html>`_ into a `Sprite`_.
 
 `Learn more about type conversion <replace-object-type.html>`_
 
-.. image:: ../images/scene-editor-sprite-create-09252020.webp
-  :alt: Create an empty Sprite.
+If you create a sprite, probably you want to play an animation with it. To do this you can set the `Animation properties <animations-properties.html>`_.
 
 The `Sprite`_ type has properties common to other object types:
 
@@ -34,4 +45,6 @@ The `Sprite`_ type has properties common to other object types:
 
 * `Alpha properties <alpha-properties.html>`_
 
+* `Animation properties <animations-properties.html>`_
+  
 * `Texture property <texture-property.html>`_

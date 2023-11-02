@@ -1,0 +1,4 @@
+- Mention all the blocks here /scene-editor/blocks-view-integration.html
+    - Spine blocks.
+    - Animation blocks.
+    - Aseprite blocks.

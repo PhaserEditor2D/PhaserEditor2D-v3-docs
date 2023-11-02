@@ -1,17 +1,13 @@
 {
     "editor.fontSize": 18,
-    "browser-preview.startUrl": "http://127.0.0.1:8000/",
-    "browser-preview.format": "png",
     "workbench.preferredDarkColorTheme": "Default Light+",
-    "workbench.colorTheme": "GitHub Light",
+    "workbench.colorTheme": "Default Light Modern",
     "cSpell.words": [
         "tilemap",
         "toctree",
         "toolkits"
     ],
-    "restructuredtext.confPath": "${workspaceFolder}",
     "restructuredtext.linter.run": "onSave",
-    "restructuredtext.languageServer.disabled": false,
     "editor.wordWrap": "bounded",
     "esbonio.sphinx.confDir": "${workspaceFolder}",
     "restructuredtext.pythonRecommendation.disabled": true,

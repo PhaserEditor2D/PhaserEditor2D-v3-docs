@@ -19,6 +19,7 @@ Common object properties
     alpha-single-property
     tint-properties
     texture-property
+    animations-properties
     text-property    
 
 The properties of the objects are listed and grouped in the `Inspector view <./inspector-view.html>`_. In this view, you can modify the properties of the selected objects.

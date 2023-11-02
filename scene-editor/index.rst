@@ -14,6 +14,7 @@ Scene Editor
     game-objects
     scene-properties
     arcade-physics
+    sprite-animations
     spine-animations
     working-with-parent-objects    
     object-list

@@ -146,3 +146,6 @@
 
 .. |marketplace| replace:: Phaser Editor 2D Marketplace
 .. _marketplace: https://marketplace.phasereditor2d.com
+
+.. |Aseprite| replace:: Aseprite
+.. _Aseprite: /scene-editor/sprite-animations-aseprite.html
