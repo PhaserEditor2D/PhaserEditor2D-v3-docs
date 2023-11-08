@@ -22,9 +22,9 @@ The script nodes are logical game objects and you can make prefabs of them. The 
 Some examples of modeling behaviors with script nodes:
 
 * When you can make logical units that you can combine and make different behaviors. For example, you can make a **StartSceneAction** script node with a **sceneKey** property. This node will start the **sceneKey** scene when it is executed. You can use this script in different contexts:
- * In a hierarchy of nodes for starting the Game scene after pressing a **Play** button. 
- * You can use the same **StartSceneAction** in a hierarchy of nodes that listens to the SPACE key, so it starts the Game scene.
-* A **LevelGameplay** script node with the gameplay of a level. You can add this node to a different scene and changes the parameters of the gameplay, for making it harder.
-* A **PlayerCollider**, **DestroyObjectAction**, and a **ChangeHealthAction** scripts. You can combine them for expressing when a player hits an object in the level if it will destroy the object and how much it affects the player's health. You can create different combinations for the different kinds of objects in the level.
+  * In a hierarchy of nodes for starting the Game scene after pressing a **Play** button. 
+  * You can use the same **StartSceneAction** in a hierarchy of nodes that listens to the SPACE key, so it starts the Game scene.
+  * A **LevelGameplay** script node with the gameplay of a level. You can add this node to a different scene and change the parameters of the gameplay, to make it harder.
+* A **PlayerCollider**, **DestroyObjectAction**, and a **ChangeHealthAction** scripts. You can combine them to express when a player hits an object in the level if it will destroy the object and how much it affects the player's health. You can create different combinations for the different kinds of objects in the level.
 
 As we said previously, it is up to you when to use the script nodes and how much you split the behaviors in a tree of small logical units. Our advice is to keep it simple and learn first from your game before making a complex framework of script nodes.

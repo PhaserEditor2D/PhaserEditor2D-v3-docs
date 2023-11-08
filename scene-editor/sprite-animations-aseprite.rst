@@ -33,6 +33,33 @@ This is the workflow for working with Aseprite animations in |PhaserEditor|_:
    .. image:: ../images/scene-editor-aseprite-animation-block-20231102.webp
       :alt: Aseprite animation in the scene editor blocks view.
 
+Aseprite Code Snippets
+""""""""""""""""""""""
+
+In Phaser_, before playing an Aseprite_ animation in a sprite, you should create the animations in the Animations Manager.
+
+For creating the animations you should call the `createFromAseprite <https://photonstorm.github.io/phaser3-docs/Phaser.Animations.AnimationManager.html#createFromAseprite__anchor>`_ and pass as argument the Aseprite_ asset key.
+
+In |PhaserEditor|_ you can add this chunk of code in an assisted way:
+
+* Right-click on the scene. It opens the context menu. In the **Code Snippet** menu, select the **Add Create Animations From Aseprite** option.
+  
+    .. image:: ../images/scene-editor-aseprite-code-snippet-1-20231107.webp
+      :alt: Select the Aseprite code snippet to add.
+
+* It opens a dialog with all the Aseprite_ asset keys defined in the |AssetPackFiles|_ of the project. Select the one you want to use in your project. Probably all of them:
+  
+  .. image:: ../images/scene-editor-aseprite-code-snippet-2-20231107.webp
+    :alt: Select the Aseprite_ asset key.
+  
+* Finally, when you compile the scene, it generates these lines of codes at the first lines of the **create()** method of the scene:
+
+  .. code::
+
+   // snippets
+   this.anims.createFromAseprite("paladin");
+   this.anims.createFromAseprite("tank");
+
 Aseprite exporting instructions
 """""""""""""""""""""""""""""""
 
