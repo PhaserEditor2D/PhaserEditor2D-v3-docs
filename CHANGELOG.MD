@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.64.0
+## v3.64.0 - Nov 10, 2023
 
 * Adds sprite animation chapters.
 
