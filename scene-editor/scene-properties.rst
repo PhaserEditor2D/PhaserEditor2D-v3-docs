@@ -9,6 +9,7 @@ Scene properties
 
     snapping-properties
     border-properties
+    display-properties
 
 The scene has different properties that are not part of the editor or the compiler.
 

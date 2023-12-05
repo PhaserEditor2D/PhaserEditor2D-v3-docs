@@ -10,6 +10,7 @@ Prefabs
     prefab-object
     prefab-user-properties
     prefab-create-instance
+    prefab-display-properties
     prefab-code
     prefab-set-properties
     prefab-variant

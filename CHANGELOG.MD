@@ -3,6 +3,7 @@
 ## dev
 
 - Adds script node libraries section.
+- Adds scene and prefab display properties.
 
 ## v3.64.0 - Nov 10, 2023
 
