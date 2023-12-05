@@ -46,4 +46,4 @@ In addition to the ``${propName}`` syntax, you can use a ``#{propName}`` express
 
 This is an example. The display name is ``Collide #{up} #{down}``. If the value of the ``up`` property is ``true`` and the ``down`` property is ``false``, then the final display name will be ``Collide #up``.
 
-It means you can use this syntax for showing "flags".
+It means you can use this syntax for showing "tags".
