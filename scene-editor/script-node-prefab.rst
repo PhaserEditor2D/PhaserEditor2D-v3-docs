@@ -58,4 +58,4 @@ The code generated for a script node prefab looks like this:
 
     // You can write more code here
 
-The above code is TypeScript. It is the implementation of the **OnPointerDownScript**, which is a `prefab variant <./prefab-variant.html>`_` of the **OnEventScript** prefab. Both prefabs are part of the `Basic Scripts project <script-node-basic-scripts-project.html>`_.
+The above code is TypeScript. It is the implementation of the **OnPointerDownScript**, which is a `prefab variant <./prefab-variant.html>`_ of the **OnEventScript** prefab. Both prefabs are part of the `Basic Scripts project <script-node-basic-scripts-project.html>`_.

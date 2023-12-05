@@ -13,11 +13,12 @@ Many users find a user component very handy because you can edit its properties 
 These are some examples of modeling behaviors with user components:
 
 * An **AutoplayAnimation** user component that you can add to sprites. It has an **animationKey** property that is played automatically. Because you can play only one animation at a time in a sprite, it fits well in the one-to-one relationship constraint of user components.
-* A **BorderAnchor** component, with a **anchorTo** property with values like ``left``, ``top``, ``right``, ``bottom``. This component will auto re-position the object in a responsive scene. Because an object has only one position, it fits in the one-to-one restriction of user components.
+* A **BorderAnchor** component, with an **anchorTo** property with values like ``left``, ``top``, ``right``, ``bottom``. This component will auto-re-position the object in a responsive scene. Because an object has only one position, it fits in the one-to-one restriction of user components.
+* A **DurationConfig** component, with info about the duration of an animation. You can add it to a script node or a prefab, that performs an animation. It means you can use a user component for adding extra configuration to a certain action or object.
 
 **When to use a Script Node?**
 
-The script nodes are logical game objects and you can make prefabs of them. The prefabs system in the editor is powerful and you can express complex behaviors in a hierarchical relationship. Also, you can add script nodes not only to objects else to scenes too. However, it is very easy that you start abusing the use of script nodes and making large hierarchies of logical nodes. We think for now it isn't a good idea, but in the end, it is up to you.
+The script nodes are logical game objects and you can make prefabs of them. The prefabs system in the editor is powerful and you can express complex behaviors in a hierarchical relationship. Also, you can add script nodes not only to objects else to scenes too. However, it is very easy you start abusing the use of script nodes and making large hierarchies of logical nodes. We think for now it isn't a good idea, but in the end, it is up to you.
 
 Some examples of modeling behaviors with script nodes:
 

@@ -18,13 +18,15 @@ The protocol of this class is simple, it needs a constructor that receives a par
 
  class ScriptNode {
 
- constructor(parent) {
- }
+    constructor(parent) {
+    }
  }
 
-It is simple, but if you need, you can create a prefab with more features, like handling children, events, etc...
+It is simple, but if you need to, you can create a prefab with more features, like handling children, events, etc...
 
-The good news is that |PhaserEditor|_ can generate the default implementation of this class for you, with basic features:
+The good news is that this class is included in the |PhaserEditor|_ project templates. If your project is not based on a template, you can install it from the ``@phasereditor2d/scripts-core`` script library. `Learn more about the script libraries <script-node-libraries.html>`_.  
+
+Also, |PhaserEditor|_ can generate the default implementation of this class for you, with the basic features:
 
 1. In the |FilesView|_, select the folder when you want to add the class file.
 2. Open the |CommandPalette|_ (``Ctrl+K``) and search for ``script``.
@@ -65,7 +67,7 @@ The ``ScriptNode`` class has an array of nodes for keeping the children. This ar
 The events
 ``````````
 
-The ``ScriptNode`` class provides a couple of methods for handling special events that may help you on implementing the behaviors. It works just like the `User Components events`_. The methods are:
+The ``ScriptNode`` class provides a couple of methods for handling special events that may help you implement the behaviors. It works just like the `User Components events`_. The methods are:
 
 - ``awake()``: It is called when all the objects of the scene are created. The values of the user properties (prefab) will be available at this time, so you can override this method for making computations that require the value of the properties. It works like the `UserComponent "awake" method <user-components-awake-event.html>`_.
 - ``start()``: It is called the first time the scene updates.

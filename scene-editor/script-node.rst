@@ -7,6 +7,7 @@ Script Nodes
 .. toctree::
 
     script-node-vs-user-component
+    script-node-libraries
     script-node-create
     script-node-class
     script-node-basic-scripts-project
