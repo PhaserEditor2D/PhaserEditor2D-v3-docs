@@ -72,8 +72,9 @@ This section contains the body's properties related to collision:
 * `Overlap <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#overlapX>`_
 * `OverlapR <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#overlapR>`_
 * `Collide World Bounds <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#collideWorldBounds>`_
+* `On World Bounds <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#onWorldBounds>`_
 * `Check Collision <https://newdocs.phaser.io/docs/3.55.2/Phaser.Physics.Arcade.Body#checkCollision>`_
   
 
-.. image:: ../images/arcade-physics-body-collision-properties-20221006.webp
+.. image:: ../images/arcade-physics-body-collision-properties-20231205.webp
   :alt: Arcade Physics Body Collision properties.
