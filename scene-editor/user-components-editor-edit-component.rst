@@ -11,9 +11,9 @@ This is the component metadata you can edit:
 * The name of the component class.
 * The type of the game object (or entity). Next to the field, you can open a menu with common possible options.
 * The super-class of the component class. It is optional. Next to the field, you can open a menu with common possible options and names used in other components.
-* The display name of the component. This is the name used in different parts of the editor. It is optional and empty by default.
+* The display name of the component. This is the name used in different parts of the editor. It is optional and empty by default. When the **Display Name** is empty, the **Name** is used instead.
 
-.. image:: ../images/scene-editor-user-components-edit-props-20221101.webp
+.. image:: ../images/scene-editor-user-components-edit-props-20231205.webp
   :alt: Edit component info.
 
 The properties work the same as the `Prefab user properties <prefab-user-properties.html#creating-a-prefab-user-property>`_.
@@ -22,7 +22,7 @@ You can add new properties by pressing the **Add Property** button.
 
 The above image shows the **HorizontalMove** component. It has a game object type ``Phaser.GameObjects.Image``. It means you should add this component to that type of objects (entities). And the **horizVelocity**, **minX** and **minY** properties. 
 
-.. image:: .. image:: ../images/scene-editor-user-components-edit-props-20231205.webp
+.. image:: ../images/scene-editor-user-components-props-20221101.webp
   :alt: The component's properties.
 
 For editing the info of a property, select it in the editor and set the values in the Inspector view:
