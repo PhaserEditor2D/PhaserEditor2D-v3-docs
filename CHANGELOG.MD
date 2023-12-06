@@ -4,6 +4,7 @@
 
 - Adds script node libraries section.
 - Adds scene and prefab display properties.
+- Adds user component display name property.
 
 ## v3.64.0 - Nov 10, 2023
 
