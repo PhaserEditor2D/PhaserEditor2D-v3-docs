@@ -57,6 +57,8 @@ You can check the libraries are installed in the |FilesView|_:
 
 If you look inside the libraries, it contains scene and user component files just like in any project. You can browse, open, and use them as any other script node in your project. Just try not to modify them.
 
+Also, you will notice the script nodes do an extensive usage of the `scene display name <display-properties.html>`_ and the `prefab instance display name <prefab-display-properties.html>`_.
+
 By default, the ``node_modules`` folder is excluded from the |PhaserEditor|_ project. However, when you install a script library, it will include in the project only the files related to the libraries. It means, please, `keep excluding the Node modules <../misc/resources-filtering.html>`_ from your game project.
 
 

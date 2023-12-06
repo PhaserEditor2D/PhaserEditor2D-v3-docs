@@ -23,7 +23,7 @@ However, you can change the labeling of the object with a more descriptive name.
 .. image:: ../images/scene-editor-prefabs-display-name-definition.webp
   :alt: Object display name definition.
 
-The display name for the button instances will be ``Button - ${action}``. The ``${action}`` part of the name is replaced with the value of the **Action** user property of the button.
+The display name for the button instances will be ``Button - ${action}``. It is a name template with placeholders, and the ``${action}`` placeholder is filled with the value of the **Action** prefab property of the button.
 
 The ``action`` name is the variable name of the user property ``Action``. You can hover the mouse in the property to get the property information:
 
