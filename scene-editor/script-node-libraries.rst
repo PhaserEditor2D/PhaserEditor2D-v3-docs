@@ -61,4 +61,9 @@ Also, you will notice the script nodes do an extensive usage of the `scene displ
 
 By default, the ``node_modules`` folder is excluded from the |PhaserEditor|_ project. However, when you install a script library, it will include in the project only the files related to the libraries. It means, please, `keep excluding the Node modules <../misc/resources-filtering.html>`_ from your game project.
 
+Script Node libraries for vanilla JavaScript
+````````````````````````````````````````````
 
+Many of you like to code or prototype your games with vanilla JavaScript, with no bundler or compiler. You are covered. In the ``browser`` folder of every script library, there are the files you can include in your project. Please, read the README file of the library for detailed instructions.
+
+When you "copy" a library into your project, there is a ``library.txt`` file that contains the version of the library. Also, the editor uses that file to present the library files with a lighter color.
