@@ -1,6 +1,6 @@
 # Change Log
 
-## dev
+## v3.65.0 - Dec 13, 2023
 
 - Adds script node libraries section.
 - Adds scene and prefab display properties.
