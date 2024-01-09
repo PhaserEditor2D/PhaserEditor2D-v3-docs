@@ -1,10 +1,14 @@
 # Change Log
 
+## dev
+
+* Adds the Action Target Config topic.
+
 ## v3.65.0 - Dec 13, 2023
 
-- Adds script node libraries section.
-- Adds scene and prefab display properties.
-- Adds user component display name property.
+* Adds script node libraries section.
+* Adds scene and prefab display properties.
+* Adds user component display name property.
 
 ## v3.64.0 - Nov 10, 2023
 
