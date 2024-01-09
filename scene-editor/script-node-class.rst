@@ -118,7 +118,7 @@ To do this, we add the **Action Target Config** user component to the destroy ob
 
 The **Target** parameter shows an array of options, **GAME_OBJECT** (default), **ARG_1**, ..., **ARG_8**.
 
-In addition to the **Target**, you can set the **Target Name** of the action. This name is only about syntax sugar and makes the node more readable in the Outline view.
+In addition to the **Target**, you can set the **Target Name** of the action. This name is only about syntax sugar and makes the node more readable in the Outline view. Look in the previous screenshot, the node starts with the value of **Target** plus the **Target Name**.
 
 Custom action script node
 `````````````````````````
