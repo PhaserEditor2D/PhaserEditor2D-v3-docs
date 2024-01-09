@@ -3,6 +3,8 @@
 ## dev
 
 * Adds the Action Target Config topic.
+* Adds game object display name.
+* Adds variable section Display Name topic.
 
 ## v3.65.0 - Dec 13, 2023
 

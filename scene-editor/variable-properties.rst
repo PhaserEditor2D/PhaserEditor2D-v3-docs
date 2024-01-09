@@ -24,6 +24,16 @@ And as a variable name in the generated code:
 .. image:: ../images/scene-editor-name-prop-3-202203281224.webp
   :alt: Name property in code.
 
+Display Name property
+`````````````````````
+You can change the default text of the game object in the |OutlineView|_ by setting the **Display Name** property. This display name is used only by the UI.
+
+.. image:: ../images/scene-editor-variable-display-name-20240109.webp
+  :alt: Display Name property
+
+.. image:: ../images/scene-editor-variable-display-name-outline-20240109.webp
+  :alt: Display name in Outline view.
+
 Game Object Name property
 `````````````````````````
 
