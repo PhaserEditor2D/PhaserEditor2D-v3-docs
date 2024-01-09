@@ -84,3 +84,57 @@ We find it convenient to establish a protocol for action script nodes. An action
 - ``executeChildren()``: Executes the children.
 
 In the next chapter, we mention a project with basic node implementations that you can include in your game. These scripts provide a protocol or style you can adopt for your game.
+
+The action's target
+```````````````````
+
+Most of the action nodes modify or read the game object of the node. This is fine for a lot of cases, but a bit limited. Let's see an example.
+
+You want to make a collider between a player object and a list of coin objects and destroy the coin when the player touches it:
+
+
+.. image:: ../images/scene-editor-script-node-target-action-game-20240109.webp
+  :alt: The scene for collecting coins
+
+We have a **Make Collider Action** node that you can add to the player. This node has a parameter to select the other object you want to collide with. In this case, it is a container with the coins:
+
+.. image:: ../images/scene-editor-script-node-demo-collider-node-20240109.webp
+  :alt: Make collider node.
+
+.. image:: ../images/scene-editor-script-node-demo-collider-node-props-20240109.webp
+  :alt: Make collider node properties
+
+When the collision happens, the collider node executes the children and passes the two objects as arguments. In the first argument goes the player, and in the second argument goes the coin.
+
+So, we add **Destroy Object Action** to the collider node. This node is an action to destroy an object. By default, it destroys the game object associated with it: the player. But we want to destroy the coin, not the player. So we need to change the target of the destroy action from the game object to the second argument.
+
+To do this, we add the **Action Target Config** user component to the destroy object action, and set the **Target** to **ARG_2**. The destroy action then will get the second argument and destroy it.
+
+.. image:: ../images/scene-editor-script-node-collider-demo-destroy-action-20240109.webp
+  :alt: The destroy action node
+
+.. image:: ../images/scene-editor-script-node-collider-demo-destroy-action-properties-20240109.webp
+  :alt: The properties of the destroy action
+
+The **Target** parameter shows an array of options, **GAME_OBJECT** (default), **ARG_1**, ..., **ARG_8**.
+
+In addition to the **Target**, you can set the **Target Name** of the action. This name is only about syntax sugar and makes the node more readable in the Outline view.
+
+Custom action script node
+`````````````````````````
+
+Making a new action node is very simple. Just create a prefab of a **Script Node**, and implement the ``execute()`` method. If you want to support the **Action Target Config** component, you can use the ``ScriptNode.getActionTargetObject()`` utility method:
+
+.. code:: 
+
+   execute(...args: any[]) {
+
+      const obj = this.getActionTargetObject(args);
+
+      obj.doSomething();
+   }
+
+That utility method does the following:
+
+- Check if the **Action Target Config** user component is present in the node. If it is present and has a target configured to return an argument, then returns the right argument.
+- Else, it returns the node's game object.
