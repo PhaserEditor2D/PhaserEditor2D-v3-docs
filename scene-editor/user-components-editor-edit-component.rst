@@ -12,8 +12,9 @@ This is the component metadata you can edit:
 * The type of the game object (or entity). Next to the field, you can open a menu with common possible options.
 * The super-class of the component class. It is optional. Next to the field, you can open a menu with common possible options and names used in other components.
 * The display name of the component. This is the name used in different parts of the editor. It is optional and empty by default. When the **Display Name** is empty, the **Name** is used instead.
+* The object display format. This is a template string for showing the component info next to the prefab instance display name, in the Outline view. It works just like `the prefab display properties <./prefab-display-properties.html>`_. It is optional.
 
-.. image:: ../images/scene-editor-user-components-edit-props-20231205.webp
+.. image:: ../images/scene-editor-user-components-edit-props-2-20240110.webp
   :alt: Edit component info.
 
 The properties work the same as the `Prefab user properties <prefab-user-properties.html#creating-a-prefab-user-property>`_.
