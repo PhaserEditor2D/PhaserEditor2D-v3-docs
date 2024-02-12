@@ -1,6 +1,6 @@
 .. include:: ../_header.rst
 
-Arcade physics
+Arcade Physics
 --------------
 
 .. toctree::

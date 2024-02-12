@@ -13,9 +13,10 @@ Scene Editor
     inspector-view
     game-objects
     scene-properties
-    arcade-physics
+    arcade-physics    
     sprite-animations
     spine-animations
+    shader-effects
     working-with-parent-objects    
     object-list
     input

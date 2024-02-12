@@ -1,5 +1,9 @@
 # Change Log
 
+## dev
+
+* Adds Shader Effects topic.
+
 ## v3.66.0 - Jan 10, 2024
 
 * Adds the Action Target Config topic.
