@@ -1,6 +1,6 @@
 # Change Log
 
-## dev
+## v3.67.0 - dev
 
 * Adds Shader Effects topic.
 * Mention the Play button saves all editors.
