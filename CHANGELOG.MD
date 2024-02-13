@@ -3,6 +3,7 @@
 ## dev
 
 * Adds Shader Effects topic.
+* Mention the Play button saves all editors.
 
 ## v3.66.0 - Jan 10, 2024
 
