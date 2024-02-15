@@ -1,6 +1,6 @@
 # Change Log
 
-## v3.67.0 - dev
+## v3.67.0 - Feb 16, 2024
 
 * Adds Shader Effects topic.
 * Mention the Play button saves all editors.
