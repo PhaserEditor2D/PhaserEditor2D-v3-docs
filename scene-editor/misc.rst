@@ -8,3 +8,4 @@ Miscellaneous
 
     misc-preview-scene
     misc-pixel-art
+    misc-numeric-input
